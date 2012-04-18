@@ -14,6 +14,7 @@ module Jekyll
       Jammit.package!(:config_path => jammit_config, :output_folder => jammit_dir)
 
       (Dir.entries(jammit_dir) - [".", ".."]).each do |file|
+        next if File.directory?(jammit_dir + "/" + file)
         site.static_files << StaticFile.new(site, jammit_base_dir, jammit_output_dir, file)
       end
     end
