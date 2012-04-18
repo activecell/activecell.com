@@ -16,3 +16,8 @@ javascripts:
     - assets/js/bootstrap-typeahead.js
     - assets/js/waypoints.js
 
+stylesheets:
+  all:
+    - assets/css/bootstrap.css
+    - assets/css/profitably.css
+
