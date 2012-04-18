@@ -1,0 +1,18 @@
+package_assets: always
+
+javascripts:
+  compiled:
+    - assets/js/jquery.js
+    - assets/js/bootstrap-transition.js
+    - assets/js/bootstrap-alert.js
+    - assets/js/bootstrap-modal.js
+    - assets/js/bootstrap-dropdown.js
+    - assets/js/bootstrap-tab.js
+    - assets/js/bootstrap-tooltip.js
+    - assets/js/bootstrap-collapse.js
+    - assets/js/bootstrap-popover.js
+    - assets/js/bootstrap-button.js
+    - assets/js/bootstrap-carousel.js
+    - assets/js/bootstrap-typeahead.js
+    - assets/js/waypoints.js
+
