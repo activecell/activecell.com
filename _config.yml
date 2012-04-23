@@ -5,4 +5,4 @@ plugins:     ./_plugins
 
 jammit_base_dir: .
 exclude: Gemfile, Gemfile.lock
-cdn: d2h0dyinjrpfzl.cloudfront.net
+cdn: http://d2h0dyinjrpfzl.cloudfront.net
