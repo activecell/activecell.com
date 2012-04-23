@@ -1,3 +1,4 @@
+<pre>
  (                                                  
  )\ )           (            )          )  (        
 (()/( (         )\ )  (   ( /(    )  ( /(  )\ (     
@@ -7,19 +8,20 @@
 |  _/| '_|/ _ \ |  _| | ||  _|/ _` || '_ \| || || | 
 |_|  |_|  \___/ |_|   |_| \__|\__,_||_.__/|_| \_, | 
                                               |__/
+</pre>
 
 Profitably Marketing Site
 =========================
 
 The site is delivered in static form using the following tools/services:
 
-* "jekyll":http://github.com/mojombo/jekyll for site generation based on markdown and templates
-* "jammit":http://documentcloud.github.com/jammit/ and "jammit plugin for jekyll":https://gist.github.com/1224971 for the asset pipeline
-* "jekyll-s3"https://github.com/versapay/jekyll-s3 for sync to Amazon S3
-* "Amazon S3":http://aws.amazon.com/s3/ for static file storage
-* "Amazon CloudFront":http://aws.amazon.com/cloudfront/ as a Content Delivery Network
+* [jekyll](http://github.com/mojombo/jekyll) for site generation based on markdown and templates
+* [jammit](http://documentcloud.github.com/jammit/) and [jammit plugin for jekyll](https://gist.github.com/1224971) for the asset pipeline
+* [jekyll-s3](https://github.com/versapay/jekyll-s3) for sync to Amazon S3
+* [Amazon S3](http://aws.amazon.com/s3/) for static file storage
+* [Amazon CloudFront](http://aws.amazon.com/cloudfront/) as a Content Delivery Network
 
-More information can be found in "this post":http://www.maxmasnick.com/2012/01/21/jekyll_s3_cloudfront/ by Max Masnick.
+More information can be found in [this post](http://www.maxmasnick.com/2012/01/21/jekyll_s3_cloudfront/) by Max Masnick.
 
 The reason for the move to these tools was simple. 
 
@@ -41,7 +43,7 @@ Contributing is easy:
 1. Run 'jekyll-s3' to sync with Amazon
 1. Commit changes and push to origin/master
 
-The site will continue to evolve, but see "jekyll documentation":http://github.com/mojombo/jekyll for information about how to generate content for the site. The templating features are not yet implemented (though they are for "adamrneary.com":http://adamrneary.com).
+The site will continue to evolve, but see [jekyll documentation](http://github.com/mojombo/jekyll) for information about how to generate content for the site. The templating features are not yet implemented (though they are for [adamrneary.com](http://adamrneary.com)).
 
 Because the repo is named profitably.github.com and is hosted with Github, changes will automatically be reflected at http://profitably.github.com straight away, and we can use this site as a staging environment. However, since updates to assets must be syncing with S3 before changes can be viewed, it's no possible to view the staging environment without updating assets, so you might as well deploy!
 
