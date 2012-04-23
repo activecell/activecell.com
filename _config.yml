@@ -4,5 +4,5 @@ plugins:     ./_plugins
 
 
 jammit_base_dir: .
-exclude: Gemfile, Gemfile.lock
+exclude: Gemfile, Gemfile.lock, README.md
 cdn: http://d2h0dyinjrpfzl.cloudfront.net

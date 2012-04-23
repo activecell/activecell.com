@@ -1,4 +1,7 @@
-package_assets: always
+package_assets:     on          # (on, off, always)
+# embed_assets:       on          # (on, off, datauri)
+compress_assets:    on          # (on, off)
+gzip_assets:        on          # (on, off)
 
 javascripts:
   compiled:
