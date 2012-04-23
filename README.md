@@ -37,8 +37,9 @@ Contributing & Deploying
 Contributing is easy:
 
 1. Clone the repo to your local machine
-1. Make sensible changes, adding any new images to /assets/img
-1. Edit CSS/JS as required, but ensure that any required JS/CSS are listed in _assets.yml
+1. Make sensible changes
+1.1. Add any new images to /assets/img and reference with "{{ 'assets/img/new_img.jpg' | cdn }}"
+1.1. Edit CSS/JS as required and ensure any new JS/CSS are listed in _assets.yml for packaging
 1. Run 'jekyll' to generate the site
 1. Run 'jekyll-s3' to sync with Amazon
 1. Commit changes and push to origin/master
