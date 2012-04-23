@@ -19,6 +19,7 @@ javascripts:
     - assets/js/bootstrap-carousel.js
     - assets/js/bootstrap-typeahead.js
     - assets/js/waypoints.js
+    - assets/js/profitably_waypoint.js
 
 stylesheets:
   all:

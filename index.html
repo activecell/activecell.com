@@ -1,54 +1,8 @@
 ---
-
+layout: outer
+title: Turnkey Dashboards | Profitably
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Profitably</title>
-<meta name="description" content="">
-<meta name="author" content="">
 
-<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-<!--[if lt IE 9]>
-         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-       <![endif]-->
-
-<!-- Le styles -->
-<link href='http://fonts.googleapis.com/css?family=Lusitana:700' rel='stylesheet' type='text/css'>
-<link href = "{{ 'assets/all.css' | cdn }} " rel="stylesheet">
-<link href="/assets/all.css" rel="stylesheet">
-
-<!-- Le fav and touch icons -->
-<link rel="shortcut icon" href="images/favicon.ico">
-<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-</head>
-<body data-spy="scroll" data-target=".navbar" data-offset="20" data-rendering="true">
-<div class="navbar navbar-fixed-top">
-   <div class="navbar-inner">
-      <div class="container">
-         <div class="row show-grid">
-            <div class="span9"> <a class="brand" href="index.html"><img src="assets/img/profitably_logo.png" alt="Profitably" width="161" height="46" border="0"></a>
-               <div class="nav">
-                  <ul class="nav">
-                     <li><a href="#features">Features</a></li>
-                     <li><a href="#what">Pricing</a></li>
-                     <li><a href="#press">Press</a></li>
-                  </ul>
-               </div>
-               <!--/.nav-collapse --> 
-            </div>
-            <div class="span3">
-               <div class="btn-toolbar signin">
-                  <div class="btn-group"> <a class="btn btn-success" href="https://app.profitably.com/"><strong>TRY IT NOW</strong></a> <a class="btn btn-primary" href="https://app.profitably.com/sign_in">or <strong>Sign in</strong></a> </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-</div>
 <div id="banner">
    <div class="container">
    	<h1>Turnkey Dashboards</h1>
@@ -59,10 +13,11 @@
    	    Informed decisions are just minutes away. 
    	  </h2>
       <a href="https://app.profitably.com/" class="btn btn-success">Start Now, <strong>FREE</strong><br>
-      <img src="assets/img/startnow_finger.png" width="212" height="22"></a>
+      <img src="{{ 'assets/img/startnow_finger.png' | cdn }}" width="212" height="22"></a>
    </div>
    <!-- /container --> 
 </div>
+
 <div class="waypoint container" id="features" >
 <div class="row show-grid spacer"></div>
    <div class="row show-grid tabbable">
@@ -102,6 +57,7 @@
       </div>
    </div>
 </div>
+
 <div class="waypoint container" id="what" >
    <div class="row show-grid">
       <div class="span12">
@@ -138,6 +94,7 @@
       </div>
    </div>
 </div>
+
 <div class="waypoint container" id="press" >
    <div class="row show-grid">
       <div class="span12">
@@ -145,121 +102,28 @@
       </div>
    </div>
    <div class="row show-grid clip">
-      <div class="span2 offset1 source"><img src="assets/img/press_inc.png" width="140" height="48" alt="Inc."></div>
+      <div class="span2 offset1 source"><img src="{{ 'assets/img/press_inc.png' | cdn }}" width="140" height="48" alt="Inc."></div>
       <div class="span8 quote">
          <h4><a href="press.html">Master Your Financials - No Excel Required</a></h4>
          <p>"You'll get more charts and spreadsheets than you can imagine, all without manual data entry."</p>
       </div>
    </div>
    <div class="row show-grid clip">
-      <div class="span2 offset1 source"><img src="assets/img/press_tnw.png" width="140" height="43" alt="The Next Web."></div>
+      <div class="span2 offset1 source"><img src="{{ 'assets/img/press_tnw.png' | cdn }}" width="140" height="43" alt="The Next Web."></div>
       <div class="span8 quote">
          <h4><a href="press.html">Launching a new product offering? Check out Profitably's new P&L analytics tool</a></h4>
          <p>"Profitably has just pushed out a new Scenario Comparison feature that is particularly useful in helping entrepreneurs rationalize a new product offering. It's very useful to see what a new product would do to your P&L statement."</p>
       </div>
    </div>
    <div class="row show-grid clip">
-      <div class="span2 offset1 source"><img src="assets/img/press-smt.png" width="140" height="57" alt="Small Business Technology"></div>
+      <div class="span2 offset1 source"><img src="{{ 'assets/img/press-smt.png' | cdn }}" width="140" height="57" alt="Small Business Technology"></div>
       <div class="span8 quote">
          <h4><a href="press.html">Accounting Software Is Great For Taxes But What About Profitable Planning?</a></h4>
          <p>"Excel is great for a variety of number crunching tasks. But if you want to forecast how your business looks head of time and dig into the profit drivers of your company – you need another tool. And that tool is Profitably."</p>
       </div>
    </div>
    <div class="row show-grid more">
-      <div class="span9"><a href="press.html"><img src="assets/img/press/presses.jpg" width="679" height="36" border="0"></a></div>
+      <div class="span9"><a href="press.html"><img src="{{ 'assets/img/press/presses.jpg' | cdn }}" width="679" height="36" border="0"></a></div>
       <div class="span3 link"><a href="press.html">More at the <span>Press Room</span> <span class="glyph">j</span></a></div>
    </div>
 </div>
-<div class="footer well">
-   <div class="container">
-      <div class="row show-grid">
-         <div class="span9"><img src="assets/img/profitably_logo_blue.png" width="161" height="46" alt="Profitably"></div>
-         <div class="span3">
-            <div class="btn-toolbar signin">
-               <div class="btn-group"> <a class="btn btn-success" href="https://app.profitably.com/"><strong>TRY IT NOW</strong></a> <a class="btn btn-primary" href="https://app.profitably.com/sign_in">or <strong>Sign in</strong></a> </div>
-            </div>
-         </div>
-      </div>
-      <div class="row show-grid">
-         <div class="span12">
-            <ul class="sitemap">
-               <li><a href="http://support.profitably.com">Support</a></li>
-               <li><a href="http://feedback.profitably.com/forums/110485-product-feedback">Give Feedback</a></li>
-               <li><a href="http://blog.profitably.com">Blog</a></li>
-               <li><a href="privacy.html">Privacy Policy</a></li>
-               <!-- <li><span class="glyph">E</span> (866) 218-7502</li> -->
-               <li class="follow">Follow us <span class="glyph one"><a rel="tooltip" title="Facebook" href="http://www.facebook.com/profitably">f</a></span> <span class="glyph"><a rel="tooltip" title="Twitter" href="http://twitter.com/profitably">t</a></span> <span class="glyph"><a rel="tooltip" title="LinkedIn" href="http://www.linkedin.com/company/profitably-inc.">l</a></span></li>
-            </ul>
-         </div>
-      </div>
-   </div>
-</div>
-
-<!-- Le javascript
-    ================================================== --> 
-<!-- Placed at the end of the document so the pages load faster --> 
-<script type="text/javascript" src="/assets/compiled.js"></script>
-<script>
-    	$(function(){
-			$('[rel=tooltip]').tooltip({delay: { show: 500, hide: 100 }});
-         $('.team .emp a').on('click', function(e){
-            var name = $(this).data('name');
-            $('.team .emp a').parent().removeClass('active');
-            $(this).parent().addClass('active');
-            $('.description .tab-pane').removeClass('active');
-            $('.description .'+name).addClass('active');
-         });
-
-         // The same for all waypoints
-         $('body').delegate('.waypoint', 'waypoint.reached', function(event, direction) {
-            var $active = $(this);
-
-            if (direction === "up") {
-               $active = $active.prev();
-            }
-            if (!$active.length) $active = $active.end();
-            
-            $('.section-active').removeClass('section-active');
-            $active.addClass('section-active');
-            
-            $('.nav ul.nav .active').removeClass('active');
-            $('a[href=#'+$active.attr('id')+']').parent().addClass('active');
-         });
-
-         // Negates the flash of non-active nav.
-         $('.nav ul.nav a').click(function() {
-            $(this).parent().addClass('active');
-         });
-
-         // Register each section as a waypoint.
-         $('.waypoint').waypoint({ offset: '50%' });
-
-         var scrollElement = 'html, body';
-         $('html, body').each(function () {
-            var initScrollTop = $(this).attr('scrollTop');
-            $(this).attr('scrollTop', initScrollTop + 1);
-            if ($(this).attr('scrollTop') == initScrollTop + 1) {
-               scrollElement = this.nodeName.toLowerCase();
-               $(this).attr('scrollTop', initScrollTop);
-               return false;
-            }    
-         });
-
-         // Smooth scrolling for internal links
-         $(".nav ul.nav a[href^='#']").click(function(event) {
-            event.preventDefault();
-            
-            var $this = $(this),
-            target = this.hash,
-            $target = $(target);
-            
-            $(scrollElement).stop().animate({
-               'scrollTop': $target.offset().top
-            }, 500, 'swing', function() {
-               window.location.hash = target;
-            });
-         });
-		});
-    </script>
-</body>
-</html>
