@@ -641,3 +641,67 @@ label, input, button, select, textarea { font-size:14px; }
 	color:#21808F;
 	top:-3px;
 }
+
+/* White label landing */
+
+.centered {
+	text-align: center;
+}
+
+.white-label-header {
+	padding: 70px 0 10px 0;
+}
+
+h1.label-heading {
+	font-family: 'Lusitana', serif;
+	font-size: 38px;
+	font-weight: normal;
+}
+
+h2.label-heading {
+	font-family: 'Lusitana', serif;
+	font-size: 32px;
+	font-weight: normal;
+}
+
+.btn-learn {
+	display: block;
+	position: relative;
+	top: 50px;
+	margin: 0 auto;
+	width: 225px;
+	padding: 11px 15px 7px;
+	font-size: 23px;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-learn img{
+	margin-top: 10px;
+}
+
+.branded-screenshot {
+	display: block;
+	margin: 80px auto 0 auto;
+}
+
+.white-label-logos {
+	padding: 20px 0 10px 10px;
+	margin: 10px 0 0 0;
+}
+
+.white-label-logos h2 {
+	margin: 0 0 15px 0;
+}
+
+.modal-header .label-heading {
+	padding: 15px 0;
+}
+
+.modal .asterisk {
+	color: #D20061;
+}
+
+.modal .mce_inline_error[generated="true"] {
+	display: none !important;
+}
