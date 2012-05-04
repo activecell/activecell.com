@@ -4,25 +4,30 @@ compress_assets:    on          # (on, off)
 gzip_assets:        on          # (on, off)
 
 javascripts:
-  compiled:
-    - assets/js/jquery.js
-    - assets/js/bootstrap-transition.js
-    - assets/js/bootstrap-alert.js
-    - assets/js/bootstrap-modal.js
-    - assets/js/bootstrap-dropdown.js
-    - assets/js/bootstrap-scrollspy.js
-    - assets/js/bootstrap-tab.js
-    - assets/js/bootstrap-tooltip.js
-    - assets/js/bootstrap-collapse.js
-    - assets/js/bootstrap-popover.js
-    - assets/js/bootstrap-button.js
-    - assets/js/bootstrap-carousel.js
-    - assets/js/bootstrap-typeahead.js
-    - assets/js/waypoints.js
-    - assets/js/profitably_waypoint.js
+  packaged_js_20120504_02:
+    - _raw/js/jquery.js
+    - _raw/js/bootstrap-transition.js
+    - _raw/js/bootstrap-alert.js
+    - _raw/js/bootstrap-modal.js
+    - _raw/js/bootstrap-dropdown.js
+    - _raw/js/bootstrap-scrollspy.js
+    - _raw/js/bootstrap-tab.js
+    - _raw/js/bootstrap-tooltip.js
+    - _raw/js/bootstrap-collapse.js
+    - _raw/js/bootstrap-popover.js
+    - _raw/js/bootstrap-button.js
+    - _raw/js/bootstrap-carousel.js
+    - _raw/js/bootstrap-typeahead.js
+    - _raw/js/waypoints.js
+    - _raw/js/profitably_waypoint.js
+    - _raw/js/easytabs.js
+    - _raw/js/mailchimp.js
 
 stylesheets:
-  all:
-    - assets/css/bootstrap.css
-    - assets/css/profitably.css
+  packaged_css_20120504_02:
+    - _raw/css/bootstrap.css
+    - _raw/css/grid_12-825-55-15.css
+    - _raw/css/specimen_stylesheet.css
+    - _raw/css/websymbols.css
+    - _raw/css/profitably.css
 
