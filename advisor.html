@@ -12,8 +12,7 @@
        <![endif]-->
 
 <!-- Le styles -->
-<link href='http://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
-<link href="assets/all.css" rel="stylesheet" type='text/css'>
+<link href="{{ 'assets/all.css.gz' | cdn }}" rel="stylesheet" type='text/css'>
 
 <!-- Le fav and touch icons -->
 <link rel="shortcut icon" href="favicon.ico">
@@ -26,7 +25,8 @@
    <div class="navbar-inner">
       <div class="container">
          <div class="row show-grid">
-            <div class="span9"> <a class="brand" href="http://www.profitably.com/index.html"><img src="assets/img/profitably_logo.png" alt="Profitably" width="161" height="46" border="0"></a>
+            <div class="span9"> <a class="brand" href="http://www.profitably.com/index.html">
+							<img src="{{ 'assets/img/branding/profitably_logo.png' | cdn }}" alt="Profitably" width="161" height="46" border="0"></a>
                <!--/.nav-collapse --> 
             </div>
             <div class="span3">
@@ -49,12 +49,12 @@
   </div>
   <div class="container">
       <div class="row">
-          <img class="branded-screenshot" src="assets/img/branding/branded_scrn.png" width="868" height="358" alt="" />
+          <img class="branded-screenshot" src="{{ 'assets/img/branding/branded_scrn.png' | cdn }}" width="868" height="358" alt="" />
           <a class="btn btn-success btn-learn" href="#learn-more-modal" data-toggle="modal"><strong>Learn More</strong><br>
-          <img src="assets/img/startnow_finger.png" width="212" height="22"></a>
+          <img src="{{ 'assets/img/startnow_finger.png' | cdn }}" width="212" height="22"></a>
           <div class="white-label-logos centered">
-            <h2 class="label-heading centered">As seen on:</h2>        
-            <img src="assets/img/branding/logos_as_seen_on.png" width="920" height="70" alt="" />
+            <h2 class="label-heading centered">As seen on:</h2>
+            <img src="{{ 'assets/img/branding/logos_as_seen_on.png' | cdn }}" width="920" height="70" alt="" />
           </div>
       </div>
    </div>
@@ -110,7 +110,7 @@
 <div class="footer well landing-footer">
    <div class="container">
       <div class="row show-grid">
-         <div class="span9"><img src="assets/img/profitably_logo_blue.png" width="161" height="46" alt="Profitably"></div>
+         <div class="span9"><img src="{{ 'assets/img/profitably_logo_blue.png' | cdn }}" width="161" height="46" alt="Profitably"></div>
          <div class="span3">
             <div class="btn-toolbar signin">
                <div class="btn-group"> <a class="btn btn-success" href="#learn-more-modal" data-toggle="modal"><strong>Learn More</strong></a> <a class="btn btn-primary" href="https://app.profitably.com/sign_in">or <strong>Sign in</strong></a> </div>
@@ -134,7 +134,7 @@
 <!-- Le javascript
     ================================================== --> 
 <!-- Placed at the end of the document so the pages load faster --> 
-<script type="text/javascript" src="assets/compiled.js"></script>
+<script type="text/javascript" src="{{ 'assets/compiled.js.gz' | cdn }}"></script>
 <script type="text/javascript">
 var fnames = new Array();var ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='NAME';ftypes[1]='text';fnames[2]='BIZNAME';ftypes[2]='text';
 try {
