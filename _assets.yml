@@ -20,9 +20,13 @@ javascripts:
     - _raw/js/bootstrap-typeahead.js
     - _raw/js/waypoints.js
     - _raw/js/profitably_waypoint.js
+    - _raw/js/easytabs.js
 
 stylesheets:
   all:
     - _raw/css/bootstrap.css
+    - _raw/css/grid_12-825-55-15.css
+    - _raw/css/specimen_stylesheet.css
+    - _raw/css/websymbols.css
     - _raw/css/profitably.css
 
