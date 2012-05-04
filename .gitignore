@@ -2,11 +2,4 @@
 _jekyll_s3.yml
 _site*
 
-assets/all.css
-assets/all.css.gz
-assets/all-datauri.css
-assets/all-datauri.css.gz
-assets/compiled.js
-assets/compiled.js.gz
-
-assets/compiled.js
+assets/packaged_*
