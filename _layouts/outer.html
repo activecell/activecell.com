@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <title>Turnkey Dashboards | Profitably</title>
-<meta name="description" content="">
-<meta name="author" content="">
+<meta name="description" content="Profitably makes turnkey dashboards for small businesses.">
+<meta name="author" content="Adam Neary">
 
 <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
 <!--[if lt IE 9]>
@@ -12,8 +12,7 @@
        <![endif]-->
 
 <!-- Le styles -->
-<link href='http://fonts.googleapis.com/css?family=Lusitana:700' rel='stylesheet' type='text/css'>
-<link href="{{ 'assets/all.css' | cdn }}" rel="stylesheet" type='text/css'>
+<link href="{{ 'assets/packaged_css_20120504_02.css' | cdn }}" rel="stylesheet" type='text/css'>
 
 <!-- Le fav and touch icons -->
 <link rel="shortcut icon" href="{{ 'favicon.ico' | cdn }}">
@@ -26,19 +25,25 @@
    <div class="navbar-inner">
       <div class="container">
          <div class="row show-grid">
-            <div class="span9"> <a class="brand" href="http://www.profitably.com/index.html"><img src="{{ 'assets/img/profitably_logo.png' | cdn }}" alt="Profitably" width="161" height="46" border="0"></a>
-               <div class="nav">
+            <div class="span9"> 
+							<a class="brand" href="http://www.profitably.com/index.html">
+								<img src="{{ 'assets/img/branding/profitably_logo.png' | cdn }}" alt="Profitably" width="161" height="46" border="0">
+							</a>
+               <!-- <div class="nav">
                   <ul class="nav">
                      <li><a href="http://www.profitably.com/#features">Features</a></li>
                      <li><a href="http://www.profitably.com/#what">Pricing</a></li>
                      <li><a href="http://www.profitably.com/#press">Press</a></li>
                   </ul>
-               </div>
+               </div> -->
                <!--/.nav-collapse --> 
             </div>
             <div class="span3">
                <div class="btn-toolbar signin">
-                  <div class="btn-group"> <a class="btn btn-success" href="https://app.profitably.com/"><strong>TRY IT NOW</strong></a> <a class="btn btn-primary" href="https://app.profitably.com/sign_in">or <strong>Sign in</strong></a> </div>
+                  <div class="btn-group">
+										<a class="btn btn-success" href="#learn-more-modal" data-toggle="modal"><strong>Learn More</strong></a> 
+										<a class="btn btn-primary" href="https://app.profitably.com/sign_in">or <strong>Sign in</strong></a> 
+									</div>
                </div>
             </div>
          </div>
@@ -51,12 +56,17 @@
 <div class="footer well">
    <div class="container">
       <div class="row show-grid">
-         <div class="span9"><img src="{{ 'assets/img/profitably_logo_blue.png' | cdn }}" width="161" height="46" alt="Profitably"></div>
-         <div class="span3">
-            <div class="btn-toolbar signin">
-               <div class="btn-group"> <a class="btn btn-success" href="https://app.profitably.com/"><strong>TRY IT NOW</strong></a> <a class="btn btn-primary" href="https://app.profitably.com/sign_in">or <strong>Sign in</strong></a> </div>
-            </div>
-         </div>
+				<div class="span9">
+					<img src="{{ 'assets/img/branding/profitably_logo_blue.png' | cdn }}" width="161" height="46" alt="Profitably">
+				</div>
+				<div class="span3">
+					<div class="btn-toolbar signin">
+						<div class="btn-group"> 
+							<a class="btn btn-success" href="#learn-more-modal" data-toggle="modal"><strong>Learn More</strong></a>
+							<a class="btn btn-primary" href="https://app.profitably.com/sign_in">or <strong>Sign in</strong></a> 
+						</div>
+					</div>
+				</div>
       </div>
       <div class="row show-grid">
          <div class="span12">
@@ -65,7 +75,11 @@
                <li><a href="http://blog.profitably.com">Blog</a></li>
                <li><a href="http://www.profitably.com/privacy.html">Privacy Policy</a></li>
                <!-- <li><span class="glyph">E</span> (866) 218-7502</li> -->
-               <li class="follow">Follow us <span class="glyph one"><a rel="tooltip" title="Facebook" href="http://www.facebook.com/profitably">f</a></span> <span class="glyph"><a rel="tooltip" title="Twitter" href="http://www.twitter.com/profitably">t</a></span> <span class="glyph"><a rel="tooltip" title="LinkedIn" href="http://www.linkedin.com/company/profitably-inc.">l</a></span></li>
+               <li class="follow">Follow us 
+									<span class="glyph one"><a rel="tooltip" title="Facebook" href="http://www.facebook.com/profitably">f</a></span> 
+									<span class="glyph"><a rel="tooltip" title="Twitter" href="http://www.twitter.com/profitably">t</a></span> 
+									<span class="glyph"><a rel="tooltip" title="LinkedIn" href="http://www.linkedin.com/company/profitably-inc.">l</a></span>
+								</li>
             </ul>
          </div>
       </div>
@@ -75,6 +89,6 @@
 <!-- Le javascript
     ================================================== --> 
 <!-- Placed at the end of the document so the pages load faster --> 
-<script type="text/javascript" src="{{ 'assets/compiled.js' | cdn }}"></script>
+<script type="text/javascript" src="{{ 'assets/packaged_js_20120504_02.js' | cdn }}"></script>
 </body>
 </html>
