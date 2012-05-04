@@ -1,8 +1,12 @@
+---
+title: Turnkey Dashboards | Profitably
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Profitably</title>
+<title>Turnkey Dashboards | Profitably</title>
 <meta name="description" content="">
 <meta name="author" content="">
 
@@ -12,27 +16,27 @@
        <![endif]-->
 
 <!-- Le styles -->
-<link href="assets/css/bootstrap.css" rel="stylesheet">
-<link href="assets/css/profitably.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Lusitana:700' rel='stylesheet' type='text/css'>
+<link href="{{ 'assets/all.css' | cdn }}" rel="stylesheet" type='text/css'>
 
 <!-- Le fav and touch icons -->
-<link rel="shortcut icon" href="images/favicon.ico">
-<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="shortcut icon" href="{{ 'favicon.ico' | cdn }}">
+<!-- <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png"> -->
 </head>
 <body id="landing-page">
 
    <div class="container">
       <div class="row landing-header">
-            <a href="/index.html"><img width="161" height="46" border="0" alt="Profitably" src="assets/img/profitably_logo.png"></a>
+            <img width="161" height="46" border="0" alt="Profitably" src="{{ 'assets/img/branding/profitably_logo.png' | cdn }}">
             <h1>Turnkey Dashboards</h1>
       </div>
 
       <div class="row landing-nav">
          <section class="span4 offset2 dashboard-personal">
             <header>
-               <a href="#" class="btn-link">
+               <a href="dashboards.html" class="btn-link">
                   <span>I need a dashboard</span>
                </a>
             </header>
@@ -47,8 +51,8 @@
          
          <section class="span3 dashboard-client">
             <header>
-               <a href="#" class="btn-link">
-                  <span>My clients need a dashboard</span>
+               <a href="advisor.html" class="btn-link">
+                  <span>My clients need dashboards</span>
                </a>
             </header>
             <footer>
@@ -66,7 +70,7 @@
 <!-- Le javascript
     ================================================== --> 
 <!-- Placed at the end of the document so the pages load faster --> 
-<script src="assets/js/jquery.js"></script> 
+<script type="text/javascript" src="{{ 'assets/compiled.js' | cdn }}"></script>
 <script>
    $(function(){
       $(".landing-nav .btn-link").hover(function() {
