@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Profitably</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+<!--[if lt IE 9]>
+         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+       <![endif]-->
+
+<!-- Le styles -->
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/profitably.css" rel="stylesheet">
+
+<!-- Le fav and touch icons -->
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+</head>
+<body id="landing-page">
+
+   <div class="container">
+      <div class="row landing-header">
+            <a href="/index.html"><img width="161" height="46" border="0" alt="Profitably" src="assets/img/profitably_logo.png"></a>
+            <h1>Turnkey Dashboards</h1>
+      </div>
+
+      <div class="row landing-nav">
+         <section class="span4 offset2 dashboard-personal">
+            <header>
+               <a href="#" class="btn-link">
+                  <span>I need a dashboard</span>
+               </a>
+            </header>
+            <footer>
+               <ul class="unstyled">
+                  <li>Small Businesses</li>
+                  <li>Startups</li>
+                  <li>Individuals Starting a Business</li>
+               </ul>
+            </footer>
+         </section>
+         
+         <section class="span3 dashboard-client">
+            <header>
+               <a href="#" class="btn-link">
+                  <span>My clients need a dashboard</span>
+               </a>
+            </header>
+            <footer>
+               <ul class="unstyled">
+                  <li>Accountants</li>
+                  <li>Bookkeepers</li>
+                  <li>Small Business Consultants</li>
+                  <li>Business Coaches</li>
+               </ul>
+            </footer>
+         </section>         
+      </div>
+   </div>
+
+<!-- Le javascript
+    ================================================== --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+<script src="assets/js/jquery.js"></script> 
+<script>
+   $(function(){
+      $(".landing-nav .btn-link").hover(function() {
+         $(".landing-nav section").not($(this).parent().parent()).animate({"opacity": 0.5}, {"queue": false});
+      }, function() {
+         $(".landing-nav section").animate({"opacity": 1}, {"queue": false});
+      });
+   });
+</script>   
+
+</body>
+</html>

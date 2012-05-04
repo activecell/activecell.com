@@ -642,6 +642,79 @@ label, input, button, select, textarea { font-size:14px; }
 	top:-3px;
 }
 
+/*///////// LANDING PAGE /////////*/
+
+html {
+	min-height: 100%;
+}
+
+#landing-page {
+	height: 100%;
+	color:#fff;
+	padding: 0 !important;
+	background: #276a75; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #276a75 0%, #00455b 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #276a75), color-stop(100%, #00455b)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover, #276a75 0%, #00455b 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover, #276a75 0%, #00455b 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover, #276a75 0%, #00455b 100%); /* IE10+ */
+	background: radial-gradient(center, ellipse cover, #276a75 0%, #00455b 100%); /* W3C */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#276a75', endColorstr='#00455b', GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.landing-header {
+	padding: 40px 0 0 0;
+	text-align: center;
+}
+
+.landing-header h1 {
+	margin: 10px 0 0 0;
+	color: #D6E5E7;
+	font-family: "proxima-nova-1", "proxima-nova-2", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+}
+
+.landing-nav {
+	margin: 70px 0 0 0;
+}
+
+.landing-nav section header {
+	width: 265px;
+	height: 265px;
+	background: #fff url(../img/sprite_btn_landing.png);
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:  0 0 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);	
+}
+
+.landing-nav .btn-link {
+	display: block;
+	width: 265px;
+	height: 265px;
+}
+
+.landing-nav .btn-link span {
+	display: block;
+	margin: 0 15px;
+	padding: 20px 0 15px 0;
+	color: #0A5F71;
+	font-size: 16px;
+	text-align: center;
+	border-bottom: 1px solid #0A5F71;
+}
+
+.landing-nav footer {
+	margin: 20px 0 0 0;
+	padding: 0 0 0 20px;
+	color: #D6E5E7;
+	font-size: 13px;
+	border-left: 1px solid #D6E5E7;
+}
+
+.dashboard-client header {
+	background-position: -265px 0 !important;
+}
+
 /* White label landing */
 
 .centered {
