@@ -677,7 +677,8 @@ html {
 .landing-header h1 {
 	margin: 10px 0 0 0;
 	color: #D6E5E7;
-	font-family: "proxima-nova-1", "proxima-nova-2", Helvetica, Arial, sans-serif;
+	font-family: 'Lusitana', serif;
+	font-size: 38px;
 	font-weight: normal;
 }
 
@@ -688,7 +689,7 @@ html {
 .landing-nav section header {
 	width: 265px;
 	height: 265px;
-	background: #fff url(../img/sprite_btn_landing.png);
+	background: #fff url(assets/img/sprite_btn_landing.png);
 	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 	-moz-box-shadow:  0 0 10px rgba(0, 0, 0, 0.2);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);	
