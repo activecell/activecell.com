@@ -809,3 +809,36 @@ h2.label-heading {
 .landing-footer {
 	margin-top: 30px !important;
 }
+
+.header-page-not-found {
+	padding: 70px 0;
+	background: #fff;
+}
+
+.header-page-not-found h1 {
+	margin: 0 0 30px 0;
+	font-size: 34px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.header-page-not-found h3 {
+	font-size: 18px;
+	text-align: center;
+}
+
+.opt-box {
+	min-height: 180px;
+	margin: 50px 0 0 0;
+	padding: 10px 15px 10px 10px;
+	background: rgba(0,0,0,0.03);
+	border-radius: 3px;
+	box-shadow: inset -1px -1px 0 rgba(255,255,255,0.3);
+	text-shadow: 1px 1px 0 rgba(255,255,255,0.6);
+}
+
+.opt-box h4 {
+	color: #111;
+	height: 50px;
+	font-weight: bold;
+}
