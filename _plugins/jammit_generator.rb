@@ -10,8 +10,9 @@ module Jekyll
       jammit_output_dir = site.config["jammit_output_dir"] || "assets"
 
       jammit_dir = File.join(jammit_base_dir, jammit_output_dir)
+      jammit_base_url = site.config["baseurl"] || "/"
 
-      Jammit.package!(:config_path => jammit_config, :output_folder => jammit_dir)
+      Jammit.package!(:config_path => jammit_config, :output_folder => jammit_dir, :base_url => jammit_base_url)
 
       (Dir.entries(jammit_dir) - [".", ".."]).each do |file|
         next if File.directory?(jammit_dir + "/" + file)
