@@ -4,3 +4,4 @@ source :gemcutter
 gem 'jekyll'
 gem 'jekyll-s3'
 gem 'jammit'
+gem 'rake'
