@@ -3,7 +3,7 @@ compress_assets:    on          # (on, off)
 gzip_assets:        on          # (on, off)
 
 javascripts:
-  packaged_js_20120507:
+  packaged_js_20120515:
     - _raw/js/jquery.js
     - _raw/js/bootstrap-transition.js
     - _raw/js/bootstrap-alert.js
@@ -23,7 +23,7 @@ javascripts:
     - _raw/js/mailchimp.js
 
 stylesheets:
-  packaged_css_20120507:
+  packaged_css_20120515:
     - _raw/css/bootstrap.css
     - _raw/css/grid_12-825-55-15.css
     - _raw/css/specimen_stylesheet.css
