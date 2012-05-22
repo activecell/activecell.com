@@ -1,6 +1,7 @@
-package_assets:     on          # (on, off, always)
-compress_assets:    on          # (on, off)
-gzip_assets:        on          # (on, off)
+package_assets:         on          # (on, off, always)
+compress_assets:        on          # (on, off)
+gzip_assets:            on          # (on, off)
+rewrite_relative_paths: off
 
 javascripts:
   packaged_js_20120522_2:
