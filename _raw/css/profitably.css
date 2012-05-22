@@ -7,11 +7,11 @@
 
 @font-face{ 
 	font-family: 'chadcons';
-	src: url('/assets/fonts/websymbols-regular-webfont.eot');
-	src: url('/assets/fonts/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
-	     url('/assets/fonts/websymbols-regular-webfont.woff') format('woff'),
-	     url('/assets/fonts/websymbols-regular-webfont.ttf') format('truetype'),
-	     url('/assets/fonts/websymbols-regular-webfont.svg#chadcons') format('svg');
+	src: url('http://d2h0dyinjrpfzl.cloudfront.net/assets/fonts/websymbols-regular-webfont.eot');
+	src: url('http://d2h0dyinjrpfzl.cloudfront.net/assets/fonts/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('http://d2h0dyinjrpfzl.cloudfront.net/assets/fonts/websymbols-regular-webfont.woff') format('woff'),
+	     url('http://d2h0dyinjrpfzl.cloudfront.net/assets/fonts/websymbols-regular-webfont.ttf') format('truetype'),
+	     url('http://d2h0dyinjrpfzl.cloudfront.net/assets/fonts/websymbols-regular-webfont.svg#chadcons') format('svg');
 }
 .glyph {
 	font-family: 'chadcons';
@@ -118,7 +118,7 @@ p {
 	margin-top:10px;
 }
 #banner .container {
-	background:url(/assets/img/header1.png) no-repeat center bottom;
+	background:url(http://d2h0dyinjrpfzl.cloudfront.net/assets/img/header1.png) no-repeat center bottom;
 	height:320px;	
 }
 .container {
@@ -196,17 +196,17 @@ h4 {
 	height:390px;
 }
 #features .tab-content .image1 {
-	background:url(/assets/img/scrnsht1.jpg) no-repeat center;
+	background:url(http://d2h0dyinjrpfzl.cloudfront.net/assets/img/scrnsht1.jpg) no-repeat center;
 }
 #features .tab-content .image2 {
-	background:url(/assets/img/scrnsht2.jpg) no-repeat center;
+	background:url(http://d2h0dyinjrpfzl.cloudfront.net/assets/img/scrnsht2.jpg) no-repeat center;
 }
 #features .tab-content .image3 {
-	background:url(/assets/img/scrnsht3.jpg) no-repeat center;
+	background:url(http://d2h0dyinjrpfzl.cloudfront.net/assets/img/scrnsht3.jpg) no-repeat center;
 }
 #what {
 	padding-top:160px;
-	background:url(/assets/img/bg_spiral.png) no-repeat center -75px;
+	background:url(http://d2h0dyinjrpfzl.cloudfront.net/assets/img/bg_spiral.png) no-repeat center -75px;
 }
 #what .heading {
 	text-align:center;
@@ -243,7 +243,7 @@ h4 {
 	z-index:2;
 }
 #about .company {
-	background:url(/assets/img/cityscape.png) no-repeat right top;
+	background:url(http://d2h0dyinjrpfzl.cloudfront.net/assets/img/cityscape.png) no-repeat right top;
 	padding-top:160px;
 }
 #about {
@@ -265,7 +265,7 @@ h4 {
 #about .team .emp {
 	width:80px;
 	height:82px;
-	background:url(/assets/img/emp_arrow.png) no-repeat bottom center;
+	background:url(http://d2h0dyinjrpfzl.cloudfront.net/assets/img/emp_arrow.png) no-repeat bottom center;
 	-webkit-transition: 0.2s ease;
 	-moz-transition: 0.1s ease;
 	-ms-transition: 0.1s ease;
@@ -278,7 +278,7 @@ h4 {
 #about .team .emp:hover {
 	width:80px;
 	height:92px;
-	background:url(/assets/img/emp_arrow.png) no-repeat bottom center #276A75;
+	background:url(http://d2h0dyinjrpfzl.cloudfront.net/assets/img/emp_arrow.png) no-repeat bottom center #276A75;
 }
 #about .team .emp.active {
 	height:92px;
@@ -356,7 +356,7 @@ h4 {
 #press .heading {
 	text-align:center;
 	margin-bottom:20px;
-	background:url(/assets/img/press_banner.png) no-repeat center;
+	background:url(http://d2h0dyinjrpfzl.cloudfront.net/assets/img/press_banner.png) no-repeat center;
 	padding:23px 0 27px;
 }
 #press .clip {
@@ -405,7 +405,7 @@ h4 {
 }
 #contact {
 	margin-top:160px;
-	background:url(/assets/img/mail_rightswoop.png) no-repeat center right;
+	background:url(http://d2h0dyinjrpfzl.cloudfront.net/assets/img/mail_rightswoop.png) no-repeat center right;
 }
 #contact .heading {
 	text-align:center;
@@ -417,7 +417,7 @@ h4 {
 	padding:0 30px 0 160px;
 	border-right:1px dotted #C4D33E;
 	float:left;
-	background:url(/assets/img/mail_leftswoop.png) no-repeat 0 78px;
+	background:url(http://d2h0dyinjrpfzl.cloudfront.net/assets/img/mail_leftswoop.png) no-repeat 0 78px;
 }
 #contact .right {
 	width:290px;
@@ -427,7 +427,7 @@ h4 {
 }
 #contact .top {
 	height:25px;
-	background:url(/assets/img/contact_top.png) no-repeat center bottom;
+	background:url(http://d2h0dyinjrpfzl.cloudfront.net/assets/img/contact_top.png) no-repeat center bottom;
 }
 #contact .center {
 	background:url(/img/contact_sides.png) repeat-y center top;
@@ -493,7 +493,7 @@ label, input, button, select, textarea { font-size:14px; }
     width: 252px;
 }
 .QapTcha .Slider {
-    background: url(/assets/img/slide-arrow.png) no-repeat scroll transparent;
+    background: url(http://d2h0dyinjrpfzl.cloudfront.net/assets/img/slide-arrow.png) no-repeat scroll transparent;
     cursor: e-resize;
     height: 37px;
     width: 52px;
@@ -518,7 +518,7 @@ label, input, button, select, textarea { font-size:14px; }
 /*///////// SUB PAGES /////////*/
 
 .sub-page {
-	background:url(/assets/img/bg_quartertwirl.png) no-repeat 0px 57px;
+	background:url(http://d2h0dyinjrpfzl.cloudfront.net/assets/img/bg_quartertwirl.png) no-repeat 0px 57px;
 }
 .sub-page .title {
 	margin-top:60px;
@@ -689,7 +689,7 @@ html {
 .landing-nav section header {
 	width: 265px;
 	height: 265px;
-	background: #fff url(/assets/img/sprite_btn_landing.png);
+	background: #fff url(http://d2h0dyinjrpfzl.cloudfront.net/assets/img/sprite_btn_landing.png);
 	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 	-moz-box-shadow:  0 0 10px rgba(0, 0, 0, 0.2);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);	
