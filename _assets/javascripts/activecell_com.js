@@ -1,17 +1,17 @@
 /*!
-Profitably Waypoints (extracted from in-line js at the bottom of the previous site)
+activecell implementation of Waypoints (extracted from in-line js at the bottom of the previous site)
 Previously featured inside <script> tags
 */
 
 $(function(){
-	$('[rel=tooltip]').tooltip({delay: { show: 500, hide: 100 }});
- $('.team .emp a').on('click', function(e){
+  $('[rel=tooltip]').tooltip({delay: { show: 500, hide: 100 }});
+  $('.team .emp a').on('click', function(e){
     var name = $(this).data('name');
     $('.team .emp a').parent().removeClass('active');
     $(this).parent().addClass('active');
     $('.description .tab-pane').removeClass('active');
     $('.description .'+name).addClass('active');
- });
+  });
 
  // The same for all waypoints
  $('body').delegate('.waypoint', 'waypoint.reached', function(event, direction) {

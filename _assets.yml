@@ -4,30 +4,36 @@ gzip_assets:            on          # (on, off)
 rewrite_relative_paths: off
 
 javascripts:
-  packaged_js_20120522_2:
-    - _raw/js/jquery.js
-    - _raw/js/bootstrap-transition.js
-    - _raw/js/bootstrap-alert.js
-    - _raw/js/bootstrap-modal.js
-    - _raw/js/bootstrap-dropdown.js
-    - _raw/js/bootstrap-scrollspy.js
-    - _raw/js/bootstrap-tab.js
-    - _raw/js/bootstrap-tooltip.js
-    - _raw/js/bootstrap-collapse.js
-    - _raw/js/bootstrap-popover.js
-    - _raw/js/bootstrap-button.js
-    - _raw/js/bootstrap-carousel.js
-    - _raw/js/bootstrap-typeahead.js
-    - _raw/js/waypoints.js
-    - _raw/js/profitably_waypoint.js
-    - _raw/js/easytabs.js
-    - _raw/js/mailchimp.js
+  packaged_js_20121101:
+    - _assets/javascripts/jquery.js
+    - _assets/javascripts/bootstrap-transition.js
+    - _assets/javascripts/bootstrap-alert.js
+    - _assets/javascripts/bootstrap-modal.js
+    - _assets/javascripts/bootstrap-dropdown.js
+    - _assets/javascripts/bootstrap-tab.js
+    - _assets/javascripts/bootstrap-tooltip.js
+    - _assets/javascripts/bootstrap-collapse.js
+    - _assets/javascripts/bootstrap-popover.js
+    - _assets/javascripts/bootstrap-button.js
+    - _assets/javascripts/bootstrap-carousel.js
+    - _assets/javascripts/bootstrap-typeahead.js
+    - _assets/javascripts/waypoints.js
+    - _assets/javascripts/easytabs.js
+    - _assets/javascripts/mailchimp.js
+    - _assets/javascripts/activecell_com.js
+  old:
+    - _assets/javascripts/jquery.js
+    - _assets/javascripts/bootstrap.js
+    - _assets/javascripts/waypoints.js
 
 stylesheets:
   packaged_css_20120522_2:
-    - _raw/css/bootstrap.css
-    - _raw/css/grid_12-825-55-15.css
-    - _raw/css/specimen_stylesheet.css
-    - _raw/css/websymbols.css
-    - _raw/css/profitably.css
-
+    - _assets/stylesheets/bootstrap.css
+    - _assets/stylesheets/grid_12-825-55-15.css
+    - _assets/stylesheets/specimen_stylesheet.css
+    - _assets/stylesheets/websymbols.css
+    # - _assets/stylesheets/activecell_common.css
+    - _assets/stylesheets/activecell_com.css
+  old:
+    - _assets/stylesheets/bootstrap.css
+    - _assets/stylesheets/profitably.css

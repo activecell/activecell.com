@@ -218,7 +218,7 @@ Support:
 		This is how you register an element as a waypoint. When the user scrolls past
 		that element it triggers waypoint.reached, a custom event. Since the
 		parameters for creating a waypoint are optional, we have a few different
-		possible signatures. Let’s look at each of them.
+		possible signatures. Letâ€™s look at each of them.
 
 		someElements.waypoint();
 			
@@ -374,9 +374,9 @@ Support:
 		/*
 		jQuery.waypoints('refresh')
 		
-		This will force a recalculation of each waypoint’s trigger point based on
+		This will force a recalculation of each waypointâ€™s trigger point based on
 		its offset option and context. This is called automatically whenever the window
-		(or other defined context) is resized, new waypoints are added, or a waypoint’s
+		(or other defined context) is resized, new waypoints are added, or a waypointâ€™s
 		options are modified. If your project is changing the DOM or page layout without
 		doing one of these things, you may want to manually call this refresh.
 		*/
@@ -632,14 +632,14 @@ Support:
 	/*
 	$.waypoints.settings
 	
-	Settings object that determines some of the plugin’s behavior.
+	Settings object that determines some of the pluginâ€™s behavior.
 		
 	resizeThrottle
 		number
 		default: 200
 		For performance reasons, the refresh performed during resizes is
 		throttled. This value is the rate-limit in milliseconds between resize
-		refreshes. For more information on throttling, check out Ben Alman’s
+		refreshes. For more information on throttling, check out Ben Almanâ€™s
 		throttle / debounce plugin.
 		http://benalman.com/projects/jquery-throttle-debounce-plugin/
 		
@@ -649,7 +649,7 @@ Support:
 		For performance reasons, checking for any crossed waypoints during a
 		scroll event is throttled. This value is the rate-limit in milliseconds
 		between scroll checks. For more information on throttling, check out Ben
-		Alman’s throttle / debounce plugin.
+		Almanâ€™s throttle / debounce plugin.
 		http://benalman.com/projects/jquery-throttle-debounce-plugin/
 	*/
 	$[wps].settings = {

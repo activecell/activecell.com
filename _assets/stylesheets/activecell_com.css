@@ -19,6 +19,7 @@
 body {
 	padding-top: 57px;  /* Make the container go all the way to the bottom of the topbar */
 	font-size:14px;
+	background-color: white;
 }
 a:hover {
 	text-decoration:none;
