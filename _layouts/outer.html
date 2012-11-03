@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Turnkey Dashboards | Profitably</title>
-<meta name="description" content="Profitably makes turnkey dashboards for small businesses.">
+<title>{{ page.title }}</title>
+<meta name="description" content="activecell: small business management platform. dynamic business planning and historical analysis of your data, all in one easy to use dashboard and reporting platform">
 <meta name="author" content="Adam Neary">
 
 <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
@@ -12,7 +12,8 @@
        <![endif]-->
 
 <!-- Le styles -->
-<link href="{{ 'assets/packaged_css_20120522_2.css' | cdn }}" rel="stylesheet" type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lusitana:700' rel='stylesheet' type='text/css'>
+<link href="{{ 'assets/packaged_css_20121102.css' | cdn }}" rel="stylesheet">
 
 <!-- Le fav and touch icons -->
 <link rel="shortcut icon" href="{{ 'favicon.ico' | cdn }}">
@@ -20,67 +21,93 @@
 <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
 <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png"> -->
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="20" data-rendering="true">
+
+<body data-spy="scroll" data-target=".navbar" data-offset="30" data-rendering="true">
 <div class="navbar navbar-fixed-top">
-   <div class="navbar-inner">
-      <div class="container">
-         <div class="row show-grid">
-            <div class="span9"> 
-							<a class="brand" href="http://www.profitably.com/index.html">
-								<img src="{{ 'assets/img/branding/profitably_logo.png' | cdn }}" alt="Profitably" width="161" height="46" border="0">
-							</a>
-               <!-- <div class="nav">
-                  <ul class="nav">
-                     <li><a href="http://www.profitably.com/#features">Features</a></li>
-                     <li><a href="http://www.profitably.com/#what">Pricing</a></li>
-                     <li><a href="http://www.profitably.com/#press">Press</a></li>
-                  </ul>
-               </div> -->
-               <!--/.nav-collapse --> 
+  <div class="navbar-inner">
+    <div class="container">
+      <div class="row show-grid">
+        <div class="span9"> 
+          <a class="brand" href="#">
+            <img src="{{ 'assets/img/branding/activecell-full-color-darkBG-small.png' | cdn }}" 
+              alt="activecell" width="180" height="50">
+          </a>
+          <div class="nav">
+            <ul class="nav">
+              <li><a href="#features">Features</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#experts">Experts</a></li>
+              <li><a href="#blog">The Activecell Method</a></li>
+              <li><a href="#advisors">For advisors</a></li>
+            </ul>
+          </div>
+          <!--/.nav-collapse --> 
+        </div>
+        <div class="span3">
+          <div class="btn-toolbar signin">
+            <div class="btn-group">
+              <a class="btn btn-success" href="#learn-more-modal" data-toggle="modal">
+                <strong>Learn more</strong>
+              </a> 
+              <a class="btn btn-primary" href="https://launchpad.activecell.com/users/sign_in">
+                or <strong>Sign in</strong>
+              </a> 
             </div>
-            <div class="span3">
-               <div class="btn-toolbar signin">
-                  <div class="btn-group">
-										<a class="btn btn-success" href="#learn-more-modal" data-toggle="modal"><strong>Learn More</strong></a> 
-										<a class="btn btn-primary" href="https://app.profitably.com/sign_in">or <strong>Sign in</strong></a> 
-									</div>
-               </div>
-            </div>
-         </div>
+          </div>
+        </div>
       </div>
-   </div>
+    </div>
+  </div>
 </div>
 
-	{{ content }}
+{{content}}
 
 <div class="footer well">
    <div class="container">
       <div class="row show-grid">
 				<div class="span9">
-					<img src="{{ 'assets/img/branding/profitably_logo_blue.png' | cdn }}" width="161" height="46" alt="Profitably">
+					<a class="brand" href="http://www.activecell.com">
+					  <img src="{{ 'assets/img/branding/activecell-one-color-small.png' | cdn }}" 
+					    alt="activecell" width="180" height="50">
+					</a>
 				</div>
 				<div class="span3">
-					<div class="btn-toolbar signin">
-						<div class="btn-group"> 
-							<a class="btn btn-success" href="#learn-more-modal" data-toggle="modal"><strong>Learn More</strong></a>
-							<a class="btn btn-primary" href="https://app.profitably.com/sign_in">or <strong>Sign in</strong></a> 
-						</div>
-					</div>
-				</div>
+           <div class="btn-toolbar signin">
+              <div class="btn-group">
+                <a class="btn btn-success" href="#learn-more-modal" data-toggle="modal">
+                  <strong>Learn more</strong>
+                </a> 
+                <a class="btn btn-primary" href="https://launchpad.activecell.com/users/sign_in">
+                  or <strong>Sign in</strong>
+                </a> 
+              </div>
+           </div>
+        </div>
       </div>
       <div class="row show-grid">
-         <div class="span12">
-            <ul class="sitemap">
-               <li><a href="http://support.profitably.com">Support &amp; Feedback</a></li>
-               <li><a href="http://blog.profitably.com">Blog</a></li>
-               <li><a href="http://www.profitably.com/privacy.html">Privacy Policy</a></li>
-               <!-- <li><span class="glyph">E</span> (866) 218-7502</li> -->
-               <li class="follow">Follow us 
-									<span class="glyph one"><a rel="tooltip" title="Facebook" href="http://www.facebook.com/profitably">f</a></span> 
-									<span class="glyph"><a rel="tooltip" title="Twitter" href="http://www.twitter.com/profitably">t</a></span> 
-									<span class="glyph"><a rel="tooltip" title="LinkedIn" href="http://www.linkedin.com/company/profitably-inc.">l</a></span>
-								</li>
-            </ul>
+         <div class="span3">
+            <dl>
+              <dt><a href="http://www.activecell.com">About activecell</a></dt>
+                <dd><a href="http://www.activecell.com/pricing.html">Pricing</a></dd>
+                <dd><a href="http://www.activecell.com/experts.html">Experts</a></dd>
+                <dd><a href="http://www.activecell.com/blog.html">The Activecell Method</a></dd>
+                <dd><a href="http://www.activecell.com/advisors.html">For advisor</a></dd>
+                <dd><a href="http://www.activecell.com/company.html">Company</a></dd>
+            </dl>
+          </div>
+          <div class="span3">
+            <dl>
+              <dt><a href="http://support.activecell.com">Support &amp; feedback</a></dt>
+                <dd><a href="http://support.activecell.com">Knowledge base</a></dd>
+                <dd><a href="http://support.activecell.com/forums/110485-product-feedback">Product feedback</a></dd>
+                <dd><a href="http://support.activecell.com">Contact support</a></dd>
+            </dl>
+          </div>
+          <div class="span6">
+            <dl>
+              <dt>Brought to you by Profitably, Inc.  © 2012. All rights reserved.</dt>
+                <dd><a href="http://www.activecell.com/privacy.html">Privacy policy</a></dd>
+            </dl>
          </div>
       </div>
    </div>
@@ -89,6 +116,8 @@
 <!-- Le javascript
     ================================================== --> 
 <!-- Placed at the end of the document so the pages load faster --> 
-<script type="text/javascript" src="{{ 'assets/packaged_js_20120522_2.js' | cdn }}"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> 
+<script src="{{ 'assets/js/waypoints.js' | cdn }}"></script> 
+<script src="{{ 'assets/packaged_js_20121102.js' | cdn }}"></script> 
 </body>
 </html>
