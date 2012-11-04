@@ -982,6 +982,10 @@ html {
 	padding-bottom: 190px;
 }
 
+.white-label-header.corporate {
+	padding-bottom: 90px;
+}
+
 .white-label-header h1.label-heading {
 	color: #fff;
 	text-shadow: 0 0 2px rgba(0,0,0,0.5);
@@ -1473,6 +1477,16 @@ h1.small {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0075c4", endColorstr="#31a7e5", GradientType=0);
 }
 
+.sidebar-nav {
+	padding: 15px 0;
+	position: relative;
+	z-index: 100;
+}
+
+.sidebar-nav li {
+	padding: 0 0 5px 0;
+}
+
 .main-block {
 	margin-top: -60px;
 	padding-bottom: 30px;
@@ -1483,6 +1497,19 @@ h1.small {
 
 .block-wrapper {
 	padding: 0 20px;
+}
+
+.block-wrapper.heading {
+	margin: -18px 0 40px 0;
+	padding: 20px 20px 0 20px;
+	background: #eee;
+	border-bottom: 1px solid #ddd;
+	border-radius: 10px 10px 0 0;
+	text-shadow: 1px 1px 0 rgba(255,255,255,0.8);
+}
+
+.block-wrapper.heading h1 {
+	padding: 0;
 }
 
 .outlined {
@@ -1619,5 +1646,46 @@ h1.small {
 	font-size: 12px;
 	background: #eee;
 	border-radius: 3px;
+	text-shadow: 1px 1px 0 rgba(255,255,255,0.8);
+}
+
+.team-name {
+	display: block;
+	padding: 8px 0 6px 0;
+	font-size: 12px;
+}
+
+.team-title {
+	display: block;
+	padding: 0 0 5px 0;
+	font-size: 11px;
+}
+
+.about-map {
+	position: relative;
+	width: 600px;
+	height: 300px;
+	margin-bottom: 70px;
+}
+
+.about-map .map {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 10;
+}
+
+.about-map .nyc-stamp {
+	position: absolute;
+	right: -124px;
+	bottom: -125px;
+	z-index: 20;
+}
+
+.show-some-love {
+	background: #e7e7e7;
+	font-size: 18px;
+	padding: 10px 15px;
+	border-radius: 4px;
 	text-shadow: 1px 1px 0 rgba(255,255,255,0.8);
 }
