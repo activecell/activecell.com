@@ -26,8 +26,6 @@ The checklist is short. Just 12 simple items:
 8. Build a staffing plan
 9. Plan for other expense categories
 10. Review your expense plan
-11. Prioritize key metrics to help you manage to goals
-12. Create custom reports for key stakeholders
 
 Since we are all too busy, we have designed the method to be quick, simple, and iterative. You can take a first pass in an hour or two, and we have built tools to automate the process to make it even faster.
 
@@ -131,7 +129,7 @@ A staffing plan consists of just three components:
 2. How many of each type of employee will you need over time?
 3. How much will you spend over time on outside contractors to complement your team?
 
-Just like with your plan for cost of goods sold, the number of employees you will need, by type, is often a factor of several drivers (primary fixed or revenue-driven). You might simply plan to add a CFO next year regardless of revenue, but you might plan to add a salesperson for every $500k in revenue in your plan.
+Just like with your plan for cost of goods sold, the number of employees you will need, by type, is often a factor of several drivers (primarily fixed or revenue-driven). You might simply plan to add a CFO next year regardless of revenue, but you might plan to add a salesperson for every $500k in revenue in your plan.
 
 The same goes for your contractors, though your contractors are often grouped into categories that map to specific expense accounts.
 
@@ -154,26 +152,6 @@ Once you have planned for customer acquisition, staffing, cost of goods sold, an
 Since you've looked at unit revenue and unit customer acquisition cost already, it should be a small leap to start to think about "fully-loaded" unit economics, or how much profit will you generate per customer after all expenditures are considered. This figure is interesting whether you strip out customer acquisition or not.
 
 At this stage, it can be a lot of fun to play around with the key inputs. How sensitive is my business plan to churn? What happens if I add another revenue stream? Which of my channels should be most profitable? You name it. Now that the model is built, there are no questions you can't answer.
-
-Read more for step by step guidance on how to tackle this with activecell.
-
-# 11. Prioritize key metrics to help you manage to goalss
-
-Now that you have a complete model in place, you will have a more complete view of which factors impact your business the most and which need the most improvement. It's easy to identify 30-40 metrics for a giant scorecard, but that's not useful. How do you know what to prioritize?
-
-Instead, we recommend finding precisely 4 metrics on which to focus at any one time. For your business, it might be churn rate and conversion for the sales channel that are top, with cash runway as a close third. And maybe meals & entertainment expenses have been out of hand for a few months, so you'll be watching those.
-
-The point is, what gets measured gets managed, and by targeting a manageable number of business drivers, you set yourself up for success at moving the needle on them.
-
-Read more for step by step guidance on how to tackle this with activecell.
-
-# 12. Create custom reports for key stakeholders
-
-Now that your have a complete model in place and have taken the time to clean up your data a bit, getting that information into the hands of your key stakeholders shouldn't be a chore.
-
-Make no mistake, you are your top stakeholder. Therefore, identifying the reports that provide you the information you need most should be your top priority, and automating the generation of those reports is a must. If you have the information you need to run your business without any effort on a daily or weekly basis, you'll look at the reports more often, and what gets measured gets managed.
-
-Then, think through your other stakeholders, including internal employees, customers perhaps, investors if appropriate, board members, lenders who require periodic updates, etc. It's easy enough to automate those reports so they have what they needs, as well. Again, once you set it up, you're good.
 
 Read more for step by step guidance on how to tackle this with activecell.
 
