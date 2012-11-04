@@ -137,7 +137,7 @@ It's easy to let this process get out of hand, and over time you could build mor
 
 Read more for step by step guidance on how to tackle this with activecell.
 
-# 9. Plan for other expense categories
+# 9. Plan for general & administrative costs
 
 You have already planned your customer acquisition budget, your staffing budget, and cost of goods sold. For most businesses, that represents the lion's share of expenditures, but there are still other overheads and "G&A" (general & administrative) costs to factor in. 
 
