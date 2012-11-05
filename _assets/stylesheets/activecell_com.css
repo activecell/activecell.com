@@ -24,6 +24,9 @@ body {
 	background-color: white;
 	color: #675B5E;
 }
+.gray {
+  background-color: gray;
+}
 a:hover {
 	text-decoration:none;
 }
@@ -35,24 +38,25 @@ p {
 .container {
 	width:940px;
 }
-h1.heading {
+h1, h2 {
 	font-family: 'Lusitana', serif;
-	letter-spacing:-.05em;
-	font-size:40px;
-	text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  font-weight: normal;  
+}
+h1 {
+	font-size:38px;
+}
+h1.small {
+	font-size: 32px;
 }
 h2 {
-	font-weight:normal;
+	font-size: 32px;
 }
 h3 {
 	font-size:24px;
-	font-weight:normal;
-	line-height:28px;
 	margin-bottom:8px;
 }
 h4 {
 	font-size:16px;
-	font-weight:normal;
 	line-height:22px;
 }
 label, input, button, select, textarea { font-size:14px; }
@@ -68,6 +72,27 @@ label, input, button, select, textarea { font-size:14px; }
 
 .clearfix:after {
   clear: both;
+}
+
+.on-top {
+  border: none !important;
+  background: white;
+  border-radius: 3px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.21) !important;
+  padding: 15px;
+}
+.thumbnail .on-top {
+  padding: 6px;
+}
+
+.avatar140 {
+  padding: 3px;
+  background: white;
+  border: 1px solid #EEE;
+  border-radius: 3px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.21) !important;  
+  height: 140px;
+  width: 140px;
 }
 
 /* buttons */
@@ -191,14 +216,12 @@ label, input, button, select, textarea { font-size:14px; }
 #banner .container h1{ 
   color: white;
 	text-shadow: 0 3px rgba(0, 0, 0, 0.3);
-  font-size: 42px;
   padding: 15px 20px 15px;
   position: relative;
   left: 100px;
 }
 #banner .container h2{ 
   color: white;
-  font-size: 21px;
   line-height: 24px;
   padding: 0px 20px 15px;
   position: relative;
@@ -275,6 +298,7 @@ label, input, button, select, textarea { font-size:14px; }
 }
 #features .tab-content h3 {
 	color:#81A80E;
+	font-weight: normal;
 }
 #features .tab-content .image1, 
 #features .tab-content .image2, 
@@ -452,6 +476,7 @@ label, input, button, select, textarea { font-size:14px; }
 }
 #what h3 {
 	text-align:center;
+	font-weight: normal;
 	border-bottom:1px solid #ccc;
 	margin-top:20px;
 	padding-bottom:5px;
@@ -484,6 +509,11 @@ label, input, button, select, textarea { font-size:14px; }
 	position:relative;
 	z-index:2;
 }
+
+#experts h3 {
+  font-weight: normal;
+}
+
 #experts .company {
 	background:url(/assets/img/cityscape.png) no-repeat right top;
 	padding-top:160px;
@@ -922,7 +952,6 @@ html {
 .landing-header h1 {
 	margin: 10px 0 0 0;
 	color: #D6E5E7;
-	font-family: 'Lusitana', serif;
 	font-size: 54px;
 	font-weight: normal;
 }
@@ -979,7 +1008,7 @@ html {
 }
 
 .white-label-header.inside {
-	padding-bottom: 190px;
+	padding-bottom: 90px;
 }
 
 .white-label-header.corporate {
@@ -991,21 +1020,6 @@ html {
 	text-shadow: 0 0 2px rgba(0,0,0,0.5);
 }
 
-h1.label-heading {
-	font-family: 'Lusitana', serif;
-	font-size: 38px;
-	font-weight: normal;
-}
-
-h2.label-heading {
-	font-family: 'Lusitana', serif;
-	font-size: 32px;
-	font-weight: normal;
-}
-
-h1.small {
-	font-size: 32px;
-}
 
 .btn-learn {
 	display: block;
@@ -1075,8 +1089,6 @@ h1.small {
 
 .header-page-not-found h1 {
 	margin: 0 0 30px 0;
-	font-size: 34px;
-	font-weight: bold;
 	text-align: center;
 }
 
@@ -1490,7 +1502,7 @@ h1.small {
 .main-block {
 	margin-top: -60px;
 	padding-bottom: 30px;
-	background: #fff;
+	background: #eee;
 	border-radius: 10px;
 	box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
@@ -1500,10 +1512,8 @@ h1.small {
 }
 
 .block-wrapper.heading {
-	margin: -18px 0 40px 0;
+	margin-top: -18px;
 	padding: 20px 20px 0 20px;
-	background: #eee;
-	border-bottom: 1px solid #ddd;
 	border-radius: 10px 10px 0 0;
 	text-shadow: 1px 1px 0 rgba(255,255,255,0.8);
 }
@@ -1661,25 +1671,60 @@ h1.small {
 	font-size: 11px;
 }
 
-.about-map {
-	position: relative;
+/* founder profile */
+
+.profile {
+  color: #30878F;
+}
+.profile .glyph a {
+	font-size:14px;
+	margin-left:8px;
+	color:#bfbfbf;
+	-webkit-transition: 0.1s ease;
+	-moz-transition: 0.1s ease;
+	-ms-transition: 0.1s ease;
+	-o-transition: 0.1s ease;
+	transition: 0.1s ease;
+	position:relative;
+}
+.profile .glyph a:hover {
+	color:inherit;
+	top:-3px;
+}
+
+
+/* made in nyc */
+
+.nyc-stamp {
+  margin: 0px 20px 20px 20px;
+  float: left;
+}
+.inset-map {
 	width: 600px;
-	height: 300px;
-	margin-bottom: 70px;
+	height: 603px;
+	background:url(/assets/img/activecell-map.png) no-repeat center;
+  -webkit-box-shadow:inset 0 0 20px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:inset 0 0 20px rgba(0, 0, 0, 0.5);
+	box-shadow:inset 0 0 20px rgba(0, 0, 0, 0.5);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin-bottom: 20px;	
+	position: relative;
 }
 
-.about-map .map {
-	position: absolute;
-	left: 0;
-	top: 0;
-	z-index: 10;
-}
-
-.about-map .nyc-stamp {
-	position: absolute;
-	right: -124px;
-	bottom: -125px;
-	z-index: 20;
+.inset-freedom-tower {
+	width: 600px;
+	height: 600px;
+	background:url(/assets/img/freedom-tower-ap-nyc.jpg) no-repeat center;
+  -webkit-box-shadow:inset 0 0 20px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:inset 0 0 20px rgba(0, 0, 0, 0.5);
+	box-shadow:inset 0 0 20px rgba(0, 0, 0, 0.5);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin-bottom: 20px;	
+	position: relative;  
 }
 
 .show-some-love {
