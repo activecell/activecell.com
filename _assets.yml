@@ -17,7 +17,6 @@ javascripts:
     - _assets/javascripts/bootstrap-button.js
     - _assets/javascripts/bootstrap-carousel.js
     - _assets/javascripts/bootstrap-typeahead.js
-    - _assets/javascripts/waypoints.js
     - _assets/javascripts/easytabs.js
     - _assets/javascripts/mailchimp.js
     - _assets/javascripts/activecell_com.js
