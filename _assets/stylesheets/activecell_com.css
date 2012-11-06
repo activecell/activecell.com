@@ -1734,3 +1734,24 @@ html {
 	border-radius: 4px;
 	text-shadow: 1px 1px 0 rgba(255,255,255,0.8);
 }
+
+/* press */
+
+.logo-spacing {
+  padding: 10px;
+}
+.logo-spacing img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.dark-well {
+  border-radius: 4px;
+  background-color: #052633;
+  background-image: -moz-linear-gradient(top, #073648, #041b25);
+  background-image: -ms-linear-gradient(top, #073648, #041b25);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#073648), to(#041b25));
+  background-image: -webkit-linear-gradient(top, #073648, #041b25);
+  background-image: -o-linear-gradient(top, #073648, #041b25);
+  background-image: linear-gradient(top, #073648, #041b25);
+}
