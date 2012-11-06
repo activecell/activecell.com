@@ -19,7 +19,7 @@ javascripts:
   #   - _assets/javascripts/easytabs.js
   #   - _assets/javascripts/mailchimp.js
   #   - _assets/javascripts/activecell_com.js
-  packaged_js_20121106:
+  packaged_js_20121106_2:
     - _assets/javascripts/bootstrap.js
     - _assets/javascripts/mailchimp.js
     - _assets/javascripts/activecell_com.js
@@ -32,7 +32,7 @@ stylesheets:
   #   - _assets/stylesheets/websymbols.css
   #   # - _assets/stylesheets/activecell_common.css
   #   - _assets/stylesheets/activecell_com.css
-  packaged_css_20121106:
+  packaged_css_20121106_2:
     - _assets/stylesheets/bootstrap.css
     - _assets/stylesheets/activecell_com.css
     
