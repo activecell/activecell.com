@@ -24,9 +24,6 @@ body {
 	background-color: white;
 	color: #675B5E;
 }
-.gray {
-  background-color: gray;
-}
 a:hover {
 	text-decoration:none;
 }
@@ -75,7 +72,7 @@ label, input, button, select, textarea { font-size:14px; }
 }
 
 .grey-bg {
-	background-color: #f2f2f2;
+	background-color: gray;
 }
 
 .on-top {
