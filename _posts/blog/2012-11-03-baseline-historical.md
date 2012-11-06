@@ -58,7 +58,7 @@ The beauty of this direct connectivity is that--in contrast to the Excel solutio
 
 ## Connecting to your data
 
-If you don't have an account with Activecell yet, just go to <www.activecell.com> to register, and then navigate to "Data Integrations" in your settings to connect to QuickBooks (as of the writing of this article, we currently bring all new accounts to this page automatically).
+If you don't have an account with Activecell yet, just go to [www.activecell.com](www.activecell.com) to register, and then navigate to "Data Integrations" in your settings to connect to QuickBooks (as of the writing of this article, we currently bring all new accounts to this page automatically).
 
 Then follow the instructions for connecting you accounting platform:
 
@@ -76,7 +76,7 @@ However, within your expense accounts we don't have any visibility into which re
 
 For your convenience, the Account Mapping page in the Company section allows you to easily drag and drop accounts from the General & Administrative category and into each of these other categories very quickly. You don't have to worry about categorizing individual expenses (what a drag!). Just categorize the accounts, and all historical (and future!) transactions will be handled accordingly. Easy, right?
 
-[ screenshot ]
+<!-- [ screenshot ] -->
 
 ### Identifying cogs (even hidden cogs!)
 
@@ -130,4 +130,4 @@ If you are on a monthly cycle, you can update your plan any time, but historical
 
 Note: If you are working with a bookkeeper, this may not result in more billable hours for the month! Most bookkeepers are open to spreading out their work-load over the month, and sometimes it's just a matter of logging on, then downloading and coding new transactions. Just spread, for example, a 5 hour monthly block of bookkeeping into 2 hours the first week and an hour each the other 3 weeks. 
 
-Still not working with a bookkeeper? Get on board--they are a lifesaver at any business size! Plus, it's easy to find a bookkeeper who knows Activecell at <www.activecell.com/experts>.
+Still not working with a bookkeeper? Get on board--they are a lifesaver at any business size! Plus, it's easy to find a bookkeeper who knows Activecell at [www.activecell.com/experts](www.activecell.com/experts).
