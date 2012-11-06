@@ -23,76 +23,89 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="30" data-rendering="true">
-<div class="navbar navbar-fixed-top">
-  <div class="navbar-inner">
-    <div class="container">
-      <div class="row show-grid">
-        <div class="span9"> 
-          <a class="brand" href="#">
-            <img src="{{ 'assets/img/branding/activecell-full-color-darkBG-small.png' | cdn }}" 
-              alt="activecell" width="180" height="50">
-          </a>
-          <div class="nav">
-            <ul class="nav">
-              <li><a href="#features">Features</a></li>
-              <li><a href="#pricing">Pricing</a></li>
-              <li><a href="#experts">Experts</a></li>
-              <li><a href="#blog">The Activecell Method</a></li>
-              <li><a href="#advisors">For advisors</a></li>
-            </ul>
-          </div>
-          <!--/.nav-collapse --> 
-        </div>
-        <div class="span3">
-          <div class="btn-toolbar signin">
-            <div class="btn-group">
-              <a class="btn btn-success" href="#learn-more-modal" data-toggle="modal">
-                <strong>Get an invite</strong>
-              </a> 
-              <a class="btn btn-primary" href="https://launchpad.activecell.com/users/sign_in">
-                or <strong>Sign in</strong>
-              </a> 
+
+  {{content}}
+
+  <div id="learn-more-modal" class="modal fade hide">
+    <div class="modal-header">
+      <a class="close pull-right" href="#" data-dismiss="modal">&times;</a>         
+      <h1 class="label-heading centered">Request an invite.</h1>
+    </div>
+    <div class="modal-body">
+      <p>
+        We are just beginning to roll out activecell to an initial set up beta customers. if you are interested in getting started, please submit your information below, and we will shoot you an invite when we are ready to get you up and running (and thanks for your patience!).
+      </p>
+      <hr />
+
+      <!-- Begin MailChimp Signup Form -->
+      <div id="mc_embed_signup">
+        <form action="http://profitably.us1.list-manage1.com/subscribe/post?u=f7dd37fd18a14d929f90e314e&amp;id=1d17948705"
+          method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" 
+          class="validate form-horizontal" target="_blank">
+          <div class="mc-field-group control-group">
+            <label for="mce-EMAIL" class="control-label">Email address  <span class="asterisk">*</span></label>
+            <div class="controls">
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
             </div>
           </div>
-        </div>
+          <div class="mc-field-group control-group">
+            <label for="mce-NAME" class="control-label">Name  <span class="asterisk">*</span></label>
+            <div class="controls">            
+              <input type="text" value="" name="NAME" class="required" id="mce-NAME">
+            </div>
+          </div>
+          <div class="mc-field-group control-group">
+            <label for="mce-BIZNAME" class="control-label">Business name  <span class="asterisk">*</span></label>
+            <div class="controls">            
+              <input type="text" value="" name="BIZNAME" class="required" id="mce-BIZNAME">
+            </div>
+          </div>
+          <div id="mce-responses" class="clear">
+            <div class="response alert alert-error" id="mce-error-response" style="display:none"></div>
+            <div class="response alert alert-success" id="mce-success-response" style="display:none"></div>
+          </div>
+          <div class="modal-footer">
+            <input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" 
+              class="btn btn-primary btn-large">
+          </div>
+        </form>
       </div>
+      <!--End mc_embed_signup-->
     </div>
   </div>
-</div>
-
-{{content}}
-
-<div class="footer well">
-   <div class="container">
-      <div class="row show-grid">
-				<div class="span9">
-					<a class="brand" href="http://www.activecell.com">
-					  <img src="{{ 'assets/img/branding/activecell-one-color-small.png' | cdn }}" 
-					    alt="activecell" width="180" height="50">
-					</a>
-				</div>
-				<div class="span3">
-           <div class="btn-toolbar signin">
-              <div class="btn-group">
-                <a class="btn btn-success" href="#learn-more-modal" data-toggle="modal">
-                  <strong>Get an invite</strong>
-                </a> 
-                <a class="btn btn-primary" href="https://launchpad.activecell.com/users/sign_in">
-                  or <strong>Sign in</strong>
-                </a> 
-              </div>
-           </div>
+  
+  <div class="footer well">
+     <div class="container">
+        <div class="row show-grid">
+  				<div class="span9">
+  					<a class="brand" href="http://www.activecell.com">
+  					  <img src="{{ 'assets/img/branding/activecell-one-color-small.png' | cdn }}" 
+  					    alt="activecell" width="180" height="50">
+  					</a>
+  				</div>
+  				<div class="span3">
+             <div class="btn-toolbar signin">
+                <div class="btn-group">
+                  <a class="btn btn-success" href="#learn-more-modal" data-toggle="modal">
+                    <strong>Learn more</strong>
+                  </a> 
+                  <a class="btn btn-primary" href="https://launchpad.activecell.com/users/sign_in">
+                    or <strong>Sign in</strong>
+                  </a> 
+                </div>
+             </div>
+          </div>
         </div>
-      </div>
-      <div class="row show-grid">
-         <div class="span3">
-            <dl>
-              <dt><a href="http://www.activecell.com">About activecell</a></dt>
-                <dd><a href="http://www.activecell.com/pricing.html">Pricing</a></dd>
-                <dd><a href="http://www.activecell.com/experts.html">Experts</a></dd>
-                <dd><a href="http://www.activecell.com/blog.html">The Activecell Method</a></dd>
-                <dd><a href="http://www.activecell.com/advisors.html">For advisor</a></dd>
-                <dd><a href="http://www.activecell.com/company.html">Company</a></dd>
+        <div class="row show-grid">
+           <div class="span3">
+             <dl>
+               <dt><a href="about.html">About Activecell</a></dt>
+                  <dd><a href="index.html#features">Features</a></dd>
+                  <dd><a href="index.html#pricing">Pricing</a></dd>
+                  <dd><a href="experts.html">Experts</a></dd>
+                  <dd><a href="blog.html">The Activecell Method</a></dd>
+                  <dd><a href="advisors.html">For advisors</a></dd>
+                  <dd><a href="http://www.activecell.com/privacy.html">Privacy policy</a></dd>
             </dl>
           </div>
           <div class="span3">
@@ -103,21 +116,18 @@
                 <dd><a href="http://support.activecell.com">Contact support</a></dd>
             </dl>
           </div>
-          <div class="span6">
-            <dl>
-              <dt>Brought to you by Profitably, Inc.  © 2012. All rights reserved.</dt>
-                <dd><a href="http://www.activecell.com/privacy.html">Privacy policy</a></dd>
-            </dl>
-         </div>
-      </div>
-   </div>
-</div>
+        </div>
+        <div class="row show-grid">
+          <strong>Brought to you by Profitably, Inc.  © 2012. All rights reserved.</strong>
+        </div>
+     </div>
+  </div>
 
-<!-- Le javascript
-    ================================================== --> 
-<!-- Placed at the end of the document so the pages load faster --> 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> 
-<script src="{{ 'assets/js/waypoints.js' | cdn }}"></script> 
-<script src="{{ 'assets/packaged_js_20121102.js' | cdn }}"></script> 
+  <!-- Le javascript
+      ================================================== --> 
+  <!-- Placed at the end of the document so the pages load faster --> 
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> 
+  <script src="{{ 'assets/js/waypoints.js' | cdn }}"></script> 
+  <script src="{{ 'assets/packaged_js_20121102.js' | cdn }}"></script> 
 </body>
 </html>
