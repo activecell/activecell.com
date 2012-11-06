@@ -2,16 +2,21 @@ task :default => :deploy
 
 desc "Deploy to S3"
 task :deploy do
+  
+  # refresh site
   sh "bundle exec jekyll"
-  sh "s3cmd sync --exclude 'assets/*' _site/* s3://www.activecell.com"
-  sh "s3cmd sync --add-header 'Expires: Thu, 6 Feb 2020 00:00:00 GMT' _site/assets/* s3://www.activecell.com/assets/"
-  sh "s3cmd setacl --recursive --acl-public s3://www.activecell.com"
-end
-
-desc "Delete any deleted files, and do a deploy"
-task :detailed_deploy do
-  sh "bundle exec jekyll"
-  sh "s3cmd sync --delete-removed --exclude 'assets/*' _site/* s3://www.activecell.com" # this will now delete the whole assets folder
-  sh "s3cmd sync --add-header 'Expires: Thu, 6 Feb 2020 00:00:00 GMT' _site/assets/* s3://www.activecell.com/assets/" # dont delete-removed again, as this would then delete the html files!
-  sh "s3cmd setacl --recursive --acl-public s3://www.activecell.com"
+  
+  # gzip the html, css, and js
+  `find _site/ -iname '*.html' -exec gzip -n -f {} +`
+  `find _site/ -iname '*.js' -exec gzip -n -f {} +`
+  `find _site/ -iname '*.css' -exec gzip -n -f {} +`
+  `for f in $(find _site/ -iname '*.gz'); do mv -i "$f" "${f%%.gz}"; done`
+  
+  # sync html with gzip but without cache control
+  sh "s3cmd sync --progress -M --acl-public _site/* s3://www.activecell.com/ --add-header 'Content-Encoding:gzip' --exclude '*.*' --include '*.html'"
+  # sync css and jtml with gzip and cache control
+  sh "s3cmd sync --progress -M --acl-public _site/* s3://www.activecell.com/ --add-header 'Content-Encoding:gzip' --add-header 'Cache-Control: max-age=31449600' --exclude '*.*' --include '*.js' --include '*.css'"
+  # sync everything else without gzip but with cache control
+  sh "s3cmd sync --progress -M --acl-public _site/* s3://www.activecell.com/ --add-header 'Cache-Control: max-age=31449600' --include '*.*' --exclude '*.js' --exclude '*.css' --exclude '*.html'"
+  
 end
