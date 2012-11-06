@@ -22,7 +22,7 @@
 <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png"> -->
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="30" data-rendering="true">
+<body data-spy="scroll" data-target=".navbar" data-offset="30" data-rendering="true" {% if page.body_class %} class="{{ page.body_class }}" {% endif %}>
 
   {{content}}
 
