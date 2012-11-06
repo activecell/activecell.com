@@ -74,6 +74,10 @@ label, input, button, select, textarea { font-size:14px; }
   clear: both;
 }
 
+.grey-bg {
+	background-color: #f2f2f2;
+}
+
 .on-top {
   border: none !important;
   background: white;
