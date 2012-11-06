@@ -41,12 +41,12 @@ Contributing is easy:
 
 1. Clone the repo to your local machine
 1. Make sensible changes
-1. Add any new images to /assets/img and reference with src="{{ 'assets/img/new_img.jpg' | cdn }}"
+1. Add any new images to /assets/img and reference like src="{{ 'assets/img/new_img.jpg' | cdn }}"
 1. Edit CSS/JS as required and ensure any new JS/CSS are listed in _assets.yml for packaging
-1. *For now* find and replace the datetime stamp in _assets.yml (e.g. "_20120504") across the entire project
-1. Run 'rake deploy' to generate and deploy the site
+1. Run `jekyll --server` to view the generated site locally at localhost [http://localhost:4000/](http://localhost:4000/)
+1. Run 'rake deploy' to deploy the generated site to production
 1. Commit changes push to origin
 
-Note: Hotfixes and minor changes can be pushed directly to master. Anything heavy, or if there's even a question, and please submit a pull request for the update. However, note that if you're updating assets (img/css/js) and syncing with S3, those changes are reflecting on production even if the code isn't yet pushed to master!
+Note: Hotfixes and minor changes can be pushed directly to master. Anything heavy, or if there's even a question, and please submit a pull request for the update.
 
 The site will continue to evolve, but see [jekyll documentation](http://github.com/mojombo/jekyll) for information about how to generate content for the site.
