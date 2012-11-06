@@ -1692,6 +1692,12 @@ html {
 	top:-3px;
 }
 
+/* team */
+
+#team .thumbnail img {
+  height: 110px;
+  width: 110px;
+}
 
 /* made in nyc */
 
