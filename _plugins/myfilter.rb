@@ -1,8 +1,21 @@
 module Jekyll
   module AssetFilter
     def cdn(input)
-      local_mode = false # set to true to temporarily bypass cdn for local dev
-      local_mode ? input : "#{@context.registers[:site].config['cdn'] || ""}/#{input}"
+      timestamp = @context.registers[:site].config['timestamp']
+      if timestamp
+        "#{@context.registers[:site].config['cdn'] || ""}/#{input}"
+      else
+        input
+      end
+    end
+    
+    def timestamped(input)
+      timestamp = @context.registers[:site].config['timestamp']
+      if timestamp
+        "#{input.split('.')[0]}_#{timestamp}.#{input.split('.')[1]}"
+      else
+        input
+      end
     end
   end
 end

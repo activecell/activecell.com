@@ -1,8 +1,6 @@
-# defaults
 destination: ./_site
 plugins:     ./_plugins
-
-
 jammit_base_dir: .
 exclude: Gemfile, Gemfile.lock, README.md, Rakefile
 cdn: http://d2n39uym85fey2.cloudfront.net
+timestamp: null
