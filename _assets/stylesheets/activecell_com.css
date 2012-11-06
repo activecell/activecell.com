@@ -1694,7 +1694,7 @@ html {
 
 /* team */
 
-#team .thumbnail img {
+.thumbnail .on-top img {
   height: 110px;
   width: 110px;
 }
