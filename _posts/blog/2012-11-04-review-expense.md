@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Step 10: Review your expense plan
+title: "Step 10: Review your expense plan"
 author: Adam Neary
 ---
 

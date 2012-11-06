@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Step 9: Plan for general & administrative costs
+title: "Step 9: Plan for general & administrative costs"
 author: Adam Neary
 ---
 

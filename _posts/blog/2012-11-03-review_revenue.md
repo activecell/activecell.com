@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Step 5: Review your revenue plan
+title: "Step 5: Review your revenue plan"
 author: Adam Neary
 ---
 

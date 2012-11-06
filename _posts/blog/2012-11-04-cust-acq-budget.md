@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Step 6: Build a customer acquisition budget
+title: "Step 6: Build a customer acquisition budget"
 author: Adam Neary
 ---
 

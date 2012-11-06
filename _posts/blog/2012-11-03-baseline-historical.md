@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Step 1: Build a historical baseline
+title: "Step 1: Build a historical baseline"
 author: Adam Neary
 ---
 

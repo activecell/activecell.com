@@ -2,11 +2,11 @@
 layout:   expert
 name:     Adam Neary
 company:  Profitably, Inc.
-title:    Founder & CEO
-homepage: http://www.adamrneary.com/
-github:   https://github.com/adamrneary
-linkedin: http://www.linkedin.com/in/adamrneary
-twitter:  http://twitter.com/adamrneary
+title:    "Founder & CEO"
+homepage: "http://www.adamrneary.com/"
+github:   "https://github.com/adamrneary"
+linkedin: "http://www.linkedin.com/in/adamrneary"
+twitter:  "http://twitter.com/adamrneary"
 gravatar: 
 tags:     business planning, activecell setup
 ---
