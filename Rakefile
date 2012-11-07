@@ -19,11 +19,11 @@ task :deploy do
   sh "mv _site/assets/packaged_js.js _site/assets/packaged_js_#{timestamp}.js"
   
   # sync html with gzip but without cache control
-  sh "s3cmd sync --progress -M --acl-public _site/* s3://www.activecell.com/ --add-header 'Content-Encoding:gzip' --exclude '*.*' --include '*.html'"
+  sh "s3cmd sync --progress -M --acl-public _site/* #{deploy_to} --add-header 'Content-Encoding:gzip' --exclude '*.*' --include '*.html'"
   # sync css and jtml with gzip and cache control
-  sh "s3cmd sync --progress -M --acl-public _site/* s3://www.activecell.com/ --add-header 'Content-Encoding:gzip' --add-header 'Cache-Control: max-age=31449600' --exclude '*.*' --include '*.js' --include '*.css'"
+  sh "s3cmd sync --progress -M --acl-public _site/* #{deploy_to} --add-header 'Content-Encoding:gzip' --add-header 'Cache-Control: max-age=31449600' --exclude '*.*' --include '*.js' --include '*.css'"
   # sync everything else without gzip but with cache control
-  sh "s3cmd sync --progress -M --acl-public _site/* s3://www.activecell.com/ --add-header 'Cache-Control: max-age=31449600' --include '*.*' --exclude '*.js' --exclude '*.css' --exclude '*.html'"
+  sh "s3cmd sync --progress -M --acl-public _site/* #{deploy_to} --add-header 'Cache-Control: max-age=31449600' --include '*.*' --exclude '*.js' --exclude '*.css' --exclude '*.html'"
   
   # set deployment config
   updateConfig "timestamp: null"
@@ -31,6 +31,10 @@ task :deploy do
 end
 
 private 
+  def deploy_to
+    @deploy_to = "s3://www.activecell.com"
+  end
+  
   def updateConfig(rep)
     lines = IO.readlines("_config.yml");
     lines[-1] = rep
