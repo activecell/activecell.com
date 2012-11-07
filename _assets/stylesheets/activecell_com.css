@@ -1522,7 +1522,7 @@ html {
 }
 
 .outlined {
-	border: 1px solid #eee;
+	border: 1px solid #e2e2e2;
 }
 
 .filter-block {
@@ -1573,7 +1573,7 @@ html {
 
 .recent-posts li {
 	padding: 10px 0;
-	border-top: 1px dotted #eee;	
+	border-top: 1px dotted #e2e2e2;	
 }
 
 .recent-posts h4 {
@@ -1605,13 +1605,13 @@ html {
 	display: block;
 	padding: 3px 10px;
 	font-size: 12px;
-	background: #eee;
+	background: #e2e2e2;
 	border-radius: 3px;
 	text-shadow: 1px 1px 0 rgba(255,255,255,0.6);
 }
 
 .share-panel {
-	background: #eee;
+	background: #e2e2e2;
 	padding: 6px 10px;
 	border-radius: 3px;
 }
@@ -1623,7 +1623,7 @@ html {
 .reviews-block {
 	margin: 20px 0;
 	padding: 20px 0;
-	border-top: 1px dotted #eee;
+	border-top: 1px dotted #e2e2e2;
 }
 
 .reviews-list {
@@ -1634,7 +1634,7 @@ html {
 
 .reviews-list li {
 	padding: 15px 0;
-	border-bottom: 1px dotted #eee;
+	border-bottom: 1px dotted #e2e2e2;
 }
 
 .reviews-list .review-meta {
@@ -1653,7 +1653,7 @@ html {
 	display: inline-block;
 	padding: 3px 7px;
 	font-size: 12px;
-	background: #eee;
+	background: #e2e2e2;
 	border-radius: 3px;
 	text-shadow: 1px 1px 0 rgba(255,255,255,0.8);
 }
