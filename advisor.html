@@ -1,71 +1,224 @@
 ---
 layout: outer
-title: "advisor solutions | activecell: the small business management platform"
+title: "activecell: The small business management platform"
+body_class: "grey-bg"
 ---
 
-<!-- Landing page content -->
-  <div class="landing-banner">
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
     <div class="container">
-      <div class="white-label-header">
-        <h1 class="label-heading centered">Turnkey dashboards for your clients. Branded for you.</h1>
+      <div class="row show-grid">
+        <div class="span9"> 
+          <a class="brand" href="#">
+            <img src="{{ 'assets/img/branding/activecell-full-color-darkBG-small.png' | cdn }}" 
+              alt="activecell" width="180" height="50">
+          </a>
+          <div class="nav">
+            <ul class="nav">
+              <li><a href="index.html#features">Features</a></li>
+              <li><a href="index.html#pricing">Pricing</a></li>
+              <li><a href="experts.html">Experts</a></li>
+              <li><a href="blog.html">The Activecell Method</a></li>
+              <li><a href="advisors.html">For advisors</a></li>
+            </ul>
+          </div>
+          <!--/.nav-collapse --> 
+        </div>
+        <div class="span3">
+          <div class="btn-toolbar signin">
+            <div class="btn-group">
+              <a class="btn btn-success" href="#learn-more-modal" data-toggle="modal">
+                <strong>Get an invite</strong>
+              </a> 
+              <a class="btn btn-primary" href="https://launchpad.activecell.com/users/sign_in">
+                or <strong>Sign in</strong>
+              </a> 
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+</div>
+
+<!-- banner content -->
+
+<div class="landing-banner">
   <div class="container">
-      <div class="row">
-          <img class="branded-screenshot" src="{{ 'assets/img/branding/branded_scrn.png' | cdn }}" width="868" height="358" alt="" />
-          <a class="btn btn-success btn-learn" href="#learn-more-modal" data-toggle="modal"><strong>Get an invite</strong><br>
-          <img src="{{ 'assets/img/startnow_finger.png' | cdn }}" width="212" height="22"></a>
-          <div class="white-label-logos centered">
-            <h2 class="label-heading centered">As seen on:</h2>
-            <img src="{{ 'assets/img/branding/logos_as_seen_on.png' | cdn }}" width="920" height="70" alt="" />
+    <div class="white-label-header inside">
+      <h1 class="label-heading centered">
+        The small business management platform. 
+      </h1>
+    </div>
+  </div>
+</div>
+<div class="container main-block">
+  <br />
+  <div class="row">
+    <div class="span8">
+      <div class="block-wrapper">
+        <div class="scrn-block">
+          <img src="{{ 'assets/img/scrnsht1.png' | cdn }}" />
+        </div>
+      </div>
+    </div>
+
+    <div class="span4">
+      <div class="block-wrapper">
+        <form class="contact-form alert alert-info">
+          <fieldset>
+            <legend>Interested? Get in touch</legend>
+            <div class="control-group">
+              <label>Your name</label>
+              <input type="text" class="span3">
+            </div>
+            <div class="control-group">
+              <label>Email address</label>
+              <input type="text" class="span3">
+            </div>
+            <div class="control-group">
+              <label>Company</label>
+              <input type="text" class="span3">
+            </div>
+            <div class="control-group">
+              <label>Phone number</label>
+              <input type="text" class="span3">
+            </div>
+            <div class="control-group">
+              <button type="submit" class="btn btn-primary btn-block">Submit</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <br />
+
+  <div class="row">
+    <div class="span12">
+      <div class="white-label-logos centered">
+        <h2 class="label-heading centered">As seen on:</h2>
+        <div class="advisor-label-logos">
+          <img src="{{ 'assets/img/branding/logos_as_seen_on.png' | cdn }}" width="920" height="70" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="span12">
+      <div class="block-wrapper">
+        <div class="advisor-block clearfix">
+          <div class="left-col">
+            <h3>We know what’s ordinary. So you take advantage of the extraordinary.</h3>
+            <p>The social web is as unpredictable and fast moving as a national revolution. </p>
+            <p>Our algorithms forecast your content’s expected performance and alert you to abnormalities. So you can take action on what matters, when it matters most.</p>
+            <blockquote>
+              <span>
+                Our algorithms forecast your content’s expected performance and alert you to abnormalities. So you can take action on what matters, when it matters most.
+              </span>
+            </blockquote>
           </div>
+          <div class="advisor-block-photo">
+            <img src="{{ 'assets/img/placeholder_advisor.png' | cdn }}" /> 
+          </div>
+        </div>
       </div>
-   </div>
+    </div>
+  </div>
 
-   <div id="learn-more-modal" class="modal fade hide">
-      <div class="modal-header">
-         <a class="close pull-right" href="#" data-dismiss="modal">&times;</a>         
-         <h1 class="label-heading centered">Get involved.</h1>
+  <div class="row">
+    <div class="span12">
+      <div class="block-wrapper">
+        <div class="advisor-block clearfix">
+          <div class="right-col">
+            <h3>We know what’s ordinary. So you take advantage of the extraordinary.</h3>
+            <p>The social web is as unpredictable and fast moving as a national revolution. </p>
+            <p>Our algorithms forecast your content’s expected performance and alert you to abnormalities. So you can take action on what matters, when it matters most.</p>
+            <blockquote>
+              <span>
+                Our algorithms forecast your content’s expected performance and alert you to abnormalities. So you can take action on what matters, when it matters most.
+              </span>
+            </blockquote>
+          </div>
+          <div class="advisor-block-photo right">
+            <img src="{{ 'assets/img/placeholder_advisor.png' | cdn }}" /> 
+          </div>
+        </div>
       </div>
-      <div class="modal-body">
-         <p>
-            We are beta testing our white label solution with a select group of accountants, bookkeepers, and business coaches. To get involved, please provide the following details, and we will reach out to you directly.
-         </p>
-         <hr />
-      <!-- Begin MailChimp Signup Form -->
-         <div id="mc_embed_signup">
-         <form action="http://profitably.us1.list-manage.com/subscribe/post?u=f7dd37fd18a14d929f90e314e&amp;id=404bc8bc18" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-horizontal" target="_blank">
-            <div class="mc-field-group control-group">
-               <label for="mce-EMAIL" class="control-label">Email Address  <span class="asterisk">*</span></label>
-               <div class="controls">
-                  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-               </div>
-            </div>
-            <div class="mc-field-group control-group">
-               <label for="mce-NAME" class="control-label">Name  <span class="asterisk">*</span></label>
-               <div class="controls">            
-                  <input type="text" value="" name="NAME" class="required" id="mce-NAME">
-               </div>
-            </div>
-            <div class="mc-field-group control-group">
-               <label for="mce-BIZNAME" class="control-label">Business Name  <span class="asterisk">*</span></label>
-               <div class="controls">            
-                  <input type="text" value="" name="BIZNAME" class="required" id="mce-BIZNAME">
-               </div>
-            </div>
-            <div id="mce-responses" class="clear">
-               <div class="response alert alert-error" id="mce-error-response" style="display:none"></div>
-               <div class="response alert alert-success" id="mce-success-response" style="display:none"></div>
-            </div>   
-         </div>
+    </div>
+  </div>
 
-         </div>
-         <div class="modal-footer">
-            <input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary btn-large">
-         </div>
-      
-      </form>
-   		<!--End mc_embed_signup-->
-   </div>   
-<!-- /Landing page content -->
+  <div class="row">
+    <div class="span12">
+      <div class="block-wrapper">
+        <div class="advisor-block clearfix">
+          <div class="left-col">
+            <h3>We know what’s ordinary. So you take advantage of the extraordinary.</h3>
+            <p>The social web is as unpredictable and fast moving as a national revolution. </p>
+            <p>Our algorithms forecast your content’s expected performance and alert you to abnormalities. So you can take action on what matters, when it matters most.</p>
+            <blockquote>
+              <span>
+                Our algorithms forecast your content’s expected performance and alert you to abnormalities. So you can take action on what matters, when it matters most.
+              </span>
+            </blockquote>
+          </div>
+          <div class="advisor-block-photo">
+            <img src="{{ 'assets/img/placeholder_advisor.png' | cdn }}" /> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br />
+  <br />
+  
+  <div class="row">
+    <div class="span4">
+      <div class="block-wrapper">
+        <form class="contact-form alert alert-info">
+          <fieldset>
+            <legend>Interested? Get in touch</legend>
+            <div class="control-group">
+              <label>Your name</label>
+              <input type="text" class="span3">
+            </div>
+            <div class="control-group">
+              <label>Email address</label>
+              <input type="text" class="span3">
+            </div>
+            <div class="control-group">
+              <label>Company</label>
+              <input type="text" class="span3">
+            </div>
+            <div class="control-group">
+              <label>Phone number</label>
+              <input type="text" class="span3">
+            </div>
+            <div class="control-group">
+              <button type="submit" class="btn btn-primary btn-block">Submit</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+
+    <div class="span8">
+      <div class="block-wrapper">
+        <div class="on-top">
+          <h4>Featured Partners</h4>
+          <br/ >
+          <ul class="thumbnails"> 
+            <li class="thumbnail"><img src="http://placehold.it/160x70" /></li>
+            <li class="thumbnail"><img src="http://placehold.it/160x70" /></li>
+            <li class="thumbnail"><img src="http://placehold.it/160x70" /></li>
+            <li class="thumbnail"><img src="http://placehold.it/160x70" /></li>
+            <li class="thumbnail"><img src="http://placehold.it/160x70" /></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
