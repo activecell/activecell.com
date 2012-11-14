@@ -1978,15 +1978,19 @@ background-image: url('http://d2n39uym85fey2.cloudfront.net/assets/img/sprite_ic
 	margin: 0 10px 0 0;
 }
 
-.blog-preview .tags li a {
+.blog-preview .tags a {
 	padding: 1px 9px;
 	color: #fff;
-	background: #21808F;
+	background-color: #21808F;
 	text-shadow: none;
 }
 
+.blog-preview .tags a.bg-white {
+	color: #333;
+}
+
 .blog-preview .tags li a:hover {
-	background: #288498;
+	opacity: 0.8;
 }
 
 .blog-item {
@@ -2069,4 +2073,31 @@ background-image: url('http://d2n39uym85fey2.cloudfront.net/assets/img/sprite_ic
 	font-size: 12px;
 	font-weight: bold;
 	padding: 5px 10px 5px 0;
+}
+
+
+/* bg colors */
+
+.bg-white {
+	background-color: #fff !important;
+}
+
+.bg-black {
+	background-color: #333 !important;
+}
+
+.bg-gray {
+	background-color: #aaa !important;
+}
+
+.bg-blue {
+	background-color: #21808F !important;
+}
+
+.bg-green {
+	background-color: #c4d33e !important;
+}
+
+.bg-red {
+	background-color: #D21E17 !important;
 }
