@@ -149,6 +149,10 @@ label, input, button, select, textarea { font-size:14px; }
   background-color: #578d3d \9;
 }
 
+.btn-group .btn:hover {
+	z-index: 0;
+}
+
 
 /* navbar */
 
