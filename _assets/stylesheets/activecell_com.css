@@ -1622,11 +1622,13 @@ background-image: url('http://d2n39uym85fey2.cloudfront.net/assets/img/sprite_ic
 
 .tags a {
 	display: block;
+	position: relative;
 	padding: 3px 10px;
 	font-size: 12px;
 	background: #e2e2e2;
 	border-radius: 3px;
 	text-shadow: 1px 1px 0 rgba(255,255,255,0.6);
+	z-index: 10;
 }
 
 .share-panel {
@@ -2031,18 +2033,45 @@ background-image: url('http://d2n39uym85fey2.cloudfront.net/assets/img/sprite_ic
 }
 
 .blog-preview .tags a {
+	margin-right: 5px;
 	padding: 1px 9px;
 	color: #fff;
 	background-color: #21808F;
 	text-shadow: none;
 }
 
-.blog-preview .tags a.bg-white {
-	color: #333;
-}
-
 .blog-preview .tags li a:hover {
 	opacity: 0.8;
+}
+
+.blog-preview .tags a:before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 8px;
+	width: 4px;
+	height: 4px;
+	background: #fff;
+	border-radius: 10px;
+}
+
+.blog-preview .tags a:after {
+	content: "";
+	display: block;
+	position: absolute;
+	left: -6px;
+	top: 2px;
+	width: 15px;
+	height: 15px;
+	background: inherit;
+	border-radius: 3px;
+	z-index: -1;
+	transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg); 
+	-o-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
 }
 
 .blog-item {
@@ -2130,16 +2159,16 @@ background-image: url('http://d2n39uym85fey2.cloudfront.net/assets/img/sprite_ic
 
 /* bg colors */
 
-.bg-white {
-	background-color: #fff !important;
+.bg-orange {
+	background-color: #D39A42 !important;
 }
 
 .bg-black {
-	background-color: #333 !important;
+	background-color: #231F20 !important;
 }
 
 .bg-gray {
-	background-color: #aaa !important;
+	background-color: #5A5B5B !important;
 }
 
 .bg-blue {
@@ -2147,9 +2176,9 @@ background-image: url('http://d2n39uym85fey2.cloudfront.net/assets/img/sprite_ic
 }
 
 .bg-green {
-	background-color: #c4d33e !important;
+	background-color: #8ac16f !important;
 }
 
 .bg-red {
-	background-color: #D21E17 !important;
+	background-color: #dc6e59 !important;
 }
