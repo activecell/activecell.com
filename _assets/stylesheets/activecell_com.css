@@ -2040,10 +2040,6 @@ background-image: url('http://d2n39uym85fey2.cloudfront.net/assets/img/sprite_ic
 	text-shadow: none;
 }
 
-.blog-preview .tags a.bg-white {
-	color: #333;
-}
-
 .blog-preview .tags li a:hover {
 	opacity: 0.8;
 }
@@ -2163,8 +2159,8 @@ background-image: url('http://d2n39uym85fey2.cloudfront.net/assets/img/sprite_ic
 
 /* bg colors */
 
-.bg-white {
-	background-color: #fff !important;
+.bg-orange {
+	background-color: #D39A42 !important;
 }
 
 .bg-black {
@@ -2172,7 +2168,7 @@ background-image: url('http://d2n39uym85fey2.cloudfront.net/assets/img/sprite_ic
 }
 
 .bg-gray {
-	background-color: #aaa !important;
+	background-color: #5A5B5B !important;
 }
 
 .bg-blue {
@@ -2180,9 +2176,9 @@ background-image: url('http://d2n39uym85fey2.cloudfront.net/assets/img/sprite_ic
 }
 
 .bg-green {
-	background-color: #c4d33e !important;
+	background-color: #8ac16f !important;
 }
 
 .bg-red {
-	background-color: #D21E17 !important;
+	background-color: #dc6e59 !important;
 }
