@@ -20,13 +20,13 @@ We wrote a custom application and data bootstrap library because our application
 
 The library is lightweight and loads instantly, providing the user with feedback as it loads the application js/css asynchronously. It then syncs data asynchronously from the server to the client, storing the data locally so that the user can access the application while offline.
 
-Subsequent user sessions are initiated in "no huddle" mode, calling audibles as required to get the session off on the right foot with all the data in tote.
+Subsequent user sessions are initiated in "no huddle" mode, calling audibles as required to get the session off on the right foot with all the data in tow.
 
 ### Striker.js
 
 #### Greasy-fast, cached, calculated collections, written in coffeescript
  
-We named this library after the type of trigger used in semi-automatic handguns, perhaps because the library replaced a janky early prototype we built that used low-level database triggers to maintain server-side cached datasets. The library is a critical component to Activecell's responsive user experience and a complement to Shotgun.js.
+We named this library after the type of trigger used in semi-automatic handguns, perhaps because the library replaced a janky early prototype we built that used low-level database triggers to maintain server-side cached datasets for complex multi-variate models. The library is a critical component to Activecell's responsive user experience and a complement to Shotgun.js.
 
 Because Activecell executes all analyses entirely divorced from the server, the data models cannot leverage low-level SQL querying or high-level ORM technologies such as ActiveRecord in Rails. To compensate for this, the models lean on cached, calculated collections that are built in several hundred milliseconds as the application is bootstrapped. The collections follow the observer pattern to subscribe to changes in collections on which they depend, and the library smartly eliminate duplicate calculations that can ripple exponentially with highly-dependent, multi-variate models.
 
