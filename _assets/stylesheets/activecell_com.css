@@ -506,13 +506,13 @@ label, input, button, select, textarea { font-size:14px; }
 	color:#81A80E;
 }
 
-#what .link, #pricing .link {
+#what .link, #pricing .link, #advisors .link{
 	font-size:18px;
 	text-align:center;
 	margin-top:40px;
 }
 
-#what .link a, #pricing .link a {
+#what .link a, #pricing .link a, #advisors .link a {
 	margin-right:5px;
 	color:#21808F !important;
 }
@@ -1612,7 +1612,6 @@ background-image: url('http://d2n39uym85fey2.cloudfront.net/assets/img/sprite_ic
 
 .tags {
 	margin: 0;
-	padding: 10px 0 20px 0;
 	list-style: none;
 }
 
@@ -2096,6 +2095,7 @@ background-image: url('http://d2n39uym85fey2.cloudfront.net/assets/img/sprite_ic
 .blog-item .post-heading h3,
 .blog-item .post-heading h5 {
 	font-weight: normal;
+	color: gray;
 }
 
 .blog-item .post-content {

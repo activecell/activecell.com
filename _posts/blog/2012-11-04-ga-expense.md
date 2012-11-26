@@ -1,14 +1,17 @@
 ---
 layout: post
-title: "Step 9: Plan for general & administrative costs"
+title: "Plan for general & admin costs"
 author: Adam Neary
+tags: ["activecell method", expense]
 ---
 
 You have already planned your cost of goods sold, your customer acquisition budget, and your staffing budget. For most businesses, that represents the lion's share of expenditures, and certainly the sensitive ones. But there are still other overheads and "G&A" (general & administrative) costs to factor in.
 
+<!-- more -->
+
 Rent comes mind, as do your professional services such as legal and accounting. These should be planned by category based on simple drivers such as revenue and employee count.
 
-# General & administrative cost drivers
+### General & administrative cost drivers
 
 In Activecell, the cost drivers for G&A costs are:
 

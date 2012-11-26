@@ -2,7 +2,14 @@
 layout: post
 title: The Activecell Method for business planning
 author: Adam Neary
+tags: ["activecell method"]
 ---
+
+The Activecell Method is a time-tested methodology for business planning. It is a simple, 10-step checklist for building a plan, and it is designed to be an iterative process. That means you will have a working, usable plan in no time, and you can go back through the plan to sharpen the edges in later passes.
+
+<!-- more -->
+
+#### A bit of background
 
 I have had the good fortune of working in a consulting capacity over the past decade with businesses in nearly every industry, including pharmaceuticals and healthcare delivery, manufacturing, automotive, distribution and warehousing, financial services, the public sector (state, federal, and international), software/tech, consumer goods, energy...you name it.
 
@@ -12,9 +19,9 @@ As I have gotten to know small businesses (which I define loosely as 1-100 emplo
 
 As a result, we have decided to band together and crystalize this checklist into a repeatable process that small businesses can take advantage of. We call it "The Activecell Method," and we hope you find it useful.
 
-# The Activecell Method for business planning
+### The Activecell Method for business planning
 
-The checklist is short. Just 12 simple items:
+The checklist is short. Just 10 simple items:
 
 1. Build a historical baseline
 2. Group your products and services into logical revenue streams
@@ -31,7 +38,7 @@ Since we are all too busy, we have designed the method to be quick, simple, and 
 
 Once you've gotten started, you can always take another pass later to further refine your forecast, incorporate new information, or play around with scenarios to your heart's content.
 
-# 1. Build a historical baseline
+#### 1. Build a historical baseline
 
 To know where you're headed, you need to know where you're coming from. We recommend starting with a baseline of 3 historical years of data. If your company isn't 3 years old, use whatever data you have available. In our experience, anything older than 3 years is no longer relevant to forward planning.
 
@@ -46,7 +53,7 @@ When we talk about "loading" historical data, it might be into a tool like activ
 
 Read more for step by step guidance on how to tackle this with activecell.
 
-# 2. Group your products and services into logical revenue streams
+#### 2. Group your products and services into logical revenue streams
 
 It may be the case that your historical baseline for revenue is broken down into 4-5 revenue accounts that cleanly represent your lines of business. If so, great! Those are probably your key revenue streams.
 
@@ -56,7 +63,7 @@ What if you have the opposite issue: just 1 line of detail for all of revenue. W
 
 Read more for step by step guidance on how to tackle this with activecell.
 
-# 3. Group your customers into segments
+#### 3. Group your customers into segments
 
 Business planning is a customer-driven process. "How many t-shirts do I have to sell to break even?" is the wrong question. The right question is, "To how many customers do I have to sell t-shirts to break even?" (The difference isn't semantic.) Plus, if there are different groups of customers with different buying profiles, the question is, "To how many of each group of customers do I have to sell t-shirts to break even?" These groups are commonly referred to as "segments."
 
@@ -70,7 +77,7 @@ The other key insight to determine for your segments is "Churn." What percentage
 
 Read more for step by step guidance on how to tackle this with activecell.
 
-# 4. Plan for customer acquisition across multiple channels
+#### 4. Plan for customer acquisition across multiple channels
 
 If you determine later that you need 300 active customers to break even, that's all well and good, but from where will those customer come? Hint: your customer acquisition channels. All customers come through one channel or another. Walk-ins for a retailer, or informal word of mouth for a services business are all valid channels. So is direct sales. Paid channels include traditional advertising, paid search, events and conferences, and so on. Modern channels include content marketing (writing articles that will attract customers) and email marketing.
 
@@ -84,7 +91,7 @@ Once you plan for the number of customers you will reach (per channel) and how t
 
 Read more for step by step guidance on how to tackle this with activecell.
 
-# 5. Review your revenue plan
+#### 5. Review your revenue plan
 
 Once you have grouped your revenue into streams and grouped your customers into channel and segments, you are ready to plan for your future revenue.
 
@@ -99,7 +106,7 @@ Once you're happy with the revenue plan, it's time to think about the expenses t
 
 Read more for step by step guidance on how to tackle this with activecell.
 
-# 6. Build a customer acquisition budget
+#### 6. Build a customer acquisition budget
 
 You already have a customer acquisition plan from step 4, so putting a budget against it should be a manageable thing. The tough part is that the expenses you will incur to acquire customers happen at various stages in the customer acquisition process. With paid search, you typically pay per click, whether that click results in a customer or not. With direct sales, your active sales team might only engage with active leads. With content marketing, you incur expenses up front without even knowing how many impressions that article will yield.
 
@@ -111,7 +118,7 @@ Once you have planned hard costs for your customer acquisition budget, you may s
 
 Read more for step by step guidance on how to tackle this with activecell.
 
-# 7. Plan for cost of goods sold
+#### 7. Plan for cost of goods sold
 
 You already have a plan for revenue by revenue stream, so now you need to figure out what direct expenses will be incurred to deliver that revenue, leaving aside customer acquisition and leaving aside your team.
 
@@ -121,7 +128,7 @@ For planning, it's often best to group expenses into simple categories (which mo
 
 Read more for step by step guidance on how to tackle this with activecell.
 
-# 8. Build a staffing plan
+#### 8. Build a staffing plan
 
 A staffing plan consists of just three components:
 
@@ -137,7 +144,7 @@ It's easy to let this process get out of hand, and over time you could build mor
 
 Read more for step by step guidance on how to tackle this with activecell.
 
-# 9. Plan for general & administrative costs
+#### 9. Plan for general & administrative costs
 
 You have already planned your customer acquisition budget, your staffing budget, and cost of goods sold. For most businesses, that represents the lion's share of expenditures, but there are still other overheads and "G&A" (general & administrative) costs to factor in. 
 
@@ -145,7 +152,7 @@ Rent comes mind, as do your professional services such as legal and accounting. 
 
 Read more for step by step guidance on how to tackle this with activecell.
 
-# 10. Review your expense plan
+#### 10. Review your expense plan
 
 Once you have planned for customer acquisition, staffing, cost of goods sold, and other G&A, you should have a complete expense plan which, paired with your revenue plan, let's you look at your complete business model, including net income and burn rate. Pair this up with cash on hand and you can calculate cash runway.
 
@@ -155,7 +162,7 @@ At this stage, it can be a lot of fun to play around with the key inputs. How se
 
 Read more for step by step guidance on how to tackle this with activecell.
 
-# In Summary
+### In Summary
 
 The Activecell Method is a tried and true approach to planning for your business. When paired with the activecell web application, you can automate much of the process and quickly link up to your historical data, but the method can be useful even without the tools.
 

@@ -5,7 +5,7 @@ module Jekyll
       if timestamp
         "#{@context.registers[:site].config['cdn'] || ""}/#{input}"
       else
-        input
+        "http://localhost:4000/#{input}"
       end
     end
     

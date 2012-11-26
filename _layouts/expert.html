@@ -1,0 +1,82 @@
+---
+layout: internal
+---
+
+<!-- banner content -->
+
+<div class="landing-banner">
+  <div class="container">
+    <div class="white-label-header inside">
+      <h1 class="label-heading centered small">
+        Expert directory: A network of professionals to help you succeed. 
+      </h1>
+    </div>
+  </div>
+</div>
+<div class="container main-block">
+  <br />
+  <div class="row">
+    <div class="span12">
+      <div class="block-wrapper">
+        <h1><strong>{{page.name}}</strong></h1>
+        <br />
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="span12">
+      <div class="span3">
+         <img class="outlined" src="{{page.avatar}}" 
+          width="200" height="200" alt="" />
+      </div>
+      <div class="span6">
+        <span class="desc-item"><strong>Name </strong>{{page.name}}</span> <br />
+        <span class="desc-item"><strong>Company Name </strong>{{page.company}}</span> <br />
+        <span class="desc-item"><strong>Title </strong>{{page.title}}</span> <br />
+        <span class="desc-item"><strong>Website </strong><a href="{{page.homepage}}">{{page.homepage}}</a></span> <br />
+        <span class="desc-item"><strong>Location </strong>{{page.location}}</span> <br />
+
+        <div class="details">
+          <p>
+            {{content}}
+          </p>
+        </div>
+        
+        <h2>Articles</h2>
+        <ul class="recent-posts">
+          {% for post in site.posts limit:3 %}
+            <li>
+              <h4><a href="{{post.url}}">{{post.title}}</a></h4>
+              <p>
+                {{ post.content | split:"<!-- more -->" | first }}
+              </p>
+            </li>
+          {% endfor %}
+        </ul>
+
+        <div class="location-map">        
+          <img width="450" height="350" border="0" src="http://maps.googleapis.com/maps/api/staticmap?center={{page.location | replace:' ',''}}&amp;zoom=12&amp;size=450x350&amp;sensor=false">
+        </div>
+      
+
+        <div id="comments" class="fb-comments" 
+          data-href="{{page.url}}" 
+          data-num-posts="10"
+          data-width="450"></div>
+
+      </div>
+
+      <div class="span2">
+        <h5>Skills</h5>
+        <ul class="tags">
+          {% for tag in page.tags %}
+            <li><a href="#">{{tag}}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+

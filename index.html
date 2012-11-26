@@ -334,7 +334,7 @@ title: "Activecell: The small business management platform"
       <div class="span3">
         <h1 class="heading">Experts</h1>
         <img class="made-in" src="{{ 'assets/img/ac_stamp.png' | cdn }}" 
-          width="294" height="294" alt="Made in NYC">
+          width="294" height="294" alt="Activecell Certified">
       </div>
       <div class="span9 company">
         <h3>A network of professionals to help you succeed</h3>
@@ -351,31 +351,31 @@ title: "Activecell: The small business management platform"
         <h3>Featured experts</h3>
         <div class="row show-grid team">
           <div class="span1 emp jason active">
-            <a href="javascript:;" data-name='jason'>
+            <a href="/2012/11/hill.html" data-name='jason'>
               <img src="{{ 'assets/img/avatars/jason.png' | cdn }}" 
                 border="0" width="80" height="80" alt="Jason Hill">
             </a>
           </div>
           <div class="span1 emp ean">
-            <a href="javascript:;" data-name='ean'>
+            <a href="/2012/11/murphy.html" data-name='ean'>
               <img src="{{ 'assets/img/avatars/ean.png' | cdn }}" 
               border="0" width="80" height="80" alt="Ean Murphy">
             </a>
           </div>
           <div class="span1 emp diego">
-            <a href="javascript:;" data-name='diego'>
+            <a href="/2012/11/alvarez.html" data-name='diego'>
               <img src="{{ 'assets/img/avatars/diego.png' | cdn }}" 
                 border="0" width="80" height="80" alt="Diego Alvarez">
             </a>
           </div>
           <div class="span1 emp robert">
-            <a href="javascript:;" data-name='robert'>
+            <a href="/2012/11/king.html" data-name='robert'>
               <img src="{{ 'assets/img/avatars/placeholder.png' | cdn }}" 
                 border="0" width="80" height="80" alt="Robert S. King">
             </a>
           </div>
           <div class="span1 emp adam">
-            <a href="javascript:;" data-name='adam'>
+            <a href="/2012/11/neary.html" data-name='adam'>
               <img src="{{ 'assets/img/avatars/adam.jpg' | cdn }}" 
                 border="0" width="80" height="80" alt="Adam Neary">
             </a>
@@ -530,83 +530,31 @@ title: "Activecell: The small business management platform"
   </div>
   
   <ul class="blog-preview">
-    <li class="clearfix">
-      <div class="post-date">
-        <span class="day">21</span>
-        <span class="month">october</span>
-      </div>
-      <div class="post-content">
-        <h3><a href="#">Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur.</a></h3>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
-        officia deserunt mollit anim id est laborum.
-        </p>
-        <div class="post-meta clearfix">
-          <ul class="tags">
-            <li><a href="#" class="bg-red">Web design</a></li>
-            <li><a href="#" class="bg-blue">Graphic design</a></li>
-            <li><a href="#" class="bg-green">eCommerce</a></li>
-            <li><a href="#">Web analytics</a></li>
-          </ul>
+    {% for post in site.posts limit:3 %}
+      <li class="clearfix">
+        <div class="post-date">
+          <span class="day">{{post.date | date: "%d"}}</span>
+          <span class="month">{{post.date | date: "%B"}}</span>
         </div>
-      </div>
-    </li>    
+        <div class="post-content">
+          <h2><a href="{{post.url}}">{{post.title}}</a><small> ~ {{post.author}}</small></h2>
+          <p>{{ post.content | split:"<!-- more -->" | first }}</p>
+          <div class="post-meta clearfix">
+            <ul class="tags">
+              {% for tag in post.tags %}
+                <li><a href='javascript:;' class="bg-blue">{{tag}}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </li>   
+    {% endfor %} 
 
-    <li class="clearfix">
-      <div class="post-date">
-        <span class="day">21</span>
-        <span class="month">october</span>
-      </div>
-      <div class="post-content">
-        <h3><a href="#">Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur.</a></h3>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
-        officia deserunt mollit anim id est laborum.
-        </p>
-        <div class="post-meta clearfix">
-          <ul class="tags">
-            <li><a href="#" class="bg-black">Web design</a></li>
-            <li><a href="#" class="bg-orange">Graphic design</a></li>
-            <li><a href="#" class="bg-gray">eCommerce</a></li>
-            <li><a href="#" class="bg-red">Web analytics</a></li>
-          </ul>
-        </div>
-      </div>
-    </li>
-    
-    <li class="clearfix">
-      <div class="post-date">
-        <span class="day">21</span>
-        <span class="month">october</span>
-      </div>
-      <div class="post-content">
-        <h3><a href="#">Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur.</a></h3>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
-        officia deserunt mollit anim id est laborum.
-        </p>
-        <div class="post-meta clearfix">
-          <ul class="tags">
-            <li><a href="#">Web design</a></li>
-            <li><a href="#">Graphic design</a></li>
-            <li><a href="#">eCommerce</a></li>
-            <li><a href="#">Web analytics</a></li>
-          </ul>
-        </div>
-      </div>
-    </li>    
+    <!-- <li><a href="#" class="bg-black">Web design</a></li>
+    <li><a href="#" class="bg-orange">Graphic design</a></li>
+    <li><a href="#" class="bg-gray">eCommerce</a></li>
+    <li><a href="#" class="bg-red">Web analytics</a></li> -->
+
   </ul>
 
   <div class="row show-grid more">
@@ -623,8 +571,8 @@ title: "Activecell: The small business management platform"
     <div class="row show-grid tabbable">
       <div class="span6">
         <h3>
-          The power of Activecell for all of your clients.<br />
-          Your relationships. Your brand.
+          The power of Activecell for all your clients.<br />
+          Branded for your firm.
         </h3>
         <p>
           Calling all bookkeepers, accountants, business coaches, small business 
@@ -660,7 +608,7 @@ title: "Activecell: The small business management platform"
           </div>
       </div>
     </div>
-    <div class="span6 offset6 link">
+    <div class="span7 offset5 link">
       For more case studies, check out our <a href="advisors.html">Advisor Solutions</a>
     </div>
   </div>

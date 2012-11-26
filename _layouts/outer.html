@@ -22,7 +22,20 @@
 <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png"> -->
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="30" data-rendering="true" {% if page.body_class %} class="{{ page.body_class }}" {% endif %}>
+<body data-spy="scroll" 
+      data-target=".navbar" 
+      data-offset="30" 
+      data-rendering="true" 
+      {% if page.body_class %} class="{{ page.body_class }}" {% endif %}>
+  
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=339573456108056";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 
   {{content}}
 
