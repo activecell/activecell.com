@@ -81,7 +81,7 @@ If you are interested in some of the other key tech decisions that we have made 
 #### Back end architectural decisions
 
 * [Ruby](http://www.ruby-lang.org/en/) as our back end language
-* [Rails](http://rubyonrails.org/) on the backend as our server technology and API driver
+* [Rails](http://rubyonrails.org/) on the backend as our back-end framework and API driver
 * [MongoDB](http://www.mongodb.org/) for persistent storage with [Mongoid](http://mongoid.org/en/mongoid/index.html) as our ORM
 * [Redis](http://redis.io/) for key-value store
 * [Resque](https://github.com/defunkt/resque) for job queuing
