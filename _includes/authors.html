@@ -1,0 +1,12 @@
+{% unless authors == empty %}
+  <h3>Authors</h3>
+  <ul class="avatar-grid clearfix">
+    {% for author in authors %}
+      <li>
+        <a href="/expert/{{author.slug}}.html">
+          <img class="outlined" src="{{author.avatar}}" title="{{author.name}}" width="50" height="50" alt="" />
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endunless %}
