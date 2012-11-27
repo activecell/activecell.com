@@ -4,17 +4,17 @@ module Jekyll
     include Convertible
 
     attr_accessor :data, :content
-    attr_accessor :expertData
+    attr_accessor :expert_data
 
     def initialize(site, base, dir, name)
       @site = site
 
-      @expertData = self.read_yaml(File.join(base, dir), name)
-      @expertData['content'] = markdownify(self.content)
+      @expert_data = self.read_yaml(File.join(base, dir), name)
+      @expert_data['content'] = markdownify(self.content)
     end
 
     def publish?
-      @expertData['published'].nil? or @expertData['published'] != false
+      @expert_data['published'].nil? or @expert_data['published'] != false
     end
 
     # Convert a Markdown string into HTML output.
@@ -43,7 +43,7 @@ module Jekyll
       entries = entries.sort
       entries.each do |f|
         expert = Expert.new(site, site.source, dir, f)
-        @@experts << expert.expertData if expert.publish?
+        @@experts << expert.expert_data if expert.publish?
       end
     end
 
@@ -72,18 +72,10 @@ module Jekyll
     def load_template(file, context)
       includes_dir = File.join(context.registers[:site].source, '_includes')
 
-      if File.symlink?(includes_dir)
-        return "Includes directory '#{includes_dir}' cannot be a symlink"
-      end
-
-      if file !~ /^[a-zA-Z0-9_\/\.-]+$/ || file =~ /\.\// || file =~ /\/\./
-        return "Include file '#{file}' contains invalid characters or sequences"
-      end
-
       Dir.chdir(includes_dir) do
         choices = Dir['**/*'].reject { |x| File.symlink?(x) }
         if choices.include?(file)
-          source = File.read(file)
+          File.read(file)
         else
           "Included file '#{file}' not found in _includes directory"
         end
