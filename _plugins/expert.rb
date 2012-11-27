@@ -63,9 +63,18 @@ module Jekyll
   end
 
   class ExpertListTag < Liquid::Tag
-    def initialize(tag_name, markup, tokens)
-      @experts = ExpertList.experts
-      @template_file = markup.strip
+    attr_reader :type
+    attr_reader :experts
+
+    def initialize(tag_name, type, tokens)
+      @type = type.strip
+
+      @experts = if @type == "all"
+                   ExpertList.experts
+                 else
+                   ExpertList.experts.select { |expert| expert['type'].include?(@type) }
+                 end
+
       super
     end
 
@@ -80,12 +89,11 @@ module Jekyll
           "Included file '#{file}' not found in _includes directory"
         end
       end
-
     end
 
     def render(context)
-      template = load_template(@template_file, context)
-      Liquid::Template.parse(template).render('experts' => @experts).gsub(/\t/, '')
+      template = load_template("experts.html", context)
+      Liquid::Template.parse(template).render('experts' => experts).gsub(/\t/, '')
     end
   end
 

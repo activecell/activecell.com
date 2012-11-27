@@ -17,6 +17,14 @@ GEM
       posix-spawn (>= 0.3.6)
     classifier (1.3.3)
       fast-stemmer (>= 1.0.0)
+    columnize (0.3.6)
+    debugger (1.2.2)
+      columnize (>= 0.3.1)
+      debugger-linecache (~> 1.1.1)
+      debugger-ruby_core_source (~> 1.1.5)
+    debugger-linecache (1.1.2)
+      debugger-ruby_core_source (>= 1.1.1)
+    debugger-ruby_core_source (1.1.5)
     directory_watcher (1.4.1)
     fast-stemmer (1.0.1)
     jekyll (0.11.2)
@@ -41,6 +49,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  debugger
   jammit!
   jekyll
   rake

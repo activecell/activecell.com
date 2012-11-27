@@ -1,6 +1,6 @@
 module Jekyll
 
-  class ExpertsNavTag
+  class ExpertsNavTag < Liquid::Tag
     def initialize(tag_name, active, tokens)
       @active = active.strip
       super

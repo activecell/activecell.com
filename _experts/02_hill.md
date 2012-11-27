@@ -8,6 +8,7 @@ location: "Scarsdale, NY, USA"
 linkedin: "http://www.linkedin.com/in/jasonhill"
 avatar:   "/assets/img/avatars/jason.png"
 tags:     ["business planning", "activecell setup"]
+type:     ["bookeeper", "consultant"]
 ---
 
 Jason M. Hill is the Founding Partner of Sound Advice Consulting. A highly motivated and dedicated individual, Mr. Hill has spent the past decade working successfully in the staffing industry, placing professionals in positions ranging from entry-level to executive management. Prior to Sound Advice, Mr. Hill consulted with IBM, created a successful boutique staffing firm and was a top performer for both Hudson Global Resources and Modis.
