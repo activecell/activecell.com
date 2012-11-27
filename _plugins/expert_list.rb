@@ -86,7 +86,7 @@ module Jekyll
         if choices.include?(file)
           File.read(file)
         else
-          "Included file "#{file}" not found in _includes directory"
+          "Included file '#{file}' not found in _includes directory"
         end
       end
     end
