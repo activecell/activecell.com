@@ -8,13 +8,18 @@ module Jekyll
       self.read_yaml(File.join(site.source, "_experts"), expert_file)
 
       # Include the current expert blog posts
-      # Posts are selected by author name
-      self.data["expert_posts"] = site.posts.select do |post|
-        post.data["author"] == self.data["name"]
-      end
+
+      self.data["expert_posts"] = posts
 
       @name = self.data["slug"] + ".html"
       self.process(@name)
+    end
+
+    # Select all posts by author name
+    def posts
+      site.posts.select do |post|
+        post.data["author"] == self.data["name"]
+      end
     end
   end
 
@@ -28,7 +33,14 @@ module Jekyll
 
       entries = Dir.chdir(base) { site.filter_entries(Dir["**/*"]) }
       entries.each do |expert_file|
-        site.pages << ExpertPage.new(site, expert_file)
+        expert_page = ExpertPage.new(site, expert_file)
+        site.pages << expert_page
+
+        # Assign an avatar to the post
+        # TODO it violates single responsibility principle.. but what the hell! ;)
+        expert_page.posts.each do |post|
+          post.data["author_avatar"] = expert_page.data["avatar"]
+        end
       end
     end
   end
