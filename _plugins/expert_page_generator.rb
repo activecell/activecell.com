@@ -36,10 +36,12 @@ module Jekyll
         expert_page = ExpertPage.new(site, expert_file)
         site.pages << expert_page
 
-        # Assign an avatar to the post
+        # Link blog post page with an author
         # TODO it violates single responsibility principle.. but what the hell! ;)
         expert_page.posts.each do |post|
-          post.data["author_avatar"] = expert_page.data["avatar"]
+          %w(avatar slug).each do |field|
+            post.data["author_#{field}"] = expert_page.data[field]
+          end
         end
       end
     end
