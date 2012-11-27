@@ -10,11 +10,11 @@ module Jekyll
       @site = site
 
       @expert_data = self.read_yaml(File.join(base, dir), name)
-      @expert_data['content'] = markdownify(self.content)
+      @expert_data["content"] = markdownify(self.content)
     end
 
     def publish?
-      @expert_data['published'].nil? or @expert_data['published'] != false
+      @expert_data["published"].nil? or @expert_data["published"] != false
     end
 
     # Convert a Markdown string into HTML output.
@@ -33,16 +33,16 @@ module Jekyll
 
     def self.create(site)
       @@experts = []
-      dir = site.config['experts_dir'] || '_experts'
+      dir = site.config["experts_dir"] || "_experts"
       base = File.join(site.source, dir)
       return unless File.exists?(base)
 
-      entries = Dir.chdir(base) { site.filter_entries(Dir['**/*']) }
+      entries = Dir.chdir(base) { site.filter_entries(Dir["**/*"]) }
 
       # Sort by file name
       entries = entries.sort
-      entries.each do |f|
-        expert = Expert.new(site, site.source, dir, f)
+      entries.each do |entry|
+        expert = Expert.new(site, site.source, dir, entry)
         @@experts << expert.expert_data if expert.publish?
       end
     end
@@ -72,31 +72,31 @@ module Jekyll
       @experts = if @type == "all"
                    ExpertList.experts
                  else
-                   ExpertList.experts.select { |expert| expert['type'].include?(@type) }
+                   ExpertList.experts.select { |expert| expert["type"].include?(@type) }
                  end
 
       super
     end
 
     def load_template(file, context)
-      includes_dir = File.join(context.registers[:site].source, '_includes')
+      includes_dir = File.join(context.registers[:site].source, "_includes")
 
       Dir.chdir(includes_dir) do
-        choices = Dir['**/*'].reject { |x| File.symlink?(x) }
+        choices = Dir["**/*"].reject { |x| File.symlink?(x) }
         if choices.include?(file)
           File.read(file)
         else
-          "Included file '#{file}' not found in _includes directory"
+          "Included file "#{file}" not found in _includes directory"
         end
       end
     end
 
     def render(context)
       template = load_template("experts.html", context)
-      Liquid::Template.parse(template).render('experts' => experts).gsub(/\t/, '')
+      Liquid::Template.parse(template).render("experts" => experts).gsub(/\t/, "")
     end
   end
 
 end
 
-Liquid::Template.register_tag('expertlist', Jekyll::ExpertListTag)
+Liquid::Template.register_tag("expertlist", Jekyll::ExpertListTag)

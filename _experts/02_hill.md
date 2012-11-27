@@ -1,6 +1,7 @@
 ---
 layout:   expert
 name:     Jason Hill
+slug:     hill
 company:  Sound Advice
 title:    Founding Partner
 homepage: "http://soundadvice.jobs"

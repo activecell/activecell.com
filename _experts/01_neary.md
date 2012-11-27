@@ -1,6 +1,7 @@
 ---
 layout:   expert
 name:     Adam Neary
+slug:     neary
 company:  Profitably, Inc.
 title:    "Founder & CEO"
 homepage: "http://www.adamrneary.com/"
