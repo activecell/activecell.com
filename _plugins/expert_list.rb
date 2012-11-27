@@ -28,7 +28,7 @@ module Jekyll
     end
   end
 
-  class ExpertList
+  class ExpertsList
     @@experts = []
 
     def self.create(site)
@@ -58,11 +58,11 @@ module Jekyll
     priority :low
 
     def generate(site)
-      ExpertList.create(site)
+      ExpertsList.create(site)
     end
   end
 
-  class ExpertListTag < Liquid::Tag
+  class ExpertsListTag < Liquid::Tag
     attr_reader :type
     attr_reader :experts
 
@@ -70,9 +70,9 @@ module Jekyll
       @type = type.strip
 
       @experts = if @type == "all"
-                   ExpertList.experts
+                   ExpertsList.experts
                  else
-                   ExpertList.experts.select { |expert| expert["type"].include?(@type) }
+                   ExpertsList.experts.select { |expert| expert["type"].include?(@type) }
                  end
 
       super
@@ -99,4 +99,4 @@ module Jekyll
 
 end
 
-Liquid::Template.register_tag("expertlist", Jekyll::ExpertListTag)
+Liquid::Template.register_tag("experts_list", Jekyll::ExpertsListTag)
