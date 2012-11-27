@@ -42,18 +42,20 @@ layout: internal
             {{content}}
           </p>
         </div>
-        
-        <h2>Articles</h2>
-        <ul class="recent-posts">
-          {% for post in site.posts limit:3 %}
-            <li>
-              <h4><a href="{{post.url}}">{{post.title}}</a></h4>
-              <p>
-                {{ post.content | split:"<!-- more -->" | first }}
-              </p>
-            </li>
-          {% endfor %}
-        </ul>
+
+        {% unless page.expert_posts == empty %}
+          <h2>Articles</h2>
+          <ul class="recent-posts">
+            {% for post in page.expert_posts limit:3 %}
+              <li>
+                <h4><a href="{{post.url}}">{{post.title}}</a></h4>
+                <p>
+                  {{ post.content | split:"<!-- more -->" | first }}
+                </p>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endunless %}
 
         <div class="location-map">        
           <img width="450" height="350" border="0" src="http://maps.googleapis.com/maps/api/staticmap?center={{page.location | replace:' ',''}}&amp;zoom=12&amp;size=450x350&amp;sensor=false">

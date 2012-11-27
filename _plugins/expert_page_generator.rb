@@ -7,6 +7,12 @@ module Jekyll
 
       self.read_yaml(File.join(site.source, "_experts"), expert_file)
 
+      # Include the current expert blog posts
+      # Posts are selected by author name
+      self.data["expert_posts"] = site.posts.select do |post|
+        post.data["author"] == self.data["name"]
+      end
+
       @name = self.data["slug"] + ".html"
       self.process(@name)
     end
