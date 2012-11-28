@@ -350,45 +350,43 @@ title: "Activecell: The small business management platform"
         <br />
         <h3>Featured experts</h3>
         <div class="row show-grid team">
-          <div class="span1 emp jason active">
-            <a href="/expert/hill.html" data-name='jason'>
-              <img src="{{ 'assets/img/avatars/jason.png' | cdn }}" 
-                border="0" width="80" height="80" alt="Jason Hill">
-            </a>
-          </div>
-          <div class="span1 emp ean">
-            <a href="/expert/murphy.html" data-name='ean'>
-              <img src="{{ 'assets/img/avatars/ean.png' | cdn }}" 
-              border="0" width="80" height="80" alt="Ean Murphy">
-            </a>
-          </div>
-          <div class="span1 emp diego">
-            <a href="/expert/alvarez.html" data-name='diego'>
-              <img src="{{ 'assets/img/avatars/diego.png' | cdn }}" 
-                border="0" width="80" height="80" alt="Diego Alvarez">
-            </a>
-          </div>
-          <div class="span1 emp robert">
-            <a href="/expert/king.html" data-name='robert'>
-              <img src="{{ 'assets/img/avatars/placeholder.png' | cdn }}" 
-                border="0" width="80" height="80" alt="Robert S. King">
-            </a>
-          </div>
-          <div class="span1 emp adam">
-            <a href="/expert/neary.html" data-name='adam'>
-              <img src="{{ 'assets/img/avatars/adam.jpg' | cdn }}" 
-                border="0" width="80" height="80" alt="Adam Neary">
-            </a>
-          </div>
-          <div class="span1 hiring">
-            <a href="advisors.html">
-              <img src="{{ 'assets/img/hiring.png' | cdn }}" 
-                alt="Get involved!" width="200" height="80" border="0">
-            </a>
-          </div>
+          {% small_experts_list all %}
         </div>
-        <div class="description"> 
-          <div class="tab-pane jason active" id="1">
+        <div class="description">
+          <div class="tab-pane neary active">
+            <h4>
+              Adam Neary <small>Founder &amp; CEO | Activecell</small>
+              <span class="glyph">
+                <a rel="tooltip" title="Home Page" href="http://www.adamrneary.com/">z</a>
+              </span>
+              <span class="glyph">
+                <a rel="tooltip" title="LinkedIn" href="http://www.linkedin.com/in/adamrneary">l</a>
+                </span>
+              <span class="glyph">
+                <a rel="tooltip" title="Github" href="https://github.com/adamrneary">G</a>
+              </span>
+              <span class="glyph">
+                <a rel="tooltip" title="Twitter" href="http://twitter.com/adamrneary">t</a>
+              </span>
+            </h4>
+            <p>
+              Adam is the Founder &amp; CEO of Profitably, Inc., the
+              company that makes Activecell, the small business management
+              platform. With Activecell, a small business owner can
+              quickly and easily build a dynamic financial plan that
+              connects to their accounting data for historical analysis.
+            </p>
+            <p>
+              Adam began building Activecell after nearly a decade
+              consulting with Fortune 500 CFOs to drive growth and
+              improve profitability. "Most of the time," says Neary,
+              "it was just a matter of visibility. Sometimes the simplest
+              questions proved toughest to answer. But once you have
+              the data to see what's going on clearly, the right path
+              is often obvious."
+            </p>
+          </div>
+          <div class="tab-pane hill">
             <h4>
               Jason Hill <small>Founding Partner | Sound Advice Consulting Services</small> 
               <span class="glyph"><a rel="tooltip" title="Home Page" href="javascript:;">z</a></span> 
@@ -408,7 +406,7 @@ title: "Activecell: The small business management platform"
               for both Hudson Global Resources and Modis.
             </p>
           </div>
-          <div class="tab-pane ean" id="2">
+          <div class="tab-pane ean">
             <h4>
               Ean Murphy <small>Founder | Moxie Bookkeeping</small> 
               <span class="glyph"><a rel="tooltip" title="Home Page" href="javascript:;">z</a></span> 
@@ -429,7 +427,7 @@ title: "Activecell: The small business management platform"
               to pay an expert's rate for basic data entry tasks.
             </p>
           </div>
-          <div class="tab-pane diego" id="3">
+          <div class="tab-pane diego">
             <h4>
               Diego Alvarez <small>Founder and Visionary | Virtualis Bookkeeping</small> 
               <span class="glyph"><a rel="tooltip" title="Home Page" href="javascript:;">z</a></span> 
@@ -455,7 +453,7 @@ title: "Activecell: The small business management platform"
               with you so your business can gain the same advantages.
             </p>
           </div>
-          <div class="tab-pane robert" id="4">
+          <div class="tab-pane robert">
             <h4>
               Robert S. King <small>Partner | Five Prime Advisors</small> 
               <span class="glyph"><a rel="tooltip" title="Home Page" href="javascript:;">z</a></span> 
@@ -474,39 +472,6 @@ title: "Activecell: The small business management platform"
               senior positions at several U.S. and European investment banks.
             </p>
           </div>
-          <div class="tab-pane adam" id="5">
-            <h4>
-              Adam Neary <small>Founder &amp; CEO | Activecell</small> 
-              <span class="glyph">
-                <a rel="tooltip" title="Home Page" href="http://www.adamrneary.com/">z</a>
-              </span> 
-              <span class="glyph">
-                <a rel="tooltip" title="LinkedIn" href="http://www.linkedin.com/in/adamrneary">l</a>
-                </span>
-              <span class="glyph">
-                <a rel="tooltip" title="Github" href="https://github.com/adamrneary">G</a>
-              </span> 
-              <span class="glyph">
-                <a rel="tooltip" title="Twitter" href="http://twitter.com/adamrneary">t</a>
-              </span>
-            </h4>
-            <p>
-              Adam is the Founder &amp; CEO of Profitably, Inc., the 
-              company that makes Activecell, the small business management 
-              platform. With Activecell, a small business owner can 
-              quickly and easily build a dynamic financial plan that 
-              connects to their accounting data for historical analysis.
-            </p>
-            <p>
-              Adam began building Activecell after nearly a decade 
-              consulting with Fortune 500 CFOs to drive growth and 
-              improve profitability. "Most of the time," says Neary, 
-              "it was just a matter of visibility. Sometimes the simplest 
-              questions proved toughest to answer. But once you have 
-              the data to see what's going on clearly, the right path 
-              is often obvious."
-            </p>
-          </div> 
         </div>
       </div>
     </div>

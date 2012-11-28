@@ -1,0 +1,10 @@
+{% unless experts == empty %}
+  {% for expert in experts %}
+    <div class="span1 emp {{expert.slug}} active">
+      <a href="javascript:;" data-name="{{expert.slug}}">
+        <img src="{{expert.avatar}}"
+             border="0" width="80" height="80" alt="{{expert.name}}">
+      </a>
+    </div>
+  {% endfor %}
+{% endunless %}
