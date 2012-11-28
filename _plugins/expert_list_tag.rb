@@ -97,14 +97,6 @@ module Jekyll
     end
   end
 
-  class SmallExpertsListTag < ExpertsListTag
-    def render(context)
-      template = load_template("small_experts.html", context)
-      Liquid::Template.parse(template).render("experts" => experts).gsub(/\t/, "")
-    end
-  end
-
 end
 
 Liquid::Template.register_tag("experts_list", Jekyll::ExpertsListTag)
-Liquid::Template.register_tag("small_experts_list", Jekyll::SmallExpertsListTag)

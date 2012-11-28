@@ -1,4 +1,4 @@
-{% unless experts == empty %}
+{% if experts %}
   {% for expert in experts %}
     <div class="span6">
       <div class="block-wrapper">
@@ -21,4 +21,4 @@
       </div>
     </div>
   {% endfor %}
-{% endunless %}
+{% endif %}
