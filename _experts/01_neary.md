@@ -10,8 +10,7 @@ linkedin: "http://www.linkedin.com/in/adamrneary"
 twitter:  "http://twitter.com/adamrneary"
 avatar:   "http://www.gravatar.com/avatar/5de6f1cb6fd7ac5b94065f70a00b0cfc.png"
 location: New York, NY, USA
-tags:     ["business planning", "activecell setup"]
-type:     ["accountant", "consultant"]
+type:     ["consultant"]
 ---
 
 Adam is the Founder &amp; CEO of Profitably, Inc., the company that makes Activecell, the small business management platform. With Activecell, a small business owner can quickly and easily build a dynamic financial plan that connects to their accounting data for historical analysis.
