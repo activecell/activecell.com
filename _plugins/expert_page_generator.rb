@@ -1,3 +1,5 @@
+require "maruku"
+
 module Jekyll
 
   class ExpertPage < Page
@@ -6,6 +8,7 @@ module Jekyll
       @dir = "expert"
 
       self.read_yaml(File.join(site.source, "_experts"), expert_file)
+      self.content = Maruku.new(self.content).to_html
 
       # Include the current expert blog posts
 
