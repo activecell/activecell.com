@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Build a historical baseline"
+title: "Build a historical baseline | Activecell: The small business management platform"
 author: Adam Neary
 tags: ["activecell method", actuals]
 ---

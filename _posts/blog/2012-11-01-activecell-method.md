@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Activecell Method for business planning
+title: "The Activecell Method for business planning | Activecell: The small business management platform"
 author: Adam Neary
 tags: ["activecell method"]
 ---

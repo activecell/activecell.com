@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Review your revenue plan"
+title: "Review your revenue plan | Activecell: The small business management platform"
 author: Adam Neary
 tags: ["activecell method", revenue]
 ---

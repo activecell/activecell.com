@@ -3,7 +3,7 @@ layout:   expert
 name:     Ean Murphy
 slug:     murphy
 company:  Moxie Bookeeping
-title:    "Founder & CEO"
+title:    "Founder & CEO | Activecell: The small business management platform"
 homepage: "http://www.moxiebookkeeping.com"
 linkedin: "http://www.linkedin.com/pub/ean-murphy/2/a12/b24"
 twitter:  "http://twitter.com/moxiebooks"

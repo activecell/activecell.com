@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Plan for general & admin costs"
+title: "Plan for general & admin costs | Activecell: The small business management platform"
 author: Adam Neary
 tags: ["activecell method", expense]
 ---
