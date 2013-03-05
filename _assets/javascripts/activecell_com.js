@@ -62,4 +62,14 @@ $(function(){
        window.location.hash = target;
     });
  });
+
+ // "Request an invite" Modal
+ $('#learn-more-modal').on('hidden', function(){
+   // Clear the form
+   document.forms["mc-embedded-subscribe-form"].reset();
+
+   // Remove response messages
+   $('#mce-error-response').html('').hide();
+   $('#mce-success-response').html('').hide();
+ });
 });

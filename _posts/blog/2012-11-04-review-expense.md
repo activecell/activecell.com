@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Review your expense plan"
+title: "Review your expense plan | Activecell: The small business management platform"
 author: Adam Neary
 tags: ["activecell method", expense]
 ---

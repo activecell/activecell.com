@@ -3,7 +3,7 @@ layout:   expert
 name:     Jason Hill
 slug:     hill
 company:  Sound Advice
-title:    Founding Partner
+title:    "Founding Partner | Activecell: The small business management platform"
 homepage: "http://soundadvice.jobs"
 location: "Scarsdale, NY, USA"
 linkedin: "http://www.linkedin.com/in/jasonhill"
