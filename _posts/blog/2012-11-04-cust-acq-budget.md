@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Build a customer acquisition budget"
+title: "Build a customer acquisition budget | Activecell: The small business management platform"
 author: Adam Neary
 tags: ["activecell method", expense]
 ---

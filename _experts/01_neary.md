@@ -3,7 +3,7 @@ layout:   expert
 name:     Adam Neary
 slug:     neary
 company:  Profitably, Inc.
-title:    "Founder & CEO"
+title:    "Founder & CEO | Activecell: The small business management platform"
 homepage: "http://www.adamrneary.com/"
 github:   "https://github.com/adamrneary"
 linkedin: "http://www.linkedin.com/in/adamrneary"
