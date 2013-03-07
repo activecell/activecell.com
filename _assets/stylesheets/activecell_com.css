@@ -1,6 +1,3 @@
----
----
-
 @font-face {
   font-family: 'Lusitana';
   font-style: normal;
@@ -2089,7 +2086,7 @@ background-image: url('http://d2n39uym85fey2.cloudfront.net/assets/img/sprite_ic
 }
 
 .blog-item .post-heading {
-	float: left;
+	/*float: left;*/
 }
 
 .blog-item .post-heading h3,
