@@ -31,6 +31,8 @@ p {
 	margin-bottom:16px;
 }
 .container {
+  position: relative;
+  z-index: 1001;
 	width:940px;
 }
 h1, h2 {
@@ -1077,7 +1079,9 @@ html {
 }
 
 .landing-banner {
-  	margin-top: 7px;
+  position: relative;
+  z-index: 1000;
+  margin-top: 7px;
 	color: #fff;
 	padding: 30px 0 0;
 	background: #276a75; /* Old browsers */
