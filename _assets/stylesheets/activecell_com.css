@@ -2114,7 +2114,13 @@ background-image: url('http://d2n39uym85fey2.cloudfront.net/assets/img/sprite_ic
 }
 
 .blog-item .post-sidebar .social-bookmarks {
+  position: relative;
+  z-index: 1000;
 	margin: 20px 0;
+}
+
+.blog-item .post-sidebar .social-bookmarks .fb_iframe_widget_lift {
+  z-index: 1001 !important;
 }
 
 .avatar-grid {
