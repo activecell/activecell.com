@@ -4,4 +4,3 @@ jammit_base_dir: .
 exclude: Gemfile, Gemfile.lock, README.md, Rakefile
 cdn: http://d2n39uym85fey2.cloudfront.net
 permalink: /:categories/:year/:month/:title.html
-timestamp: '20130313180255+0100'
