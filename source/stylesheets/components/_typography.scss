@@ -1,0 +1,18 @@
+@import url(http://fonts.googleapis.com/css?family=Lusitana:400,700);
+
+@font-face{ 
+  font-family: 'chadcons';
+  src: url('../fonts/websymbols-regular-webfont.eot');
+  src: url('../fonts/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/websymbols-regular-webfont.woff') format('woff'),
+       url('../fonts/websymbols-regular-webfont.ttf') format('truetype'),
+       url('../fonts/websymbols-regular-webfont.svg#chadcons') format('svg');
+}
+
+.glyph {
+  font-family: 'chadcons';
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Lusitana;
+}

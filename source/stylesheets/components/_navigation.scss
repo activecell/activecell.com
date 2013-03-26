@@ -1,0 +1,39 @@
+.top-bar {
+  background: transparent;
+
+  h1 {
+    margin-bottom: 0;
+  }
+
+  .top-bar-section ul {
+    background: transparent;
+  }
+
+  .top-bar-section ul a:not(.button) {
+    background: transparent;
+
+    &:hover {
+      background: #041b25;
+    }
+  }
+
+  .button {
+    top: 20px;
+  }
+
+  .toggle-topbar.menu-icon {
+    margin-top: -25px;
+  }
+
+  &.expanded {
+    padding-bottom: 50px;
+
+    .title-area {
+      background: transparent;
+    }
+
+    .button {
+      left: 20px;
+    }
+  }
+}

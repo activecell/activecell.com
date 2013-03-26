@@ -1,0 +1,29 @@
+<% wrap_layout :layout do %>
+  <article>
+    <h1><%= current_page.data.name %></h1>
+    <img src="<%= current_page.data.avatar %>" alt="">
+    <table>
+      <tr>
+        <th>Name</th>
+        <td><%= current_page.data.name %></td>
+      </tr>
+      <tr>
+        <th>Company Name</th>
+        <td><%= current_page.data.company %></td>
+      </tr>
+      <tr>
+        <th>Title</th>
+        <td><%= current_page.data.title %></td>
+      </tr>
+      <tr>
+        <th>Website</th>
+        <td><%= current_page.data.homepage %></td>
+      </tr>
+      <tr>
+        <th>Location</th>
+        <td><%= current_page.data.location %></td>
+      </tr>
+    </table>
+    <%= yield %>
+  </article>
+<% end %>

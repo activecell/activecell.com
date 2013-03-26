@@ -1,0 +1,86 @@
+body {
+  background: #fff url(../images/backgrounds/pattern.png);
+}
+
+#header {
+  @include background-image(linear-gradient(#073648, #041b25));
+  @include box-shadow(rgba(0, 0, 0, 0.4) 0px 2px 10px);
+}
+
+#intro {
+  // @include box-shadow(rgba(0, 0, 0, 0.4) 0px 2px 10px);
+
+  margin-bottom: 80px;
+  background: $primary-dark url(../images/backgrounds/pattern.png);
+
+  h1 {
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 2px;
+  }
+
+  img {
+    margin-bottom: -80px;
+  }
+}
+
+#get-started {
+  h1 {
+    text-align: center;
+  }
+}
+
+
+#features {
+  background: $secondary url(../images/backgrounds/pattern.png);
+  
+  h1 {
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 2px;
+  }
+}
+
+#pricing {
+  background: #fff url(../images/backgrounds/spiral.png) no-repeat top center;
+  overflow: hidden;
+
+  h1 {
+    text-align: center;
+  }
+}
+
+#experts {
+  background: lighten($secondary, 75%) url(../images/backgrounds/pattern.png);
+  overflow: hidden;
+  
+  h1 {
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 2px;
+  }
+
+  .company {
+    margin-top: -90px;
+    padding-top: 180px;
+    background: url(../images/backgrounds/cityscape.png) no-repeat top right;
+  }
+}
+
+#activecell-method {
+  background: #fff;
+
+  &> h1 {
+    display: block;
+    padding: 40px 0;
+    text-align: center;
+    background: url(../images/backgrounds/press_banner.png) no-repeat center center;
+  }
+}
+
+#footer {
+  background: lighten($light-green, 25%) url(../images/backgrounds/pattern.png);
+}
