@@ -42,9 +42,10 @@ Contributing is easy:
 1. Make sensible changes
 1. Add any new images to /source/images and reference
 1. Run `bundle exec middleman` to view the generated site locally at localhost [http://localhost:4567/](http://localhost:4567/) and to automatically re-generate pages based on your changes
+1. Run `bundle exec middleman build` to view to compile static files.
 1. Run 'rake deploy' to deploy the generated site to production
 1. Commit changes push to origin
 
 Note: Hotfixes and minor changes can be pushed directly to master. Anything heavy, or if there's even a question, and please submit a pull request for the update.
 
-The site will continue to evolve, but see [middleman documentation](http://middlemanapp.com/) for information about how to generate content for the site.
+The site will continue to evolve, but see [middleman documentationn](http://middlemanapp.com/) for information about how to generate content for the site.
