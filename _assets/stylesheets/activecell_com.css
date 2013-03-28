@@ -342,6 +342,20 @@ label, input, button, select, textarea { font-size:14px; }
 #pricing {
   padding-top:160px;
   background:url('http://d2n39uym85fey2.cloudfront.net/assets/img/bg_spiral.png') no-repeat center -75px;
+  /*text-align: center;*/
+}
+#pricing .heading {
+  text-align: center;
+}
+#pricing .explanation h3, #pricing .explanation h4 {
+  font-weight: normal;
+}
+
+#pricing .explanation .plan-items li {
+  font-size: 14px;
+}
+#pricing .explanation .link {
+  margin-top: 20px;
   text-align: center;
 }
 #pricing .subscribe-plan {
