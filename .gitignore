@@ -2,4 +2,5 @@
 _site*
 _drafts/
 assets/*packaged*
+.bundle/
 .sass-cache/
