@@ -22,10 +22,7 @@
 <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png"> -->
 </head>
 
-<body data-spy="scroll"
-      data-target=".navbar"
-      data-offset="30"
-      data-rendering="true"
+<body data-rendering="true"
       {% if page.body_class %} class="{{ page.body_class }}" {% endif %}>
 
   <div id="fb-root"></div>
@@ -155,6 +152,10 @@ typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var
 e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
 mixpanel.init("d771c8de4dba8f7dd1cb9a76bcf1f10d");
 mixpanel.track(location.href);</script><!-- end Mixpanel -->
+
+<script type="text/javascript" charset="utf-8">
+  $('body').scrollspy({target: '#insights .nav'});
+</script>
 
 </body>
 </html>

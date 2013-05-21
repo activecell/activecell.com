@@ -5,14 +5,15 @@ title: "Activecell: The small business management platform"
 
 <div class="navbar navbar-fixed-top">
   <div class="navbar-inner">
-    <div class="container">
-      <div class="row show-grid">
+    <div class="container relative">
+      <div class="row">
         <div class="span9">
           <a class="brand" href="http://www.activecell.com/">
             <img src="{{ 'assets/img/branding/activecell-full-color-darkBG-small.png' | cdn }}" alt="activecell">
           </a>
           <div class="nav">
             <ul class="nav">
+              <li id="insights-link"><a href="#insights">Insights</a></li>
               <li><a href="#features">Features</a></li>
               <li><a href="#pricing">Pricing</a></li>
               <li><a href="#experts">Experts</a></li>
@@ -36,7 +37,6 @@ title: "Activecell: The small business management platform"
     </div>
   </div>
 </div>
-
 <!-- banner content -->
 
 <div class="landing-banner">
@@ -48,7 +48,7 @@ title: "Activecell: The small business management platform"
     </div>
   </div>
 </div>
-<div class="container">
+<div class="container relative">
   <div class="row">
     <img class="branded-screenshot" src="{{ 'assets/img/branding/profitably_scrn.png' | cdn }}"
       width="868" height="358" alt="" />
@@ -67,11 +67,12 @@ title: "Activecell: The small business management platform"
   </div>
 </div>
 
-<!-- features -->
+{% include insights.html %}
 
-<div class="waypoint container" id="features" >
-  <div class="row show-grid spacer"></div>
-  <div class="row show-grid tabbable">
+<!-- features -->
+<div class="waypoint container" id="features">
+  <div class="row spacer"></div>
+  <div class="row tabbable">
     <div class="span2">
       <h1 class="heading">Features</h1>
     </div>
@@ -85,7 +86,7 @@ title: "Activecell: The small business management platform"
       </ul>
     </div>
   </div>
-  <div class="row show-grid tab-content" >
+  <div class="row tab-content" >
     <div class="tab-pane active" id="1" >
       <div class="span8 image1"> </div>
       <div class="span4">
@@ -207,7 +208,7 @@ title: "Activecell: The small business management platform"
 <!-- pricing -->
 
 <div class="waypoint container" id="pricing" >
-   <div class="row show-grid">
+   <div class="row">
       <div class="span12">
          <h1 class="heading">Pricing</h1>
       </div>
@@ -236,10 +237,10 @@ title: "Activecell: The small business management platform"
           <span class="time-period">per month</span>
          </div>
          <ul class="plan-items">
-           <li><i class="icon-small-get-from-cloud"><!-- --></i> real time data integration</li>
-           <li><i class="icon-small-line-chart"><!-- --></i> world class analytics</li>
-           <li><i class="icon-small-businessman"><!-- --></i> powerful planning tools</li>
-           <li><i class="icon-small-security"><!-- --></i> proven data security</li>
+           <li><i class="icon-cloud-download icon-primary"><!-- --></i> real time data integration</li>
+           <li><i class="icon-bar-chart icon-primary"><!-- --></i> world class analytics</li>
+           <li><i class="icon-user icon-primary"><!-- --></i> powerful planning tools</li>
+           <li><i class="icon-lock icon-primary"><!-- --></i> proven data security</li>
          </ul>
          <p class="plan-footer">
            monthly plans allow you to get started with activecell one step at
@@ -277,10 +278,10 @@ title: "Activecell: The small business management platform"
           <span class="time-period">yearly</span>
          </div>
          <ul class="plan-items">
-           <li><i class="icon-small-arrow-circle-left"><!-- --></i> everything from monthly</li>
-           <li><i class="icon-small-fire"><!-- --></i> initial setup consultation</li>
-           <li><i class="icon-small-heart"><!-- --></i> 24/7 tech support</li>
-           <li><i class="icon-small-building"><!-- --></i> custom branding</li>
+           <li><i class="icon-circle-arrow-left icon-primary"><!-- --></i> everything from monthly</li>
+           <li><i class="icon-fire icon-primary"><!-- --></i> initial setup consultation</li>
+           <li><i class="icon-heart icon-primary"><!-- --></i> 24/7 tech support</li>
+           <li><i class="icon-building icon-primary"><!-- --></i> custom branding</li>
          </ul>
          <p class="plan-footer">
            annual plans save you some cash and get you a little extra love (!). <br />
@@ -318,10 +319,10 @@ title: "Activecell: The small business management platform"
           <span class="time-period">per client yearly</span>
          </div>
          <ul class="plan-items">
-           <li><i class="icon-small-arrow-circle-left"><!-- --></i> everything from annual</li>
-           <li><i class="icon-small-globe2"><!-- --></i> centralized administration</li>
-           <li><i class="icon-small-plastic-card"><!-- --></i> centralized billing</li>
-           <li><i class="icon-small-star"><!-- --></i> private label experience</li>
+           <li><i class="icon-circle-arrow-left icon-primary"><!-- --></i> everything from annual</li>
+           <li><i class="icon-globe icon-primary"><!-- --></i> centralized administration</li>
+           <li><i class="icon-credit-card icon-primary"><!-- --></i> centralized billing</li>
+           <li><i class="icon-star icon-primary"><!-- --></i> private label experience</li>
          </ul>
          <p class="plan-footer">
            offer activecell for your clients with a fully-branded private label
@@ -348,16 +349,16 @@ title: "Activecell: The small business management platform"
           <h4>Here's what we propose:</h4>
           <ul class="plan-items">
             <li>
-              <i class="icon-small-check-mark1"><!-- --></i>
+              <i class="icon-ok"><!-- --></i>
               You get started with us before the product is ready</li>
             <li>
-              <i class="icon-small-check-mark1"><!-- --></i>
+              <i class="icon-ok"><!-- --></i>
               We will give you a discount on the price, and that's your price forever!</li>
             <li>
-              <i class="icon-small-check-mark1"><!-- --></i>
+              <i class="icon-ok"><!-- --></i>
               You provide input into what you'd like to see in the app and how you'll use it</li>
             <li>
-              <i class="icon-small-check-mark1"><!-- --></i>
+              <i class="icon-ok"><!-- --></i>
               We will do our best to build it for you.</li>
           </ul>
         </div>
@@ -367,12 +368,12 @@ title: "Activecell: The small business management platform"
           <a href="https://launchpad.activecell.com/users/sign_up">Start using Activecell</a>
         </p>
         <ul class="plan-items">
-          <li><i class="icon-small-star"><!-- --></i> Free 30 day trial</li>
-          <li><i class="icon-small-star"><!-- --></i> No credit card required!</li>
+          <li><i class="icon-star icon-primary"><!-- --></i> Free 30 day trial</li>
+          <li><i class="icon-star icon-primary"><!-- --></i> No credit card required!</li>
         </ul>
       </div>
   </div>
-   <!-- <div class="row show-grid">
+   <!-- <div class="row">
       <div class="span12 link">
         <a href="https://launchpad.activecell.com/users/sign_up" data-toggle="modal">Start using Activecell</a>
          now with a free 30 day trial. No credit card required!
@@ -388,7 +389,7 @@ title: "Activecell: The small business management platform"
 
 <div class="waypoint" id="experts">
   <div class="container" >
-    <div class="row show-grid tabbable">
+    <div class="row tabbable">
       <div class="span3">
         <h1 class="heading">Experts</h1>
         <img class="made-in" src="{{ 'assets/img/ac_stamp.png' | cdn }}"
@@ -407,7 +408,7 @@ title: "Activecell: The small business management platform"
         </p>
         <br />
         <h3>Featured experts</h3>
-        <div class="row show-grid team">
+        <div class="row team">
           <div class="span1 emp jason active">
             <a href="javascript:;" data-name='jason'>
               <img src="{{ 'assets/img/avatars/jason.png' | cdn }}"
@@ -568,7 +569,7 @@ title: "Activecell: The small business management platform"
         </div>
       </div>
     </div>
-    <div class="row show-grid more">
+    <div class="row more">
       <div class="span4  offset8 link">
         <a href="experts/all.html">
           More in our <span>Expert Network</span> <span class="glyph">j</span>
