@@ -944,7 +944,9 @@ label, input, button, select, textarea { font-size:14px; }
 #thanks .article { margin-bottom:400px;}
 
 /*///////// PRIVACY /////////*/
-
+#privacy {
+  margin-top: 30px;
+}
 #privacy .side-nav li {
   margin-bottom:10px;
 }
