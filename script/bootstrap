@@ -1,0 +1,120 @@
+#!/bin/bash
+#
+# bootstrap
+#
+# Checks for dependencies so you can get rolling with ActiveCell straight away
+
+function log {
+  if onLinux; then
+    echo -e "\e[1;31m>> \e[1;34m$1\e[0m"
+  else
+    echo $1
+  fi
+}
+
+function printOk {
+  if onLinux; then
+    echo -e "\e[1;32m$1\e[0m"
+  else
+    echo $1
+  fi
+}
+
+function printError {
+  if onLinux; then
+    echo -e "\e[1;31m$1\e[0m"
+  else
+    echo $1
+  fi
+}
+
+function onLinux {
+  [ $OSTYPE = "linux-gnu" ]
+}
+
+function onOsx {
+  unamestr=$(uname)
+  [ $unamestr = "Darwin" ]
+}
+
+function onDebianCompatible {
+  [ -x /usr/bin/apt-get ]
+}
+
+#
+# Check if given deb package is installed
+#
+function debInstalled {
+  local installed="$(dpkg -l | grep "$1")"
+  if [ "$installed" != "" ]; then
+    return 0
+  else
+    return 1
+  fi
+}
+
+#
+# Return false when one of the given packages is not installed
+#
+function allDebInstalled {
+  for package in ${1}; do
+    if ! debInstalled "$package"; then
+      return 1
+    fi
+  done
+
+  return 0
+}
+
+set -e
+###############################################################################
+#
+# Welcome to ActiveCell
+#
+###############################################################################
+
+echo ""
+echo "  ActiveCell"
+echo "  A bad-ass business management platform."
+echo ""
+
+if onLinux; then
+  if onDebianCompatible; then
+    ubuntu_codename=`cat /etc/*-release | grep DISTRIB_CODENAME | sed 's/.*=//g'`
+    log "Ubuntu/Debian ($ubuntu_codename) Linux detected."
+  fi
+fi
+
+#
+# Check for Ruby version
+#
+ruby_version="$(ruby -e 'print RUBY_VERSION')"
+if [ "$ruby_version" != "1.9.3" ]; then
+  printError "  x Your current Ruby version is "$ruby_version". You need to Ruby version 1.9.3."
+  printError "    If you use RVM, you can run:"
+  printError "    rvm install ruby-1.9.3-p194"
+  printError "    rvm use 1.9.3-p194"
+  exit
+else
+  printOk "  + Ruby version 1.9.3 in use."
+fi
+
+#
+# Check for Bundler
+# Note: Once Bundler 1.2 is out in standard release, we can just check for bundler.
+#
+bundle_version="$(bundle --version | awk -F" " '{print $3}')"
+if [ "$bundle_version" \< "1.2.0.pre.1" ]; then
+  printError "  x Your bundler version is "$bundle_version
+  printError "    You need to install Bundler 1.2.0.rc or greater so we can rock Heroku:"
+  printError "    gem install bundler --pre"
+  exit
+else
+  printOk "  + Bundler found."
+fi
+
+#
+# Install gems
+#
+log "Installing ruby gems."
+bundle
