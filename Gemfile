@@ -1,7 +1,6 @@
 source 'http://rubygems.org'
-source :gemcutter
 
 gem 'jekyll'
-gem 'jammit', :git => 'git://github.com/dblock/jammit.git'
+gem 'jammit'
 gem 'rake'
-gem 'debugger'
+# gem 'debugger'
