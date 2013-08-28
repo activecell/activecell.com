@@ -27,7 +27,7 @@ a:hover {
 }
 p {
   font-size:14px;
-  line-height: 20px;
+  line-height: 135%;
   margin-bottom:16px;
 }
 .container {
@@ -37,10 +37,10 @@ p {
   position: relative;
   z-index: 1000;
 }
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Lusitana', serif;
   font-weight: normal;
-  margin-bottom: 12px;
+  margin-bottom: 1em;
 }
 h1 {
   font-size:38px;
@@ -83,7 +83,13 @@ label, input, button, select, textarea { font-size:14px; }
   background: white;
   border-radius: 3px;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.21) !important;
-  padding: 15px;
+  padding: 20px;
+
+}
+
+.on-top p {
+  font-family: Garamond;
+  font-size:22px;
 }
 
 .thumbnail .on-top {
@@ -560,9 +566,9 @@ label, input, button, select, textarea { font-size:14px; }
 }
 
 #what .link, #advisors .link{
-	font-size:18px;
-	text-align:center;
-	margin-top:40px;
+  font-size:18px;
+  text-align:center;
+  margin-top:40px;
 }
 
 #what .link a, #pricing .link a, #advisors .link a {
@@ -1092,6 +1098,7 @@ html {
 .white-label-header h1.label-heading {
   color: #fff;
   text-shadow: 0 0 2px rgba(0,0,0,0.5);
+  margin-bottom: 6px;
 }
 
 
@@ -1107,7 +1114,7 @@ html {
 
 
 .btn-learn img {
-	margin-top: 10px;
+  margin-top: 10px;
 }
 
 .branded-screenshot {
@@ -1126,6 +1133,7 @@ html {
 
 .modal-header .label-heading {
   padding: 15px 0;
+  margin-bottom: 6px;
 }
 
 .modal .asterisk {
@@ -1360,6 +1368,8 @@ html {
 }
 
 .main-block {
+  position: relative;
+  z-index: 1025;
   margin-top: -60px;
   padding-bottom: 30px;
   background: #eee;

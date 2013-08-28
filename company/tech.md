@@ -6,17 +6,19 @@ header-title: Our technology
 
 ### Bodley
 
-#### Comprehensive analytical library, written in coffeescript
- 
-Our analytics library is named after Sir Thomas Bodley and his namesake library, the Bodleian, Oxford's main research library and one of the oldest and largest libraries in the known universe. We agree, such a comparison is hyperbole, but the comparison inspires us to collect and curate as robust and comprehensive a collection of analyses for small business management as we can.
+#### Analytics library
+
+Our analytics library is named after Sir Thomas Bodley and his namesake library — the Bodleian — Oxford's main research library and one of the oldest and largest libraries in the known universe. We agree, such a comparison is hyperbole, but the comparison inspires us to collect and curate as robust and comprehensive a collection of analyses for small business management as we can.
 
 More importantly, as the Bodleian famously features tremendous caverns underground for storing and quickly accessing knowledge, our library is written entirely in coffeescript and compiled into javascript to facilitate instantaneous user access to model outputs without interacting with any servers.
 
 ### Shotgun.js
 
-#### Asynchronous app and data bootstrap with offline sync, written in coffeescript
+#### Bulletproof synced storage
 
-We wrote a custom application and data bootstrap library because our application provides a unique user experience in the way we manage data. The library's name is not a reference to firearms (or the person sitting in the passenger seat of a vehicle), but rather for Adam's favorite [offensive formation](http://en.wikipedia.org/wiki/Shotgun_formation). We want our app to load quickly and then execute brilliantly, much like the [New England Patriots](http://www.nfl.com/teams/newenglandpatriots/profile?team=NE) offense, as led by [Tom Brady](http://www.nfl.com/player/tombrady/2504211/profile).
+We wrote a custom application and data bootstrap library because our application provides a unique user experience in the way we manage data.
+
+The library's name is not a reference to firearms (or the person sitting in the passenger seat of a vehicle), but rather for Adam's favorite [offensive formation](http://en.wikipedia.org/wiki/Shotgun_formation). We want our app to load quickly and then execute brilliantly, much like the [New England Patriots](http://www.nfl.com/teams/newenglandpatriots/profile?team=NE) offense, as led by [Tom Brady](http://www.nfl.com/player/tombrady/2504211/profile).
 
 The library is lightweight and loads instantly, providing the user with feedback as it loads the application js/css asynchronously. It then syncs data asynchronously from the server to the client, storing the data locally so that the user can access the application while offline.
 
@@ -24,8 +26,8 @@ Subsequent user sessions are initiated in "no huddle" mode, calling audibles as 
 
 ### Striker.js
 
-#### Greasy-fast, cached, calculated collections, written in coffeescript
- 
+#### Greasy-fast (albeit lazy) calculated collections
+
 We named this library after the type of trigger used in semi-automatic handguns, perhaps because the library replaced a janky early prototype we built that used low-level database triggers to maintain server-side cached datasets for complex multi-variate models. The library is a critical component to Activecell's responsive user experience and a complement to Shotgun.js.
 
 Because Activecell executes all analyses entirely divorced from the server, the data models cannot leverage low-level SQL querying or high-level ORM technologies such as ActiveRecord in Rails. To compensate for this, the models lean on cached, calculated collections that are built in several hundred milliseconds as the application is bootstrapped. The collections follow the observer pattern to subscribe to changes in collections on which they depend, and the library smartly eliminate duplicate calculations that can ripple exponentially with highly-dependent, multi-variate models.
@@ -34,7 +36,7 @@ The outcome is that analyses that used to take several minutes to refresh now ta
 
 ### Tactile.js
 
-#### Interactive D3 charting library, written in coffeescript
+#### Bad-ass interactive charts
 
 D3 is a fantastic platform for creating world-class, modern charts in the browser without resorting to flash. While there are a handful of excellent extensible charting libraries in open source that leverage D3 (most notably [Rickshaw](http://code.shutterstock.com/rickshaw/) and [NVD3](http://nvd3.org/)), none adequately meet our requirements for user interactivity.
 
@@ -44,7 +46,7 @@ In the end, users should be free to "dig" through their data, instantly visualiz
 
 ### TableStakes.js
 
-#### Interactive D3 grid library, written in coffeescript
+#### Bad-ass interactive tables
 
 As well known as D3 may be for charting, it is also an outstanding platform for creating world-class, modern grids and tables in the browser without resorting to thickets of DIVs and monkey patches.
 
@@ -52,9 +54,9 @@ Just as modern charts must be "tactile," so users have already come to expect si
 
 But on the back end, our library has to be incredibly easy to bind to analyses from the Bodley library, particularly since there are so many analyses, and since they all behave so differently! In this sense, the library provides "tent stakes" to tie down unruly datasets, bound to the user's will.
 
-### Trebuchet
+### RESTful ETL
 
-#### Agile extract, transform, and load library, written in Ruby
+#### A promising asynchronous, non-blocking data integration library
 
 Our custom ETL engine is named after a counterweighted catapult made famous in the Middle Ages as a seige engine. (And it was more recently featured in Sid Meier's Civilization video games!).
 
@@ -62,7 +64,7 @@ Where most ETL tools involve wading through unholy thickets of miserable configu
 
 ### Other tech notes
 
-At Activecell, we are tremendous fans of open source, and we hope to open source some or all of the above technologies in time. Meanwhile, though, we have benefited from the fantastic open source community, and we owe an incredible debt of gratitude. 
+At Activecell, we are tremendous fans of open source, and we hope to open source some or all of the above technologies in time. Meanwhile, though, we have benefited from the fantastic open source community, and we owe an incredible debt of gratitude.
 
 If you are interested in some of the other key tech decisions that we have made to leverage other folks' libraries, here are the key highlights:
 
