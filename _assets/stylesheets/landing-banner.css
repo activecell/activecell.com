@@ -1,3 +1,9 @@
+.page .landing-banner {
+  background: none !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
 .landing-banner {
   position: relative;
   z-index: 1000;
@@ -45,7 +51,7 @@
 }
 
 .white-label-header.corporate {
-  padding-bottom: 90px;
+  padding-bottom: 30px;
 }
 
 .white-label-header h1.label-heading {

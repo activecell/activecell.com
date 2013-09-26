@@ -23,3 +23,6 @@ stylesheets:
     - _assets/stylesheets/advisors.css
     - _assets/stylesheets/navigation.css
     - _assets/stylesheets/buttons.css
+    - _assets/stylesheets/backgrounds.css
+    - _assets/stylesheets/content.css
+    - _assets/stylesheets/page-header.css

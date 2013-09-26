@@ -3,8 +3,13 @@
       <div class="row">
         <div class="span9">
           <a class="brand" href="http://www.activecell.com">
-            <img src="{{ 'assets/img/branding/activecell-one-color-small.png' | cdn }}"
+            {% if page.body_class == "page" %}
+              <img src="{{ 'assets/img/branding/activecell-full-color-darkBG-small.png' | cdn }}"
               alt="activecell" width="180" height="50">
+            {% else %}
+              <img src="{{ 'assets/img/branding/activecell-one-color-small.png' | cdn }}"
+                alt="activecell" width="180" height="50">
+            {% endif %}
           </a>
         </div>
         <div class="span3">
