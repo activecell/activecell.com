@@ -42,3 +42,8 @@
   right: 10px;
   left: auto;
 }
+
+#content article {
+  margin: 0 0 30px;
+  padding: 20px 100px 20px 350px;
+}

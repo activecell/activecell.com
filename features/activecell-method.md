@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: features
 title: "The Activecell Method for Business Planning"
 author: Adam Neary
 ---
