@@ -17,6 +17,7 @@
   font-family: 'chadcons';
 }
 body {
+  font-family: "proxima-nova", 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding-top: 55px;  /* Make the container go all the way to the bottom of the topbar */
   font-size:14px;
   background-color: white;
@@ -26,6 +27,7 @@ a:hover {
   text-decoration:none;
 }
 p {
+  font-family: "proxima-nova", 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size:14px;
   line-height: 135%;
   margin-bottom:16px;
@@ -38,25 +40,25 @@ p {
   z-index: 1000;
 }
 h1, h2, h3 {
-  font-family: 'Lusitana', serif;
+  font-family: "arno-pro", 'Lusitana', serif;
   font-weight: normal;
   margin-bottom: 1em;
 }
 h1 {
-  font-size:38px;
+  font-size:42px;
 }
 h1.small {
   font-size: 32px;
 }
 h2 {
-  font-size: 32px;
+  font-size: 36px;
 }
 h3 {
-  font-size:24px;
+  font-size:30px;
   margin-bottom:8px;
 }
 h4 {
-  font-size:16px;
+  font-size:20px;
   margin-bottom:8px;
 }
 label, input, button, select, textarea { font-size:14px; }
@@ -175,6 +177,9 @@ label, input, button, select, textarea { font-size:14px; }
 .navbar .brand img {
   margin-top: 1px;
   margin-bottom: -8px;
+}
+.navbar .nav {
+  float: right;
 }
 .navbar .nav li {
   margin-top:16px;
@@ -381,7 +386,7 @@ label, input, button, select, textarea { font-size:14px; }
 }
 #pricing .subscribe-plan   header {
   text-align: center;
-  font-family: 'Lusitana', serif;
+  font-family: "arno-pro", 'Lusitana', serif;
 }
 #pricing .subscribe-plan h1 {
   margin: 0;
@@ -485,7 +490,7 @@ label, input, button, select, textarea { font-size:14px; }
 #pricing .subscribe-plan .value {
   display: block;
   padding-right: 6px;
-  font-family: 'Lusitana', serif;
+  font-family: "arno-pro", 'Lusitana', serif;
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
@@ -501,7 +506,7 @@ label, input, button, select, textarea { font-size:14px; }
   display: block;
   padding-top: 6px;
   color: #7d7d7d;
-  font-family: 'Lusitana', serif;
+  font-family: "arno-pro", 'Lusitana', serif;
   font-size: 22px;
   line-height: 1.3;
 }
