@@ -1,6 +1,6 @@
 #content {
   position: relative !important;
-  margin-top: -190px;
+  margin-top: -100px;
   background: #fff;
   -webkit-transform-style: flat;
   -moz-transform-style: flat;
@@ -10,7 +10,7 @@
   padding: 20px 0 !important;
 }
 
-#content:before, #content:after {
+/*#content:before, #content:after {
   -webkit-transform-style: flat;
   -moz-transform-style: flat;
   -ms-transform-style: flat;
@@ -43,7 +43,7 @@
   right: 10px;
   left: auto;
 }
-
+*/
 #content article {
   margin: 0 0 30px;
   padding: 20px 100px 20px 350px;

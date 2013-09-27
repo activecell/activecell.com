@@ -1,6 +1,6 @@
 .page-banner {
   color: #fff;
-  min-height: 300px;
+  min-height: 210px;
   margin-top: 13px;
   padding: 30px 0 0;
   border: none !important;
@@ -18,12 +18,37 @@
 }
 
 .page-banner .page-subtitle {
-  color: #ccc;
+  color: #fff;
   font-size: 18px;
   text-transform: capitalize;
+  display: inline-block;
 }
 
 .page-banner .page-title {
   color: #fff;
   margin: 0;
+}
+
+#support-background .page-banner {
+  background: #76AFBA;
+}
+
+#support-background .page-banner .page-subtitle {
+  color: #276975;
+}
+
+#features-background .page-banner {
+  background: #DFB48B;
+}
+
+#features-background .page-banner .page-subtitle {
+  color: #BE7C3C;
+}
+
+#case-studies-background .page-banner {
+  background: #8F6946;
+}
+
+#case-studies-background .page-banner .page-subtitle {
+  color: #7C4614;
 }
