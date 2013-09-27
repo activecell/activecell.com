@@ -8,3 +8,15 @@
   background: radial-gradient(center, ellipse cover, #276a75 0%, #00455b 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#276a75', endColorstr='#00455b', GradientType=1 );
 }
+
+#support-background {
+  background: #BE7C3C;
+}
+
+#features-background {
+  background: #DFB48B;
+}
+
+#case-studies-background {
+  background: #5DABBA;
+}

@@ -25,4 +25,4 @@ stylesheets:
     - _assets/stylesheets/buttons.css
     - _assets/stylesheets/backgrounds.css
     - _assets/stylesheets/content.css
-    - _assets/stylesheets/page-header.css
+    - _assets/stylesheets/page-banner.css
