@@ -62,14 +62,13 @@ h6 {
   border-left: solid 5px #d9dcde;
 }
 
-/* asides and figure captions */
-aside,figure figcaption {
-  font-family: proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+/* aside */
+aside {
+  font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: .65em;
   line-height: 140%;
   color: #667;
   display: block;
-  float: left;
   position: absolute;
   margin-left: 0;
   left: 7em;
@@ -86,10 +85,31 @@ aside em {
   letter-spacing: 0;
 }
 
+/* figure */
+
+figure {
+  position: relative;
+  display: block;
+  clear: both;
+  width: 100%;
+}
+
+figure figcaption {
+  font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: .65em;
+  line-height: 140%;
+  color: #667;
+  width: 280px;
+  position: absolute;
+  top: 0;
+  left: -350px;
+}
+
 figure img {
   width: 100%;
   margin-bottom: 1em;
 }
+
 
 /* glyphs */
 .glyph {
