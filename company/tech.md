@@ -1,5 +1,5 @@
 ---
-layout: blank-company-page
+layout: company-page
 title: "Our tech | Activecell: The small business management platform"
 header-title: Our technology
 ---

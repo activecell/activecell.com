@@ -1,5 +1,5 @@
 ---
-layout: blank-company-page
+layout: company-page
 title: "Activecell Manifesto | Activecell: The small business management platform"
 header-title: The Activecell Manifesto
 ---

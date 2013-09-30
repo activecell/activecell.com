@@ -1,70 +1,15 @@
 ---
-layout: outer
+layout: main
 title: "Activecell: Better budgeting"
+body_id: index
 ---
 
-<div class="navbar navbar-fixed-top">
-  <div class="navbar-inner">
-    <div class="container relative">
-      <div class="row">
-        <div class="span9">
-          <a class="brand" href="http://www.activecell.com/">
-            <img src="{{ 'assets/img/branding/activecell-full-color-darkBG-small.png' | cdn }}" alt="activecell">
-          </a>
-          <div class="nav">
-            <ul class="nav">
-              <li><a href="#features">Features</a></li>
-              <li><a href="#pricing">Pricing</a></li>
-            </ul>
-          </div>
-          <!--/.nav-collapse -->
-        </div>
-        <div class="span3">
-          <div class="btn-toolbar signin">
-            <div class="btn-group">
-              <a class="btn btn-success" href="#learn-more-modal" data-toggle="modal">
-                <strong>Get an invite</strong>
-              </a>
-              <a class="btn btn-primary" href="https://launchpad.activecell.com/users/sign_in">
-                or <strong>Sign in</strong>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- banner content -->
+{% include navigation.html %}
 
-<div class="landing-banner">
-  <div class="container">
-    <div class="white-label-header">
-      <h1 class="label-heading centered">
-        Better budgeting.
-      </h1>
-    </div>
-  </div>
-</div>
-<div class="container relative">
-  <div class="row">
-    <img class="branded-screenshot" src="{{ 'assets/img/branding/profitably_scrn.png' | cdn }}"
-      width="868" height="358" alt="" />
-  </div>
-  <div class="row" style="text-align:center">
-     <a class="btn btn-success btn-learn" href="#learn-more-modal" data-toggle="modal">
-      <strong>Get an invite</strong><br>
-      <img src="{{ 'assets/img/startnow_finger.png' | cdn }}" width="212" height="22">
-    </a>
-  </div>
-  <div class="row">
-    <div class="white-label-logos centered">
-      <h2 class="label-heading centered">As seen on:</h2>
-      <img src="{{ 'assets/img/branding/logos_as_seen_on.png' | cdn }}" width="920" height="70" alt="" />
-    </div>
-  </div>
-</div>
+{% include banner.html %}
 
 {% include features.html %}
+
 {% include insights.html %}
+
 {% include pricing.html %}

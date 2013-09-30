@@ -61,6 +61,9 @@
   text-align: center;
 }
 
+.sub-features p {
+  font-size: 14px;
+}
 
 .insights:after {
   content: "";
