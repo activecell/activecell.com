@@ -62,6 +62,35 @@ h6 {
   border-left: solid 5px #d9dcde;
 }
 
+/* asides and figure captions */
+aside,figure figcaption {
+  font-family: proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: .65em;
+  line-height: 140%;
+  color: #667;
+  display: block;
+  float: left;
+  position: absolute;
+  margin-left: 0;
+  left: 7em;
+  width: 13em;
+  text-align: right;
+  list-style-type: none;
+  clear: both;
+  margin-bottom: 1em;
+}
+
+aside em {
+  font-weight :bolder;
+  font-style: normal;
+  letter-spacing: 0;
+}
+
+figure img {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
 /* glyphs */
 .glyph {
   font-family: 'chadcons';
