@@ -1,0 +1,117 @@
+/* Typography */
+
+@font-face {
+  font-family: 'Lusitana';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Lusitana Bold'), local('Lusitana-Bold'), url('http://themes.googleusercontent.com/static/fonts/lusitana/v1/oCjlVB3OWc0D00Ervq8JG7rIa-7acMAeDBVuclsi6Gc.woff') format('woff');
+}
+
+@font-face{
+  font-family: 'chadcons';
+  src: url('http://d2n39uym85fey2.cloudfront.net/assets/fonts/websymbols-regular-webfont.eot');
+  src: url('http://d2n39uym85fey2.cloudfront.net/assets/fonts/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('http://d2n39uym85fey2.cloudfront.net/assets/fonts/websymbols-regular-webfont.woff') format('woff'),
+       url('http://d2n39uym85fey2.cloudfront.net/assets/fonts/websymbols-regular-webfont.ttf') format('truetype'),
+       url('http://d2n39uym85fey2.cloudfront.net/assets/fonts/websymbols-regular-webfont.svg#chadcons') format('svg');
+}
+
+body {
+  font-family: "arno-pro","adobe-garamond-pro",Georgia,"Times New Roman",Times,serif;
+  padding-top: 55px;  /* Make the container go all the way to the bottom of the topbar */
+  font-size:14px;
+  background-color: white;
+  color: #675B5E;
+}
+
+/* paragraphs */
+
+p {
+  font-family: "proxima-nova", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  line-height: 135%;
+  margin-bottom:16px;
+}
+
+/* links */
+a:hover {
+  text-decoration:none;
+}
+
+/* headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  margin-bottom: 1em;
+}
+
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6 {
+  text-transform: uppercase;
+  margin: 24px auto 24px -26px;
+  padding: 20px;
+  border-left: solid 5px #d9dcde;
+}
+
+/* aside */
+aside {
+  font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: .65em;
+  line-height: 140%;
+  color: #667;
+  display: block;
+  position: absolute;
+  margin-left: 0;
+  left: 7em;
+  width: 13em;
+  text-align: right;
+  list-style-type: none;
+  clear: both;
+  margin-bottom: 1em;
+}
+
+aside em {
+  font-weight :bolder;
+  font-style: normal;
+  letter-spacing: 0;
+}
+
+/* figure */
+
+figure {
+  position: relative;
+  display: block;
+  clear: both;
+  width: 100%;
+}
+
+figure figcaption {
+  font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: .65em;
+  line-height: 140%;
+  color: #667;
+  width: 280px;
+  position: absolute;
+  top: 0;
+  left: -350px;
+}
+
+figure img {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+
+/* glyphs */
+.glyph {
+  font-family: 'chadcons';
+}

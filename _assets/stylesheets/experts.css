@@ -1,0 +1,118 @@
+#experts .heading {
+  padding-top:160px;
+  position:relative;
+  z-index:2;
+}
+
+#experts h3 {
+  font-weight: normal;
+}
+
+#experts .company {
+  background:url('http://d2n39uym85fey2.cloudfront.net/assets/img/cityscape.png') no-repeat right top;
+  padding-top:160px;
+}
+#experts {
+  font-size:16px;
+}
+#experts .made-in {
+  position:relative;
+  z-index:1;
+  top:-50px;
+  left:-50px;
+  min-height:294px;
+  min-width:294px;
+  height:294px;
+  width:294px;
+}
+#experts .team .hiring {
+  width:200px;
+}
+#experts .team .emp {
+  width:80px;
+  height:82px;
+  background:url('http://d2n39uym85fey2.cloudfront.net/assets/img/emp_arrow.png') no-repeat bottom center;
+  -webkit-transition: 0.2s ease;
+  -moz-transition: 0.1s ease;
+  -ms-transition: 0.1s ease;
+  -o-transition: 0.1s ease;
+  transition: 0.1s ease;
+}
+#experts .team .emp img {
+  border-bottom:2px solid #fff;
+}
+#experts .team .emp:hover {
+  width:80px;
+  height:92px;
+  background:url('http://d2n39uym85fey2.cloudfront.net/assets/img/emp_arrow.png') no-repeat bottom center #276A75;
+}
+#experts .team .emp.active {
+  height:92px;
+}
+#experts .team .emp.adam {
+  background-color:#5699DA;
+}
+#experts .team .emp.ean {
+  background-color:#9376D8;
+}
+#experts .team .emp.robert {
+  background-color:#D98E5B;
+}
+#experts .team .emp.diego {
+  background-color:#C4D33E;
+}
+#experts .team .emp.jason {
+  background-color:#276A75;
+}
+#experts h4 {
+  font-size:18px;
+  font-weight:normal;
+  line-height:24px;
+}
+#experts .adam h4 {
+  color:#5699DA;
+}
+#experts .ean h4 {
+  color:#9376D8;
+}
+#experts .robert h4 {
+  color:#D98E5B;
+}
+#experts .diego h4 {
+  color:#C4D33E;
+}
+#experts .jason h4 {
+  color:#276A75;
+}
+#experts .description {
+  margin-top:10px;
+  color:#808080;
+  font-size:14px;
+}
+#experts .description .tab-pane {
+  display: none;
+}
+#experts .description .tab-pane.active {
+  display: block;
+}
+#experts .description small {
+  font-size:14px;
+  color:#bfbfbf;
+  text-transform:uppercase;
+  margin-left:8px;
+}
+#experts .description .glyph a {
+  font-size:14px;
+  margin-left:8px;
+  color:#bfbfbf;
+  -webkit-transition: 0.1s ease;
+  -moz-transition: 0.1s ease;
+  -ms-transition: 0.1s ease;
+  -o-transition: 0.1s ease;
+  transition: 0.1s ease;
+  position:relative;
+}
+#experts .description .glyph a:hover {
+  color:inherit;
+  top:-3px;
+}

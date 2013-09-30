@@ -1,5 +1,5 @@
 package_assets:         on          # (on, off, always)
-compress_assets:        on          # (on, off)
+compress_assets:        off          # (on, off)
 gzip_assets:            off          # (on, off)
 
 javascripts:
@@ -14,4 +14,16 @@ stylesheets:
     - _assets/stylesheets/bootstrap.css
     - _assets/stylesheets/font-awesome.css
     - _assets/stylesheets/activecell_com.css
+    - _assets/stylesheets/typography.css
     - _assets/stylesheets/insights.css
+    - _assets/stylesheets/footer.css
+    - _assets/stylesheets/experts.css
+    - _assets/stylesheets/pricing.css
+    - _assets/stylesheets/features.css
+    - _assets/stylesheets/landing-banner.css
+    - _assets/stylesheets/advisors.css
+    - _assets/stylesheets/navigation.css
+    - _assets/stylesheets/buttons.css
+    - _assets/stylesheets/backgrounds.css
+    - _assets/stylesheets/content.css
+    - _assets/stylesheets/page-banner.css
