@@ -1,12 +1,12 @@
-Activecell is designed so that you do not have to adjust your chart of accounts to facilitate planning. This is because often times a company's accounts are set up in a way that facilitates tax preparation, commission models, or any number of other purposes.
+Activecell is designed so that you do not have to adjust your chart of accounts to facilitate planning. This is because often a company's accounts are set up in a way that facilitates tax preparation, commission models, or any number of other purposes.
 
 Instead, we allow you to categorize your accounts into the various buckets we use for planning. We even take a first pass for you.
 
-## Categorizing assets into _Cash_ and _Non-cash_
+## Separating cash and non-cash asset accounts
 
 If we are going to look at the cash impact of your plan, it is important to know which accounts to include in the cash calculation.
 
-Visit the [cash page](http://launchpad.activecell.com/#cash) if you haven't already been directed to it. Then make sure you have selected "Assets" from the account type selector.
+Visit the [account categorization page](http://launchpad.activecell.com/#settings/accounts) if you haven't already been directed to it. Then make sure you have selected "Assets" from the account type selector.
 
 <!-- screenshot -->
 
@@ -26,7 +26,7 @@ It is entirely up to you how strictly you wish to define "Cash" vs "Non-cash" ac
 
 ## Categorizing COGS and Expense accounts
 
-Similarly, we are going to categorize expenses into Cost of Goods Sold, Team, Customer Acquisition, and Overheads.
+With a similar approach, we are going to categorize expenses into Cost of Goods Sold, Team, Customer Acquisition, and Overheads.
 
 First, select "Cost of Goods Sold" from the account type selector.
 
@@ -38,7 +38,7 @@ _Note:_ In some versions of QuickBooks, Cost of Goods Sold appear as a separate 
 
 Cost of Goods Sold (COGS) include of the direct costs associated with delivery goods or services to your customers. If you purchase goods for resale or raw materials or components for the goods you sell, these are COGS. If you incur service costs such as web hosting or have to purchase supporting goods such as shipping materials to deliver your product, these are COGS.
 
-Traditionally, COGS would also incur the cost of direct labor, those people engaged directly in delivering services to your customers. However, we like to group all people costs under "Team" so that we can build a unified staffing plan. This, of course, is up to you.
+Traditionally, COGS would also incur the cost of direct labor, those people engaged directly in delivering services to your customers. However, we like to group all people costs under "Team" so that we can build a unified staffing plan. You can then assign a portion of your staffing plan to COGS, as we will explain in the [team forecast section](team forecast).
 
 The process for categorizing COGS accounts is the same as with assets. Simply drag accounts from one category to another and observe your historical data change accordingly in the chart above.
 
@@ -77,3 +77,11 @@ It's your business, and we just want to give you the tools to customize Activece
 ## What's next?
 
 After you have categorized your accounts, check out your [Profit & Loss](http://launchpad.activecell.com) page to start honing your financial plan.
+
+Ultimately, you can dig into the details for each section:
+
+* Revenue forecast
+* Cost of Goods Sold forecast
+* Customer acquisition forecast
+* Team forecast
+* Overheads forecast
