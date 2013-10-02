@@ -5,9 +5,9 @@ title: "Overheads forecast overview"
 
 Activecell provides a variety of methods for building an overheads forecast for you business and comparing historical overheads expenditures to the plan.
 
-When you visit the [overheads overview](), you can view total overheads expenditures compared to plan over time, and you can modify the methods by which the forecast is generated.
+When you visit the [overheads overview](), you can view total expenditures compared to plan over time, and you can modify the methods by which the forecast is generated.
 
-The point of providing these different methods is to ensure that companies that want a simple, 1-line forecast for overheads can have this, while companies that require a tremendous degree of granularity can have that, as well. Activecell is designed to mold to your business however you think about it.
+The point of providing these different methods is to ensure that companies that want a simple, 1-line forecast for overheads can have this, while companies that require a tremendous degree of granularity can have that just the same. Activecell is designed to mold to your business however you think about it.
 
 ## Forecast method: Exclude overheads from the plan
 
@@ -15,7 +15,7 @@ It might be the case that your plan involves a negligible amount of overheads an
 
 <!-- screenshot -->
 
-In this case, the table and chart will only show actual data with no plan to compare against.
+In this case, the table and chart will only show actual data with no plan to compare against. Any actuals that show up in overheads accounts will show as a variance.
 
 ## Forecast method: Forecast manually: 1 line
 
@@ -23,7 +23,7 @@ It might be the case that you only really have one class of overheads or that ov
 
 <!-- screenshot -->
 
-In such a case, you have a few extra tools at your disposal for getting a single-line forecast right. We call those "cost drivers," and they are the same tools we use to model individual categories.
+In such a case, you have a few extra tools at your disposal for getting a single-line forecast right. We call these "cost drivers," and they are the same tools we use to model individual categories.
 
 ### Cost driver: Forecast manually
 
@@ -37,27 +37,37 @@ This means there will not be a cost driver line in the chart, but you can still 
 
 <!-- screenshot -->
 
-You can benchmark your overheads forecast as a simple percentage of revenue.
+You can benchmark your overheads forecast as a simple percentage of revenue, and as your revenue forecast evolves, your overheads forecast will follow it.
 
-### Cost driver: Forecast bottom up by customer count
+### Cost driver: Forecast bottom up by product volume
 
-It is possible in Activecell to simply benchmark your overheads forecast against customer count, presuming that as customer volume grows, so will your overheads.
-
-<!-- screenshot -->
-
-**Note:** For now, Activecell cannot reliably retrieve customer counts from QuickBooks or Xero, so both the plan and actual values for customer count must be manually entered in the customer section.
-
-### Cost driver: Forecast bottom up by employee count
-
-It is also possible in Activecell to simply benchmark your overheads forecast against employee count, presuming that as your team grows, so will your overheads.
+It is possible in Activecell to simply benchmark your overheads forecast against product sales (e.g. for every _x_ thousand units, overheads should be _y_).
 
 <!-- screenshot -->
 
-**Note:** For now, Activecell cannot reliably retrieve employee counts from QuickBooks or Xero, so both the plan and actual values for employee count must be manually entered in the team section.
+**Note:** For now, Activecell cannot reliably retrieve product volume from QuickBooks or Xero, so both the plan and actual values for product volume must be managed manually within the [product group forecast]().
 
-## Forecast method: Build bottom up by overheads category
+### Cost driver: Forecast bottom up by customer volume
 
-In many cases, a business will want granular control over various categories of overheads, and so by selecting "Build bottom up" you defer the forecast to the individual categories you have created. Visit the [Overheads categories]() section to manage individual categories.
+It is possible in Activecell to simply benchmark your overheads forecast against customer volume, presuming that as customer volume grows, so will your overheads.
+
+<!-- screenshot -->
+
+**Note:** For now, Activecell cannot reliably retrieve customer volume from QuickBooks or Xero, so both the plan and actual values for customer volume must be managed manually within the [customer segment forecast]().
+
+### Cost driver: Forecast bottom up by team size
+
+It is also possible in Activecell to simply benchmark your overheads forecast against team size, presuming that as your team grows, so will your overheads.
+
+<!-- screenshot -->
+
+**Note:** For now, Activecell cannot reliably retrieve team size from QuickBooks or Xero, so both the plan and actual values for team size must be managed manually within the [employee type forecast]().
+
+## Forecast method: Build bottom up by overheads category **most common**
+
+In many cases, a business will want granular control over various categories of overheads. By selecting "Build bottom up" you defer the forecast to the individual categories you have created.
+
+Then, visit the [Overheads categories]() section to manage individual categories.
 
 <!-- screenshot -->
 
