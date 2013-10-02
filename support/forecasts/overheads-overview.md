@@ -1,4 +1,9 @@
-Activecell provides a variety of methods for building a overheads forecast for you business and comparing historical overheads expenditures to the plan.
+---
+layout: support
+title: "Overheads forecast overview"
+---
+
+Activecell provides a variety of methods for building an overheads forecast for you business and comparing historical overheads expenditures to the plan.
 
 When you visit the [overheads overview](), you can view total overheads expenditures compared to plan over time, and you can modify the methods by which the forecast is generated.
 
