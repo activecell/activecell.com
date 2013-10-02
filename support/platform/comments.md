@@ -1,7 +1,6 @@
 ---
 layout: support
-title: "Platform"
-author: Adam Neary
+title: "Comments"
 ---
 
 Activecell is a great platform for collaborating with all your stakeholders, including employees, investors, advisors, and close partners.

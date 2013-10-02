@@ -1,5 +1,6 @@
 ---
 layout: support
-title: "Platform"
-author: Adam Neary
+title: "Tablestakes"
 ---
+
+It is pretty cool, actually.
