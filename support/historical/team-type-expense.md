@@ -1,10 +1,11 @@
+---
+layout: support
+title: "Historical employee type expense"
+---
+
 Before tackling the team forecast, it can be useful to group your employees into types for planning purposes.
 
-<aside>
-  <strong>Pro tip:</strong> If you just want to put a plan in place for each current and future employee, you can always add an employee "type" for each employee and plan that way. Or, of course, you could do a hybrid, planning a "type" for some employees and grouping others into types. This model is infinitely flexible in that respect.
-</aside>
-
-## Employee "types" and the Employee Type List
+## What's an employee type?
 
 Employee "types" is a vague term, but every company has unique needs, so perhaps a vague term is best. In short, an employee "type" is simply a grouping of employees that is useful for planning. It could refer to departments, roles, or both. The important thing is that each employee type will be associated with either:
 
@@ -12,9 +13,13 @@ Employee "types" is a vague term, but every company has unique needs, so perhaps
 * Customer Acquisition (Sales, marketing, and similar functions)
 * Overheads (Executive, R&D, etc.)
 
+## The Employee Type List
+
 <!-- screenshot -->
 
 Here you can see a list of your employee types with the list of employees underneath. You can add, rename, and delete employee types however you like until you get to a grouping that makes sense for your business.
+
+**Pro tip:** If you just want to put a plan in place for each current and future employee, you can always add an employee "type" for each employee and plan that way. Or, of course, you could do a hybrid, planning a "type" for some employees and grouping others into types. This model is infinitely flexible in that respect.
 
 ### Contractors on the team
 
