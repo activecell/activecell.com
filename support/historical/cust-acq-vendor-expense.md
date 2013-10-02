@@ -1,4 +1,9 @@
-Activecell makes it easy to look at historical customer acquisition (sales & marketing) expenditures by vendor. We provide 5 different perspectives so that it is easy to visualize your data however you find most useful.
+---
+layout: support
+title: "Historical customer acquisition expense"
+---
+
+Activecell makes it easy to look at historical customer acquisition (sales & marketing) expenditures. We provide 5 different perspectives so that it is easy to visualize your data however you find most useful.
 
 ### Leaderboard perspective
 

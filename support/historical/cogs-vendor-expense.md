@@ -1,4 +1,9 @@
-Activecell makes it easy to look at historical Cost of Goods Sold (COGS) by vendor. We provide 5 different perspectives so that it is easy to visualize your data however you find most useful.
+---
+layout: support
+title: "Historical cost of goods sold"
+---
+
+Activecell makes it easy to look at historical Cost of Goods Sold (COGS). We provide 5 different perspectives so that it is easy to visualize your data however you find most useful.
 
 ### Leaderboard perspective
 

@@ -1,4 +1,9 @@
-Activecell makes it easy to look at historical overhead expenditures by vendor. We provide 5 different perspectives so that it is easy to visualize your data however you find most useful.
+---
+layout: support
+title: "Historical overheads expense"
+---
+
+Activecell makes it easy to analyze historical overhead expense. We provide 5 different perspectives so that it is easy to visualize your data however you find most useful.
 
 ### Leaderboard perspective
 

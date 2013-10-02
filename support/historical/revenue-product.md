@@ -1,4 +1,9 @@
-Activecell makes it easy to look at historical revenue by product. We provide 5 different perspectives so that it is easy to visualize your data however you find most useful.
+---
+layout: support
+title: "Historical product revenue"
+---
+
+Activecell makes it easy to look at historical product revenue. We provide 5 different perspectives so that it is easy to visualize your data however you find most useful.
 
 ## What's a "product?"
 
