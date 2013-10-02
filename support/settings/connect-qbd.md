@@ -1,4 +1,4 @@
 ---
 layout: support
-title: "Settings"
+title: "Connect to QuickBooks Desktop"
 ---

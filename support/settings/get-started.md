@@ -1,3 +1,8 @@
+---
+layout: support
+title: "Getting started with Activecell"
+---
+
 We try to make getting started with Activecell as quick and easy as possible.
 
 Here's what it looks like:

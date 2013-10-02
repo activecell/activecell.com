@@ -1,10 +1,10 @@
 ---
 layout: support
-title: "Settings"
+title: "Getting started with Xero"
 author: Adam Neary
 ---
 
-Getting started with Activecell is dead simple.
+Getting started with Activecell is dead simple if you use Xero as your accounting software.
 
 ## Creating an Activecell account
 
@@ -18,17 +18,13 @@ In the form that follows, please provide an email address, password, and company
 
 <!-- screenshot -->
 
-## Connecting to your accounting software
+## Connecting to Xero
 
 Once signed in, you will be asked to connect to your accounting data.
 
 <!-- screenshot -->
 
-Please see one of the following articles for more information on syncing data:
-
-* [Syncing QuickBooks Online data](/connect-qbo)
-* [Syncing QuickBooks Desktop data](/connect-qbd)
-* [Syncing Xero data](/connect-xero)
+<!-- step by step -->
 
 ## What's next?
 

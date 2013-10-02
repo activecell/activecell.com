@@ -1,7 +1,6 @@
 ---
 layout: support
-title: "Settings"
-author: Adam Neary
+title: "Activecell compatibility"
 ---
 
 Activecell is not accounting software. It is designed to work in concert with your accounting software.
