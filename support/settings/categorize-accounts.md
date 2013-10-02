@@ -44,7 +44,7 @@ _Note:_ In some versions of QuickBooks, Cost of Goods Sold appear as a separate 
 
 Cost of Goods Sold (COGS) include of the direct costs associated with delivery goods or services to your customers. If you purchase goods for resale or raw materials or components for the goods you sell, these are COGS. If you incur service costs such as web hosting or have to purchase supporting goods such as shipping materials to deliver your product, these are COGS.
 
-Traditionally, COGS would also incur the cost of direct labor, those people engaged directly in delivering services to your customers. However, we like to group all people costs under "Team" so that we can build a unified staffing plan. You can then assign a portion of your staffing plan to COGS, as we will explain in the [team forecast section](team forecast).
+Traditionally, COGS would also incur the cost of direct labor, those people engaged directly in delivering services to your customers. However, we like to group all people costs under "Team" so that we can build a unified staffing plan. You can then assign a portion of your staffing plan to COGS, as we will explain in the [team forecast section](http://launchpad.activecell.com).
 
 The process for categorizing COGS accounts is the same as with assets. Simply drag accounts from one category to another and observe your historical data change accordingly in the chart above.
 
