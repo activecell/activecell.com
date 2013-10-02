@@ -1,14 +1,19 @@
+---
+layout: support
+title: "Cash analysis"
+---
+
 The cash analysis gives you a very important view into historical and future cash availability.
 
-To ensure the accuracy of your data, be sure to categorize your asset accounts into Cash and Non-cash buckets. Only the asset accounts tagged as "Cash" will be reflected in this analysis.
+To ensure the accuracy of your data, be sure to [categorize your asset accounts]() into cash and non-cash buckets. Only the asset accounts tagged as "cash" will be reflected in this analysis.
 
 ## Historical cash
 
 For months leading up to the current month, this analysis displays your company's total cash balance.
 
-In the chart, historical cash balances are reflected by a darker shade of blue.
+<!-- screenshot -->
 
-In the table, historical cash balances are greyed out.
+In the chart, historical cash balances are reflected by a darker shade of blue. In the table, historical cash balances are greyed out.
 
 ## Future cash flows
 

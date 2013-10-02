@@ -1,45 +1,52 @@
+---
+layout: support
+title: "Profit & Loss analysis"
+---
+
 The Profit & Loss analysis is the foundation of your plan. In one view, you can see your historical data, your plan, and how the two compare.
 
 ## Creating a plan
 
-The first time that you view the Profit & Loss page, your plan will be empty.
+If this is your first time viewing the Profit & Loss page, please see [Creating a plan]() for information on getting started.
 
-From here, you have several options:
+## Various perspectives on the same data
 
-### Starting from scratch
+Throughout Activecell, most pages offer you multiple "perspectives" on the same data. We do this because different folks have different ways they like to consume data and because each business is different.
 
-If your historical data isn't a particularly useful starting point for forward planning, you can always start from scratch. The plan is empty to begin with, and you can quickly begin filling out the plan manually.
+### Waterfall perspective
 
-To do so, just select "Start from scratch" to close the alert.
+The waterfall perspective is the default because it provides a simple view into historical and forecast performance.
 
-### Roll last month forward
+<!-- screenshot -->
 
-Often times, the best starting point is to take the previous month and simply roll its figures forward. From there you can edit the values to reflect your future plans.
+The first column shows revenue, and then each of the following four columns show the standard buckets of expenditures (COGS, customer acquisition, team, and overheads). As we note below, if you have assigned your employee types to expense categories, team costs will roll up under them, and there will be no team line item in the waterfall.
 
-To do so, just select "Use last month" from the alert.
+In addition, the table will display plan and actual data for all periods selected.
 
-### Roll last year forward
+<!-- ### Bullets perspective
 
-If your business is particularly cyclical, sometimes the best starting point is to take the previous year and simply roll its figures forward on a month-by-month basis. From there you can edit the values to reflect your future plans.
+The bullet chart is a tricky one, but once you are accustomed to the data it displays, it can be a powerful view into your data. -->
 
-To do so, just select "Use last year" from the alert.
+### Variance perspective
 
-## Updating your plan
+Variance analysis takes a simple look at plan vs actual data for the time period selected without attempting to display the data over time.
 
-We have tried to make updating your plan as painless as possible. You can zoom out and edit entire quarters or years at a time. You can drag values in our interactive charts. You can edit values directly in our interactive tables.
+<!-- screenshot -->
 
-* See this article for help on using our interactive charts to build your plan.
-* See this article for help on using our interactive tables to build your plan.
+Blue columns represent actuals, and plan is displayed either as green or as red columns for plan — green if actuals came in under plan and red if actuals came in over plan.
 
-## "Granularity" of each line item
+The table below is simplified to display the same data: actual, plan, and variance.
 
-Sometimes all you need for planning is a single line for revenue and a single line for expense. Activecell allows for this type of high-level planning, and we can roll up for revenue and expenses on an ongoing basis to show you how you're doing.
+<!-- ### Team vs Non-team perspective -->
 
-However, most businesses require a more detailed (more "granular") plan. To achieve this simple click on the row heading, and this will take you to the place in Activecell where you can dig into more detail.
+## Editing plan data
 
-See these articles for more information:
-* Revenue forecasts
-* Cost of Goods Sold forecasts
-* Customer acquisition forecasts
-* Team forecasts
-* Overheads forecasts
+If any of your 5 plan line items are managed as 1-line forecasts, you will be able to edit those lines right in place from the P&L. Naturally, this applies only to plan data, as historical data is taken from your accounting software.
+
+In most cases, however, more granular and complex forecasts are managed within each section of the application, and the P&L report allows you to click on the line item to be taken directly to the section of the application that deals with that line.
+
+<!-- screenshot -->
+
+In addition, the simple navigation on the left side of Activecell's window provides a shortcut for each section of the P&L.
+
+<!-- screenshot -->
