@@ -1,7 +1,6 @@
 ---
 layout: support
 title: "Getting started with Xero"
-author: Adam Neary
 ---
 
 Getting started with Activecell is dead simple if you use Xero as your accounting software.
