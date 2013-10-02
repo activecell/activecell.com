@@ -1,25 +1,25 @@
 ---
 layout: support
-title: "Overheads category forecast"
+title: "COGS category forecast"
 ---
 
-Before tackling the overheads forecast, be sure to check your historical overheads expenditures to make sure agree with how the history looks. Not only will you want to be comfortable with [expense by vendor](), but also with your [overhead category list]() and [historical spend by overhead category]().
+Before tackling the COGS forecast, be sure to check your historical cost of goods sold to make sure agree with how the history looks. Not only will you want to be comfortable with [COGS by vendor](), but also with your [COGS category list]() and [historical COGS by category]().
 
-## Viewing all overhead categories at once
+## Viewing all COGS categories at once
 
-Sometimes it can be useful to see the big picture by viewing all overhead categories at once.
+Sometimes it can be useful to see the big picture by viewing all COGS categories at once.
 
 ### Stacked column perspective
 
-The stacked column chart is great for visualizing how all of your overhead categories "stack up" to build a total view of overheads expense.
+The stacked column chart is great for visualizing how all of your COGS categories "stack up" to build a total view of cost of goods sold.
 
 <!-- screenshot -->
 
-This means that the top of the chart represents total overheads expense, and you can quickly visualize the breakdown among your various categories and how that breakdown changes over time.
+This means that the top of the chart represents total cost of goods sold, and you can quickly visualize the breakdown among your various categories and how that breakdown changes over time.
 
 ### Grouped column perspective
 
-By grouping the columns rather than stacking them, it is easier to compare overhead categories side by side over time.
+By grouping the columns rather than stacking them, it is easier to compare COGS categories side by side over time.
 
 <!-- screenshot -->
 
@@ -31,7 +31,7 @@ A traditional line chart is an easy way to compare each category's forecast over
 
 ### The table
 
-The table below the charts shows the time series data for each overheads category along with a total row and total column to make digging through the data very easy.
+The table below the charts shows the time series data for each COGS category along with a total row and total column to make digging through the data very easy.
 
 <!-- screenshot -->
 
@@ -45,9 +45,9 @@ Historical data cannot be edited, as it comes directly from your accounting syst
 
 If you want to tackle a larger period of time at once, you can always zoom out the date range for the analysis and edit entire quarters or years at a time.
 
-## Viewing one overhead category at a time
+## Viewing one COGS category at a time
 
-To view a single overhead category, just click on the category's name.
+To view a single COGS category, just click on the category's name.
 
 <!-- screenshot -->
 
@@ -79,11 +79,11 @@ Some categories lend themselves to planning as a percentage of revenue.
 
 <!-- screenshot -->
 
-For example, pegging legal expense to revenue provides useful context to your forecast and saves you from having to adjust legal expense forecasts as your revenue forecast shifts.
+For example, pegging web hosting costs to revenue provides useful context to your forecast and saves you from having to adjust the expense forecast as your revenue forecast shifts.
 
 ### Cost driver: Forecast bottom up by product volume
 
-Sometimes, a category may be pegged against product sales (e.g. for every _x_ thousand units, we should spend _y_). In such a case, you can model a category benchmarked against product sales volume.
+Sometimes, a category may be pegged against product sales (e.g. for every _x_ thousand units, we should spend _y_). In such a case, you can model a category benchmarked against product sales volume. For businesses planning revenue based on product groups, this is especially common for COGS categories.
 
 <!-- screenshot -->
 
@@ -91,7 +91,7 @@ Sometimes, a category may be pegged against product sales (e.g. for every _x_ th
 
 ### Cost driver: Forecast bottom up by customer volume
 
-Sometimes, a category will involve planning based on the number of customers you have. As an example, this may apply to a customer entertainment budget if that isn't considered part of customer acquisition.
+Sometimes, a category will involve planning based on the number of customers you have. As an example, this may apply to raw materials that you provide to customers.
 
 <!-- screenshot -->
 
@@ -105,6 +105,6 @@ Sometimes a category will involve planning based on the number of employees you 
 
 <!-- screenshot -->
 
-As an example, you may peg office expense and rent against employee count and use that as a rough proxy as employee levels grow.
+This is relatively rare for COGS categories, but if you have COGS expenses that are driven by employee count, the feature is available to you.
 
 **Note:** For now, Activecell cannot reliably retrieve team size from QuickBooks or Xero, so both the plan and actual values for team size must be managed manually within the [employee type forecast]().
