@@ -95,7 +95,7 @@ Sometimes, a channel will involve planning based on the number of customers you 
 
 <!-- screenshot -->
 
-**Note:** As a first comment, please note that for now "customer count" refers to existing customer count and not new customer count. In the future, we will be introducing a way to track new customer count, existing customer count, and churned customer count, which will give us much more flexibility in planning. If you need this urgently, let us know!
+**Note:** As a first comment, please note that for now "customer volume" refers to existing customer volume and not new customers. In the future, we will be introducing a way to track new customers, existing customers, and churned customers, which will give us much more flexibility in planning. If you need this urgently, let us know!
 
 **Note:** As a second comment, for now Activecell cannot reliably retrieve customer volume from QuickBooks or Xero, so both the plan and actual values for customer volume must be managed manually within the [customer segment forecast]().
 
