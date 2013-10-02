@@ -55,7 +55,7 @@ Of course, the charts and table are only as good as the data coming in. We try t
 
 ### Identifying team-related accounts
 
-The first problem that might cause the charts to show too little data is if team-related accounts have not been tagged accordingly in the [account categorization page](#settings/accounts). By bucketing payroll, benefits, and contractor accounts in the team bucket, you can ensure that these charts are populated with your team data. See [this support article](this one) for more guidance.
+The first problem that might cause the charts to show too little data is if team-related accounts have not been tagged accordingly in the [account categorization page](#settings/accounts). By bucketing payroll, benefits, and contractor accounts in the team bucket, you can ensure that these charts are populated with your team data. See [this support article]() for more guidance.
 
 ### "No employee listed" records
 

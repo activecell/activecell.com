@@ -63,7 +63,7 @@ Of course, the charts and table are only as good as the data coming in. We try t
 
 ### Identifying overheads accounts
 
-The first problem that might cause the charts to show too little data is if overheads accounts have not been tagged accordingly in the [account categorization page](#settings/accounts). By capturing overheads accounts accurately, you can ensure that these charts are populated with the appropriate data. See [this support article](this one) for more guidance.
+The first problem that might cause the charts to show too little data is if overheads accounts have not been tagged accordingly in the [account categorization page](#settings/accounts). By capturing overheads accounts accurately, you can ensure that these charts are populated with the appropriate data. See [this support article]() for more guidance.
 
 ### "No vendor listed" records
 
