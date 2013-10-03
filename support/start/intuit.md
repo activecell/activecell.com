@@ -31,7 +31,6 @@ Please see one of the following articles for more information on syncing data:
 
 * [Syncing QuickBooks Online data](/connect-qbo)
 * [Syncing QuickBooks Desktop data](/connect-qbd)
-* [Syncing Xero data](/connect-xero)
 
 ## What's next?
 

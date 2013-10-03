@@ -7,8 +7,6 @@ We try to make getting started with Activecell as quick and easy as possible.
 
 Here's what it looks like:
 
-<!-- screenshot -->
-
 1. Sign up
 2. Connect your data
 3. Allow the data to sync up

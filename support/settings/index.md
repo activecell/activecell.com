@@ -1,30 +1,33 @@
+---
+layout: support
+title: "Activecell settings"
+---
+
 Our settings are intentionally designed to mimic our onboarding process.
 
 Here's what it looks like:
 
 <!-- screenshot -->
 
-1. QuickBooks or Xero connection
-1. QuickBooks or Xero data sync
+1. QuickBooks connection
+1. QuickBooks data sync
 1. Account categorization
 1. Activecell account
 1. Access control
 1. Ambassador program
 
-## QuickBooks or Xero connection
+## QuickBooks connection
 
-If you have already connected Activecell to your accounting software (QuickBooks or Xero), this panel will allow you to disconnect. It is your data, so of course you can disconnect at any time, but for security reasons, disconnecting will also trigger the deletion of your data from our servers, so proceed with caution!
+If you have already connected Activecell to QuickBooks, this panel will allow you to disconnect. It is your data, so of course you can disconnect at any time, but for security reasons, disconnecting will also trigger the deletion of your data from our servers, so proceed with caution!
 
 Of course, once you disconnect, you can always reconnect as easily as when you got started originally. For help on this process, please see:
 
-* Getting started with Intuit
-* Getting started with Xero
+* Connecting QuickBooks Desktop
+* Connecting QuickBooks Online
 
-These guides will step through creating an account, connecting, and syncing data.
+## QuickBooks data sync
 
-## QuickBooks or Xero data sync
-
-If your data is connected, this panel provides information on the status of data syncing.
+Once data is connected, this panel provides information on data sync status.
 
 If you use QuickBooks Desktop, it will display the status of your most recent sync from your local desktop software to Intuit's cloud services.
 
@@ -68,8 +71,8 @@ The access control page provides all the functionality needed to manage:
 
 For step by step guidance, please see:
 
-* Getting started with Intuit
-* Getting started with Xero
+* Inviting users
+* The advisor program
 
 ## The Ambassador program
 
@@ -77,6 +80,4 @@ The Ambassador program is designed to save you money on your Activecell bill if 
 
 It's a great program not only for saving money on Activecell, but if you end up becoming an active referrer, you have the opportunity to share in the revenue of the users you bring onto the platform. It's a fantastic program for affiliates who have broad audiences they reach.
 
-For step by step guidance, please see:
-
-* Ambassador program
+For step by step guidance, please see [Ambassador program]().
