@@ -24,7 +24,7 @@ GEM
       redcarpet (~> 2.3.0)
       safe_yaml (~> 0.7.0)
     jsmin (1.0.1)
-    liquid (2.5.2)
+    liquid (2.5.3)
     maruku (0.7.0)
     posix-spawn (0.3.6)
     pygments.rb (0.5.2)
