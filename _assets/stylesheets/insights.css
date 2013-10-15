@@ -3,66 +3,16 @@
   padding-top: 120px;
 }
 
-#insights .nav {
-  display: none;
-}
-
-#insights .nav.affix {
-  display: block;
-  position: fixed;
-  top: 66px;
-  left: 0;
-  right: 0;
-  margin: auto;
-  background: #052633;
-  padding: 10px;
-  width: 386px;
-  z-index: 5000;
-  -webkit-border-bottom-right-radius: 4px;
-  -moz-border-radius-bottomright: 4px;
-  border-bottom-right-radius: 4px;
-  -webkit-border-bottom-left-radius: 4px;
-  -moz-border-radius-bottomleft: 4px;
-  border-bottom-left-radius: 4px;
-}
-
-#insights .nav.affix a {
-  color: #fff;
-  text-decoration: none;
-  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
-}
-
-#insights .nav.affix a:hover {
-  color: #21808f;
-}
-
 .section {
-  background: rgba(42, 120, 127, 0.06);
-  box-shadow: rgba(42, 120, 127, 0.2) 0px 1px 2px inset, rgba(42, 120, 127, 0.2) 0px 1px 0px;
+  background: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px inset, rgba(0, 0, 0, 0.25) 0px 1px 0px;
   padding: 60px 0;
   display: block;
   overflow: hidden;
 }
 
 .section.odd {
-  background: rgba(42, 120, 127, 0.03);
-}
-
-.section h3 {
-  color: rgb(28, 28, 28);
-  font-size: 16px;
-  text-shadow: rgba(255, 255, 255, 0.6) 0px 1px 0px;
-  font-weight: bold;
-  line-height: 16px;
-  margin-bottom: 4px;
-}
-
-.sub-features .span4 {
-  text-align: center;
-}
-
-.sub-features p {
-  font-size: 14px;
+  background: rgba(0, 0, 0, 0.10);
 }
 
 .insights:after {
@@ -72,7 +22,7 @@
 }
 
 .insights .image-holder {
-  
+  margin-bottom: 40px;
 }
 
 .insights .image-holder img {
@@ -88,11 +38,11 @@
 }
 
 .insights ul li {
+  margin: 0;
   display: block;
-  margin-bottom: 3px;
   border-radius: 7px;
   cursor: pointer;
-  padding: 12px;
+  padding: 1px 12px;
 }
 
 .insights ul li:last-child {
@@ -102,13 +52,4 @@
 .insights ul li.selected {
   background: rgba(0,0,0,0.02);
   box-shadow: inset 0 1px 2px rgba(0,0,0,0.2), 0 1px 0 rgba(255,255,255,0.7);
-}
-
-.insights ul li p {
-  font-size: 13px;
-  line-height: 19px;
-}
-
-.insights ul li:hover h3,.insights ul li.selected h3 {
-  color: #21808f;
 }

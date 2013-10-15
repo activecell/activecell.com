@@ -60,23 +60,13 @@
   margin-bottom: 6px;
 }
 
-
-.btn-learn {
-  display: inline-block;
-  margin: 20px auto 30px auto;
-  /*width: 225px;*/
-  padding: 11px 15px 7px;
-  font-size: 23px;
-  border-radius: 10px 10px 10px 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-
 .btn-learn img {
   margin-top: 10px;
 }
 
 .branded-screenshot {
+  position:relative;
+  z-index: 1000;
   display: block;
   margin: -250px auto 0 auto;
 }

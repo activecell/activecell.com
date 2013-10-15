@@ -4,17 +4,14 @@ gzip_assets:            off          # (on, off)
 
 javascripts:
   packaged_js:
-    - _assets/javascripts/bootstrap.js
+    - _assets/javascripts/activecell-branding.js
     - _assets/javascripts/insights.jquery.js
     - _assets/javascripts/mailchimp.js
     - _assets/javascripts/activecell_com.js
 
 stylesheets:
   packaged_css:
-    - _assets/stylesheets/bootstrap.css
-    - _assets/stylesheets/font-awesome.css
-    - _assets/stylesheets/activecell_com.css
-    - _assets/stylesheets/typography.css
+    - _assets/stylesheets/activecell-branding.css
     - _assets/stylesheets/insights.css
     - _assets/stylesheets/footer.css
     - _assets/stylesheets/experts.css
@@ -22,8 +19,4 @@ stylesheets:
     - _assets/stylesheets/features.css
     - _assets/stylesheets/landing-banner.css
     - _assets/stylesheets/advisors.css
-    - _assets/stylesheets/navigation.css
-    - _assets/stylesheets/buttons.css
-    - _assets/stylesheets/backgrounds.css
-    - _assets/stylesheets/content.css
     - _assets/stylesheets/page-banner.css
