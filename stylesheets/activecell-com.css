@@ -6345,21 +6345,28 @@ select[size] {
     color: white;
     background-color: #30878f; }
 
+body {
+  padding-top: 46px;
+}
+#index {
+  background: #fff;
+  color: #333;
+}
 #insights {
   text-align: center;
   padding-top: 120px;
 }
 
 .section {
-  background: rgba(0, 0, 0, 0.15);
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px inset, rgba(0, 0, 0, 0.25) 0px 1px 0px;
+  background: rgba(0, 0, 0, 0.05);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px inset, rgba(0, 0, 0, 0.15) 0px 1px 0px;
   padding: 60px 0;
   display: block;
   overflow: hidden;
 }
 
 .section.odd {
-  background: rgba(0, 0, 0, 0.10);
+  background: rgba(0, 0, 0, 0.08);
 }
 
 .insights:after {
@@ -6598,6 +6605,7 @@ select[size] {
   top:-3px;
 }
 #pricing {
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding-top:160px;
   background:url('http://d2n39uym85fey2.cloudfront.net/assets/img/bg_spiral.png') no-repeat center -75px;
   /*text-align: center;*/
@@ -6763,23 +6771,23 @@ select[size] {
 }
 
 #features .tab-content .image1 {
-  background:url('http://d2n39uym85fey2.cloudfront.net/assets/img/scrnsht1.png') no-repeat center;
+  background: #30878f url('http://d2n39uym85fey2.cloudfront.net/assets/img/scrnsht1.png') no-repeat center;
 }
 
 #features .tab-content .image2 {
-  background:url('http://d2n39uym85fey2.cloudfront.net/assets/img/scrnsht2.png') no-repeat center;
+  background: #30878f url('http://d2n39uym85fey2.cloudfront.net/assets/img/scrnsht2.png') no-repeat center;
 }
 
 #features .tab-content .image3 {
-  background:url('http://d2n39uym85fey2.cloudfront.net/assets/img/scrnsht3.png') no-repeat center;
+  background: #30878f url('http://d2n39uym85fey2.cloudfront.net/assets/img/scrnsht3.png') no-repeat center;
 }
 
 #features .tab-content .image4 {
-  background:url('http://d2n39uym85fey2.cloudfront.net/assets/img/scrnsht4.png') no-repeat center;
+  background: #30878f url('http://d2n39uym85fey2.cloudfront.net/assets/img/scrnsht4.png') no-repeat center;
 }
 
 #features .tab-content .image5 {
-  background:url('http://d2n39uym85fey2.cloudfront.net/assets/img/scrnsht5.png') no-repeat center;
+  background: #30878f url('http://d2n39uym85fey2.cloudfront.net/assets/img/scrnsht5.png') no-repeat center;
 }
 .page .landing-banner {
   background: none !important;
