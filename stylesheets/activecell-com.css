@@ -7121,3 +7121,11 @@ body {
 #case-studies-background .page-banner .page-subtitle {
   color: #7C4614;
 }
+.vcard .photo {
+  width: 100%;
+}
+
+.vcard .fn,
+.vcard .org {
+  font-size: 14px;
+}

@@ -1,0 +1,8 @@
+.vcard .photo {
+  width: 100%;
+}
+
+.vcard .fn,
+.vcard .org {
+  font-size: 14px;
+}

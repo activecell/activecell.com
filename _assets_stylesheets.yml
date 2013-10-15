@@ -15,3 +15,4 @@ stylesheets:
     - stylesheets/landing-banner.css
     - stylesheets/advisors.css
     - stylesheets/page-banner.css
+    - stylesheets/vcards.css
