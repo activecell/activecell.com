@@ -1,5 +1,5 @@
 ---
-layout: support
+layout: features
 title: "Restful ETL"
 ---
 
