@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "Product group forecast"
+tags: [forecasts]
 ---
 
 Before tackling the revenue forecast, be sure to check your historical revenue to make sure agree with how the history looks. If you intend to plan your revenue forecast by product group (groups of individual products) you will want to be comfortable with your [product group list]() and [historical revenue by product group]().

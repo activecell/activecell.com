@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "Connect to Quickbooks Online"
+tags: [settings]
 ---
 
 Intuit offers a single-sign-on (SSO) experience so that being logged into their platform means being logged into Activecell. It's a great convenience, particularly if you use multiple applications that integrate with QuickBooks.

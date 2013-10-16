@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "Employee type forecast"
+tags: [forecasts]
 ---
 
 Before tackling the team forecast, be sure to check your historical employee expenditures to make sure agree with how the history looks. Not only will you want to be comfortable with [expense by employee](), but also with your [employee type list]() and [historical spend by employee type]().

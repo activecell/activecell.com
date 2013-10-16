@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "Revenue stream forecast"
+tags: [forecasts]
 ---
 
 Before tackling the revenue forecast, be sure to check your historical revenue to make sure agree with how the history looks. If you intend to plan your revenue forecast by revenue streams (groups of revenue accounts) you will want to be comfortable with your [revenue streams list]() and [historical revenue by revenue stream]().

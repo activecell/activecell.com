@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "Historical COGS category expense"
+tags: [historical]
 ---
 
 Before tackling the cost of goods sold (COGS) forecast, it can be useful to group your COGS accounts into categories for planning purposes.

@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "Creating a plan"
+tags: [forecasts]
 ---
 
 The first time that you view the [Profit & Loss]() page, your plan will be empty.

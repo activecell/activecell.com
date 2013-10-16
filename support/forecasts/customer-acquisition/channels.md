@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "Channel forecast"
+tags: [forecasts]
 ---
 
 Before tackling the Channel forecast, be sure to check your historical customer acquisition expense to make sure agree with how the history looks. Not only will you want to be comfortable with [customer acquisition expense](), but also with your [Channel list]() and [historical channel expense]().

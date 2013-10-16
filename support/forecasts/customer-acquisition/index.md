@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "Customer acquisition forecast overview"
+tags: [forecasts]
 ---
 
 Activecell provides a variety of methods for building a customer acquisition forecast for you business and comparing historical customer acquisition expenditures to the plan.

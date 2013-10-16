@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "Historical revenue stream revenue"
+tags: [historical]
 ---
 
 Before tackling the revenue forecast, it can be useful to group your revenue accounts into revenue streams for planning purposes.

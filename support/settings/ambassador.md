@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "Ambassador"
+tags: [settings]
 ---
 
 At Activecell, there is nothing we like more than happy customers. Fact.

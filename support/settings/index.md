@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "Activecell settings"
+tags: [settings]
 ---
 
 Our settings are intentionally designed to mimic our onboarding process.

@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "Historical customer segment revenue"
+tags: [historical]
 ---
 
 Before tackling the revenue forecast, it can be useful to group your customers into segments for planning purposes.

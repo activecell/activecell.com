@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "Team forecast overview"
+tags: [forecasts]
 ---
 
 Activecell provides a variety of methods for building a staffing plan for you business and comparing historical team expenditures to the plan.

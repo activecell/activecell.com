@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "Invite users"
+tags: [settings]
 ---
 
 Once you have created an Activecell account, it is easy to invite as many users as you like. You can invite employees, investors, your accountant, your bookkeeper, a virtual CFO…you name it.

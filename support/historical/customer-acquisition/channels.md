@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "Historical channel expense"
+tags: [historical]
 ---
 
 Before tackling the customer acquisition (sales & marketing) forecast, it can be useful to group your customer acquisition accounts into channels for planning purposes.

@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "Profit & Loss analysis"
+tags: [forecasts]
 ---
 
 The Profit & Loss analysis is the foundation of your plan. In one view, you can see your historical data, your plan, and how the two compare.

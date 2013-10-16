@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "COGS category forecast"
+tags: [forecasts]
 ---
 
 Before tackling the COGS forecast, be sure to check your historical cost of goods sold to make sure agree with how the history looks. Not only will you want to be comfortable with [COGS by vendor](), but also with your [COGS category list]() and [historical COGS by category]().

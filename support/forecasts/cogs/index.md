@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "COGS forecast overview"
+tags: [forecasts]
 ---
 
 Activecell provides a variety of methods for building an COGS forecast for you business and comparing historical cost of goods sold to the plan.

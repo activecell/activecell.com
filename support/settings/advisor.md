@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "The advisor program"
+tags: [settings]
 ---
 
 Activecell is built with advisors in mind. We include accountants, bookkeepers, CFOs, small business consultants, and others in this group. They share a need to engage with their client base on an ongoing basis.

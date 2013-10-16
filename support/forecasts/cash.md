@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "Cash analysis"
+tags: [forecasts]
 ---
 
 The cash analysis gives you a very important view into historical and future cash availability.

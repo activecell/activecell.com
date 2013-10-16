@@ -8,7 +8,7 @@ body_id: support-background
 <div class="page-banner">
   <div class="container">
     <div class="row">
-      <div class="span12">
+      <div class="col-xs-12">
         <p class="page-subtitle">Knowledge Base, Self-Service Support</p>
         <h1 class="page-title">Support</h1>
       </div>
@@ -18,48 +18,78 @@ body_id: support-background
 
 <div class="container">
   <div class="row">
-    <div id="content" class="span12">
+    <div id="content" class="col-xs-12">
       <div class="row">
-        <div class="span4">
-          <h3><a href="/support/start">Getting Started</a></h3>
-          <ul>
-            <li><a href="/support/start/intuit.html">Get started with Intuit QuickBooks</a></li>
-            <li><em>Future:</em> <a href="/support/start/xero.html">Get started with Xero</a></li>
-            <li><a href="/support/start/advisor.html">Get started as an advisor</a></li>
+        <div class="col-xs-4">
+          <h3><i class="icon-book"></i> <a href="/support/start">Getting Started</a></h3>
+          <ul class="nav nav-list">
+            {% for post in site.pages %}
+              {% for tag in post.tags %}
+                {% if tag == "start" %}
+                  <li>
+                    <a href="{{ post.url }}"><i class="icon-circle-arrow-right"></i> {{ post.title }}</a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            {% endfor %}
           </ul>
         </div>
-        <div class="span4">
-          <h3>Forecasts</h3>
-          <ul>
-            <li>Article 1</li>
-            <li>Article 2</li>
-            <li>Article 3</li>
+        <div class="col-xs-4">
+          <h3><i class="icon-book"></i> Forecasts</h3>
+          <ul class="nav nav-list">
+            {% for post in site.pages %}
+              {% for tag in post.tags %}
+                {% if tag == "forecasts" %}
+                  <li>
+                    <a href="{{ post.url }}"><i class="icon-circle-arrow-right"></i> {{ post.title }}</a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            {% endfor %}
           </ul>
         </div>
-        <div class="span4">
-          <h3>Historical Analysis</h3>
-          <ul>
-            <li>Article 1</li>
-            <li>Article 2</li>
-            <li>Article 3</li>
+        <div class="col-xs-4">
+          <h3><i class="icon-book"></i> Historical Analysis</h3>
+          <ul class="nav nav-list">
+            {% for post in site.pages %}
+              {% for tag in post.tags %}
+                {% if tag == "historical" %}
+                  <li>
+                    <a href="{{ post.url }}"><i class="icon-circle-arrow-right"></i> {{ post.title }}</a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            {% endfor %}
           </ul>
         </div>
       </div>
       <div class="row">
-        <div class="span4 offset2">
-          <h3>Settings</h3>
-          <ul>
-            <li>Article 1</li>
-            <li>Article 2</li>
-            <li>Article 3</li>
+        <div class="col-xs-4 offset2">
+          <h3><i class="icon-book"></i> Settings</h3>
+          <ul class="nav nav-list">
+            {% for post in site.pages %}
+              {% for tag in post.tags %}
+                {% if tag == "settings" %}
+                  <li>
+                    <a href="{{ post.url }}"><i class="icon-circle-arrow-right"></i> {{ post.title }}</a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            {% endfor %}
           </ul>
         </div>
-        <div class="span4">
-          <h3>Platform Features</h3>
-          <ul>
-            <li>Article 1</li>
-            <li>Article 2</li>
-            <li>Article 3</li>
+        <div class="col-xs-4">
+          <h3><i class="icon-book"></i> Platform Features</h3>
+          <ul class="nav nav-list">
+            {% for post in site.pages %}
+              {% for tag in post.tags %}
+                {% if tag == "platform" %}
+                  <li>
+                    <a href="{{ post.url }}"><i class="icon-circle-arrow-right"></i> {{ post.title }}</a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            {% endfor %}
           </ul>
         </div>
       </div>

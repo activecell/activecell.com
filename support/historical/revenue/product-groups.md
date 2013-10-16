@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "Historical product group revenue"
+tags: [historical]
 ---
 
 Before tackling the revenue forecast, it can be useful to group your product into product groups for planning purposes.

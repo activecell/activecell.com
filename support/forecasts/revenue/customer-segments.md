@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "Customer segment forecast"
+tags: [forecasts]
 ---
 
 Before tackling the revenue forecast, be sure to check your historical revenue to make sure agree with how the history looks. If you intend to plan your revenue forecast by customer segments (groups of customers) you will want to be comfortable with your [customer segment list]() and [historical revenue by customer segment]().

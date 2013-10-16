@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "Historical employee type expense"
+tags: [historical]
 ---
 
 Before tackling the team forecast, it can be useful to group your employees into types for planning purposes.

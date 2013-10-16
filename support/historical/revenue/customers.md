@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "Historical customer revenue"
+tags: [historical]
 ---
 
 Activecell makes it easy to look at historical customer revenue. We provide 5 different perspectives so that it is easy to visualize your data however you find most useful.

@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "Revenue forecast overview"
+tags: [forecasts]
 ---
 
 Activecell provides a variety of methods for building a revenue forecast for you business and comparing historical revenue to the plan.

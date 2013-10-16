@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "Categorize your accounts"
+tags: [settings]
 ---
 
 Activecell is designed so that you do not have to adjust your chart of accounts to facilitate planning. This is because often a company's accounts are set up in a way that facilitates tax preparation, commission models, or any number of other purposes.
