@@ -13,7 +13,7 @@ Not all customers are created equal! By segmenting your customer base, you can p
 
 <!-- screenshot -->
 
-Here you can see a list of your segments with the list of their employees underneath. You can add, rename, and delete segments however you like until you get to a grouping that makes sense for your business.
+Here you can see a list of your segments with the list of their customers underneath. You can add, rename, and delete segments however you like until you get to a grouping that makes sense for your business.
 
 **Pro tip:** If you just want to put a plan in place for each current and future customer, you can always add a segment for each customer and plan that way. Or, of course, you could do a hybrid, creating segments for some customers and grouping others into larger segments. This model is infinitely flexible in that respect.
 

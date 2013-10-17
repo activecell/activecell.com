@@ -35,11 +35,29 @@ If there isn't a useful benchmark for planning revenue and you really just want 
 
 This means there will not be a revenue driver line in the chart, but you can still track plan vs actual.
 
-### Revenue driver: Forecast top down as a % of revenue
+### Revenue driver: Forecast bottom up by product volume
+
+It is possible in Activecell to simply benchmark revenue against product sales (e.g. for every _x_ thousand units, customer acquisition should be _y_).
 
 <!-- screenshot -->
 
-You can benchmark your revenue forecast as a simple percentage of revenue, and as your revenue forecast evolves, your revenue forecast will follow it.
+**Note:** For now, Activecell cannot reliably retrieve product volume from QuickBooks or Xero, so both the plan and actual values for product volume must be managed manually. If you forecast revenue as 1 line, you will also need to forecast product volume as 1 line.
+
+### Revenue driver: Forecast bottom up by customer volume
+
+It is possible in Activecell to simply benchmark revenue against customer volume, presuming that as customer volume grows, so will your customer acquisition.
+
+<!-- screenshot -->
+
+**Note:** For now Activecell cannot reliably retrieve customer volume from QuickBooks or Xero, so both the plan and actual values for customer volume must be managed manually. If you forecast revenue as 1 line, you will also need to forecast customer volume as 1 line.
+
+### Revenue driver: Forecast bottom up by team size
+
+It is also possible in Activecell to simply benchmark your revenue forecast against team size, presuming that as your team grows, so will your revenue.
+
+<!-- screenshot -->
+
+**Note:** For now, Activecell cannot reliably retrieve team size from QuickBooks or Xero, so both the plan and actual values for team size must be managed manually within the [employee type forecast]().
 
 ## Forecast method: Build bottom up by revenue stream
 
@@ -70,11 +88,3 @@ By modeling revenue by customer segment you lean on your customer list primary a
 <!-- screenshot -->
 
 In this case, the chart will show blue columns for actuals and either green or red columns for plan — green if actuals came in under plan and red if actuals came in over plan.
-
-### Revenue driver: Forecast bottom up by team size
-
-It is also possible in Activecell to simply benchmark your revenue forecast against team size, presuming that as your team grows, so will your revenue.
-
-<!-- screenshot -->
-
-**Note:** For now, Activecell cannot reliably retrieve team size from QuickBooks or Xero, so both the plan and actual values for team size must be managed manually within the [employee type forecast]().

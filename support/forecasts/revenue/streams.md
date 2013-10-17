@@ -73,7 +73,7 @@ If there isn't a useful benchmark for planning this stream's expense, you can al
 
 This means there will not be a cost driver line in the chart, but you can track plan vs actual.
 
-### Revenue driver: Forecast bottom up by employee count
+### Revenue driver: Forecast bottom up by team size
 
 Sometimes a stream will involve planning based on the number of employees you have.
 
@@ -81,4 +81,4 @@ Sometimes a stream will involve planning based on the number of employees you ha
 
 This is happens in cases where you expect strong correlations between team size and revenue, but you want your staffing plan to be the primary driver of growth for the plan (as opposed to the other way around, where revenue drives team size!).
 
-**Note:** For now, Activecell cannot reliably retrieve employee counts from QuickBooks or Xero, so both the plan and actual values for employee count must be manually entered in the team section.
+**Note:** For now, Activecell cannot reliably retrieve team size from QuickBooks or Xero, so both the plan and actual values for team size must be manually entered in the team section.

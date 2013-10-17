@@ -80,13 +80,3 @@ Most commonly, a revenue plan based on customer segments will involve planning f
 <!-- screenshot -->
 
 **Note:** For now, Activecell cannot reliably retrieve customer volume from QuickBooks or Xero, so both the plan and actual values for customer count must be managed manually. In addition, other areas of the plan may rely on customer volume as a cost driver, so if this is the case, it is critical that plan and actual values be maintained to keep the model in good shape.
-
-### Revenue driver: Forecast bottom up by team size
-
-Sometimes a segment will involve planning based on the number of employees you have.
-
-<!-- screenshot -->
-
-This is happens in cases where you expect strong correlations between team size and revenue, but you want your staffing plan to be the primary driver of growth for the plan (as opposed to the other way around, where revenue drives team size!).
-
-**Note:** For now, Activecell cannot reliably retrieve team size from QuickBooks or Xero, so both the plan and actual values for team size must be managed manually within the [employee type forecast]().
