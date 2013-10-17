@@ -14,17 +14,26 @@ If we are going to look at the cash impact of your plan, it is important to know
 
 Visit the [account categorization page](http://launchpad.activecell.com/#settings/accounts) if you haven't already been directed to it. Then make sure you have selected "Assets" from the account type selector.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 Your accounts will be grouped in the table into cash and non-cash buckets.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 Above that, you will see the breakdown of cash and non-cash asset balances over time.
 
 Correcting mis-categorized accounts is as simple as dragging the account from one bucket to the other by clicking and dragging the hand icon on the right.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 ### What are Cash accounts?
 
@@ -36,7 +45,10 @@ With a similar approach, we are going to categorize expenses into Cost of Goods 
 
 First, select "Cost of Goods Sold" from the account type selector.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 _Note:_ In some versions of QuickBooks, Cost of Goods Sold appear as a separate account type, and in some versions these accounts are lumped in with Expense accounts.
 
@@ -50,7 +62,10 @@ The process for categorizing COGS accounts is the same as with assets. Simply dr
 
 Once complete, select "Expense" from the account type selector to categorize expense accounts.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 ### What are Team accounts?
 

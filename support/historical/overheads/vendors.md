@@ -10,13 +10,19 @@ Activecell makes it easy to analyze historical overhead expense. We provide 5 di
 
 The leaderboard is a great way to look at your total overhead expense by vendor for a range of time.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 The chart shows vendors ranked vertically by total expense, and you can see the percentage of total expense in the line below the vendor's name. As you adjust the date range for the analysis, you will see the values change in real time.
 
 ### Lines perspective
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 A traditional line chart is an easy way to compare vendor cost over time side by side.
 
@@ -24,13 +30,19 @@ A traditional line chart is an easy way to compare vendor cost over time side by
 
 The stacked column chart is great for visualizing how all of your vendors "stack up" to build a total view of your overhead expense.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 This means that the top of the chart represents total overhead expense, and you can quickly visualize the breakdown among your various vendors and how that breakdown changes over time.
 
 ### Grouped columns perspective
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 While the stacked chart lets you see the cumulative expense across all vendors, the traditional time series makes it easier to compare vendors side by side over time.
 
@@ -38,7 +50,10 @@ While the stacked chart lets you see the cumulative expense across all vendors, 
 
 The pareto chart is a perennial favorite for management consultants (we couldn't help ourselves!). The chart is similar to the leaderboard, showing columns for your top vendors in descending order. The line that passes over the top of the columns is the cumulative percent of total spend.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 This cumulative percent line makes it easy to identify which vendors make up 80% of the overheads spend, for example.
 
@@ -46,7 +61,10 @@ This cumulative percent line makes it easy to identify which vendors make up 80%
 
 The table below the charts shows the time series data for each vendor along with a total row and total column to make digging through the data very easy.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 As you adjust the date range for the analysis, the table will adjust in real time, aggregating data dynamically as required. In short, if you select the time period you want to understand better, the table will adjust to show you that data in a way that is most useful.
 
@@ -54,7 +72,10 @@ As you adjust the date range for the analysis, the table will adjust in real tim
 
 By clicking "Vendor list" you can view a complete list of vendors. From this list, you can tag vendors as contractors if you want to manage their expenses as part of the staffing plan.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 _Note: This distinction has nothing to do with W2 vs 1099 reporting or external accounting requirements. This is merely to aid in building a staffing plan when work could either be performed by internal employees or external contractors._
 
@@ -70,7 +91,10 @@ The first problem that might cause the charts to show too little data is if over
 
 Even if you get the accounts bucketed correctly, overhead expense data often comes through without specific vendors associated with them. This is less common with bills (most of which have vendors!) but can include manual journal entries or places where vendor data is incomplete.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 To help this, we list overheads with no vendor by account. That way, wherever you may be missing vendor-specific data, you at least can see what accounts are registering various amount of expenditure over time.
 
@@ -82,6 +106,9 @@ As a last resort, if you're just not seeing the level of visibility you would li
 
 To view a single vendor's overhead expense over time, just click on the vendor's name.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 This view is much simpler to view if you just want to see that line item.

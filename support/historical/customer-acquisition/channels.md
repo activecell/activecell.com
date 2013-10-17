@@ -16,7 +16,10 @@ Often, a company's chart of accounts can be much more granular that planning req
 
 Regardless of how your chart of accounts looks, you can create channels in Activecell that you want to plan against, and you can roll up any number of accounts into each channel.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 Here you can see a list of your channels with the list of accounts underneath. You can add, rename, and delete channels however you like until you get to a grouping that makes sense for your business.
 
@@ -26,6 +29,9 @@ Here you can see a list of your channels with the list of accounts underneath. Y
 
 In the Channels section, historical data is shown right in line with forecast data.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 Explanations of these views are included in the [COGS forecast section]().

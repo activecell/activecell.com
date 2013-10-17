@@ -18,7 +18,10 @@ Throughout Activecell, most pages offer you multiple "perspectives" on the same 
 
 The waterfall perspective is the default because it provides a simple view into historical and forecast performance.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 The first column shows revenue, and then each of the following four columns show the standard buckets of expenditures (COGS, customer acquisition, team, and overheads). As we note below, if you have assigned your employee types to expense categories, team costs will roll up under them, and there will be no team line item in the waterfall.
 
@@ -32,7 +35,10 @@ The bullet chart is a tricky one, but once you are accustomed to the data it dis
 
 Variance analysis takes a simple look at plan vs actual data for the time period selected without attempting to display the data over time.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 Blue columns represent actuals, and plan is displayed either as green or as red columns for plan — green if actuals came in under plan and red if actuals came in over plan.
 
@@ -46,8 +52,14 @@ If any of your 5 plan line items are managed as 1-line forecasts, you will be ab
 
 In most cases, however, more granular and complex forecasts are managed within each section of the application, and the P&L report allows you to click on the line item to be taken directly to the section of the application that deals with that line.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 In addition, the simple navigation on the left side of Activecell's window provides a shortcut for each section of the P&L.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>

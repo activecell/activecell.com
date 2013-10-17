@@ -28,13 +28,19 @@ In these cases, steps get set up you will:
 
 When you visit [http://launchpad.activecell.com](http://launchpad.activecell.com) you will be presented with the following screen:
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 Simply click "Sign up" to get started.
 
 In the form that follows, please provide an email address, password, and company name. Your company name will be used in the web address for your new account. For example, if your company is named "Sterling Cooper" you might access Activecell at http://sterlingcooper.activecell.com.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 ## Upgrade to advisor
 
@@ -49,7 +55,10 @@ If the first company you create is your client's company, you can invite your cl
 
 Once invited, your client will receive an email asking them to create an account.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 They can then connect their data and begin using Activecell.
 
@@ -59,7 +68,10 @@ If the first company you create is your own company, you can upgrade to advisor 
 
 Once you have upgraded your company to advisor status, you can begin adding companies and inviting users.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 ## Create a company for your first client and invite users
 
