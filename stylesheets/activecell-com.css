@@ -6348,7 +6348,11 @@ select[size] {
 body {
   padding-top: 46px;
 }
-#index {
+#index, 
+#support-background, 
+#case-studies-background, 
+#features-background, 
+#company-background {
   background: #fff;
   color: #333;
 }
