@@ -6251,8 +6251,8 @@ select[size] {
 
 .h-entry {
   position: relative;
-  margin: 20px auto;
-  padding: 20px;
+  margin: 0 0 30px;
+  padding: 20px 100px 20px 350px;
   color: #333333;
   background: #fff;
   -webkit-transform-style: flat;
@@ -6288,6 +6288,34 @@ select[size] {
     transform: rotate(3deg);
     right: 10px;
     left: auto; }
+  .h-entry figure {
+    margin: 0 0 0.8em 0; }
+    .h-entry figure figcaption {
+      font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 0.65em;
+      line-height: 140%;
+      color: #999999;
+      display: block;
+      position: absolute;
+      margin-left: 0;
+      left: 7em;
+      width: 13em;
+      text-align: right;
+      clear: both;
+      margin-bottom: 1em; }
+  .h-entry aside {
+    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.65em;
+    line-height: 140%;
+    color: #999999;
+    display: block;
+    position: absolute;
+    margin-left: 0;
+    left: 7em;
+    width: 13em;
+    text-align: right;
+    clear: both;
+    margin-bottom: 1em; }
 
 .vcard {
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
