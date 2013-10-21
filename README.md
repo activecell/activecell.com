@@ -1,11 +1,11 @@
 <pre>
-  	                        (                             (     (     
-     (        (     *   ) )\ )                (         )\ )  )\ )  
-     )\       )\  ` )  /((()/( (   (   (      )\   (   (()/( (()/(  
-  ((((_)(   (((_)  ( )(_))/(_)))\  )\  )\   (((_)  )\   /(_)) /(_)) 
-   )\ _ )\  )\___ (_(_())(_)) ((_)((_)((_)  )\___ ((_) (_))  (_))   
-   (_)_\(_)((/ __||_   _||_ _|\ \ / / | __|((/ __|| __|| |   | |    
-    / _ \   | (__   | |   | |  \ V /  | _|  | (__ | _| | |__ | |__  
+                            (                             (     (
+     (        (     *   ) )\ )                (         )\ )  )\ )
+     )\       )\  ` )  /((()/( (   (   (      )\   (   (()/( (()/(
+  ((((_)(   (((_)  ( )(_))/(_)))\  )\  )\   (((_)  )\   /(_)) /(_))
+   )\ _ )\  )\___ (_(_())(_)) ((_)((_)((_)  )\___ ((_) (_))  (_))
+   (_)_\(_)((/ __||_   _||_ _|\ \ / / | __|((/ __|| __|| |   | |
+    / _ \   | (__   | |   | |  \ V /  | _|  | (__ | _| | |__ | |__
    /_/ \_\   \___|  |_|  |___|  \_/   |___|  \___||___||____||____|
 
 </pre>
@@ -24,7 +24,7 @@ The site is delivered in static form using the following tools/services:
 
 More information can be found in [this post](http://www.maxmasnick.com/2012/01/21/jekyll_s3_cloudfront/) by Max Masnick.
 
-The reason for the move to these tools was simple. 
+The reason for the move to these tools was simple.
 
 Originally, we had an entirely static site, and it was a bear to maintain. When we want to change a footer element, it needed to be updated in 30 places. When we had a new post, it needed to be created based on an existing page. Woof.
 
@@ -41,7 +41,7 @@ Contributing & Deploying
 ### Foreman's dev mode
 We recommend using "Procfile" for foreman:
 
-    bundle exec foreman start -f Procfile
+    bundle exec foreman start
 
 This starts the following services:
 
