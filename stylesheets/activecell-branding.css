@@ -280,7 +280,7 @@ a {
   color: #70c7cf;
   text-decoration: none; }
   a:hover, a:focus {
-    color: #3dabb5;
+    color: #30878f;
     text-decoration: underline; }
   a:focus {
     outline: thin dotted #333;
@@ -1801,7 +1801,7 @@ textarea.input-lg, .input-group-lg > textarea.form-control,
   .btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
     border-color: transparent; }
   .btn-link:hover, .btn-link:focus {
-    color: #3dabb5;
+    color: #30878f;
     text-decoration: underline;
     background-color: transparent; }
   .btn-link[disabled]:hover, .btn-link[disabled]:focus, fieldset[disabled] .btn-link:hover, fieldset[disabled] .btn-link:focus {
@@ -2278,7 +2278,7 @@ input[type="button"].btn-block {
         border-color: transparent transparent #eeeeee; }
     .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
       color: #eeeeee;
-      background-color: #70c7cf;
+      background-color: #00455b;
       border: 1px solid #eeeeee;
       border-bottom-color: transparent;
       cursor: default; }
@@ -2339,8 +2339,8 @@ input[type="button"].btn-block {
   border-bottom-color: #70c7cf; }
 
 .nav a:hover .caret {
-  border-top-color: #3dabb5;
-  border-bottom-color: #3dabb5; }
+  border-top-color: #30878f;
+  border-bottom-color: #30878f; }
 
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
@@ -6073,11 +6073,7 @@ html {
 
 body {
   min-height: 100%;
-  background-image: -webkit-gradient(radial, center center, 0, center center, 460, from(#30878f), to(#00455b));
-  background-image: -webkit-radial-gradient(circle, #30878f, #00455b);
-  background-image: -moz-radial-gradient(circle, #30878f, #00455b);
-  background-image: radial-gradient(circle, #30878f, #00455b);
-  background-repeat: no-repeat; }
+  background-color: #00455b; }
 
 pre {
   font-size: 14px; }
@@ -6169,7 +6165,22 @@ select[size] {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF073648', endColorstr='#FF041B25', GradientType=0); }
 
 .btn {
-  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px; }
+
+.btn-lg, .btn-group-lg > .btn {
+  padding: 10px 16px;
+  font-size: 20px;
+  line-height: 1.33;
+  border-radius: 6px; }
+
+.btn-sm, .btn-group-sm > .btn,
+.btn-xs,
+.btn-group-xs > .btn {
+  padding: 5px 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  border-radius: 3px; }
 
 .label {
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
@@ -6250,9 +6261,11 @@ select[size] {
   color: #333333; }
 
 .h-entry {
+  font-size: 24px;
+  line-height: 135%;
   position: relative;
   margin: 0 0 30px;
-  padding: 20px 100px 20px 350px;
+  padding: 20px 80px 20px 310px;
   color: #333333;
   background: #fff;
   -webkit-transform-style: flat;
@@ -6288,6 +6301,14 @@ select[size] {
     transform: rotate(3deg);
     right: 10px;
     left: auto; }
+  .h-entry h1, .h-entry h2, .h-entry h3, .h-entry h4, .h-entry h5 {
+    margin: 24px auto 24px -26px;
+    padding: 20px;
+    border-left: solid 5px #eeeeee; }
+  .h-entry p {
+    margin-bottom: 0.8em; }
+  .h-entry a:focus, .h-entry a:hover {
+    text-decoration: underline; }
   .h-entry figure {
     margin: 0 0 0.8em 0; }
     .h-entry figure figcaption {
@@ -6298,7 +6319,7 @@ select[size] {
       display: block;
       position: absolute;
       margin-left: 0;
-      left: 7em;
+      left: 5em;
       width: 13em;
       text-align: right;
       clear: both;
@@ -6311,7 +6332,7 @@ select[size] {
     display: block;
     position: absolute;
     margin-left: 0;
-    left: 7em;
+    left: 5em;
     width: 13em;
     text-align: right;
     clear: both;
