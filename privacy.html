@@ -1,42 +1,8 @@
 ---
 layout: main
 title: "Privacy policy | Activecell: The small business management platform"
-body_id: index
 ---
-<div class="navbar navbar-fixed-top">
-  <div class="navbar-inner">
-    <div class="container relative">
-      <div class="row">
-        <div class="span9">
-          <a class="brand" href="http://www.activecell.com/">
-            <img src="{{ 'assets/img/branding/activecell-full-color-darkBG-small.png' | cdn }}" alt="activecell">
-          </a>
-          <div class="nav">
-            <ul class="nav">
-              <!-- <li id="insights-link"><a href="index.html#insights">Insights</a></li> -->
-              <li><a href="index.html#features">Features</a></li>
-              <li><a href="index.html#pricing">Pricing</a></li>
-              <li><a href="index.html#experts">Experts</a></li>
-            </ul>
-          </div>
-          <!--/.nav-collapse -->
-        </div>
-        <div class="span3">
-          <div class="btn-toolbar signin">
-            <div class="btn-group">
-              <a class="btn btn-success" href="https://launchpad.activecell.com/users/sign_up" data-toggle="modal">
-                <strong>Sign up</strong>
-              </a>
-              <a class="btn btn-primary" href="https://launchpad.activecell.com/users/sign_in">
-                or <strong>Sign in</strong>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+{% include navigation.html %}
 
 <div class="container" id="privacy" >
   <div class="row">
@@ -46,31 +12,32 @@ body_id: index
     </div>
   </div>
   
-  <div class="row show-grid">
-    <div class="span3 side-nav">
-      <ol>
-        <li><a href="#intro">Introduction</a> </li>
-        <li><a href="#1">Your privacy is not for sale</a> </li>
-        <li><a href="#2">We limit the collection and use of personal information</a> </li>
-        <li><a href="#3">Profitably does not request or store account credentials (e.g. logins, passwords, et al) from your financial institutions or third-party applications</a> </li>
-        <li><a href="#4">Customer-administered user access to customer data</a> </li>
-        <li><a href="#5">Changes to your Registration Information</a> </li>
-        <li><a href="#6">Online session information and use is only used to improve your experience</a> </li>
-        <li><a href="#7">Third parties offering other products or services will not be given your customer data without your permission</a> </li>
-        <li><a href="#8">Blogs and other Forums on Profitably.com</a> </li>
-        <li><a href="#9">Contests, Giveaways and Surveys</a> </li>
-        <li><a href="#10">Customer Feedback and Customer Testimonials</a> </li>
-        <li><a href="#11">Disclosure of your information to protect our rights or to comply with the law</a> </li>
-        <li><a href="#12">Your data may be transferred upon change of control but only in accordance with this Policy</a> </li>
-        <li><a href="#13">You can delete your data</a></li>
-        <li><a href="#14">Email communications from us</a></li>
-        <li><a href="#15">We strive to protect your data</a></li>
-        <li><a href="#16">We post updates on our website whenever there is a change to our Privacy and Security Policy</a></li>
-        <li><a href="#17">Contact us if you have any questions or concerns</a></li>
-      </ol>
+  <div class="row">
+    <div class="col-xs-3 side-nav">
+      <ul class="nav -nav-list">
+        <li><a href="#intro"><i class="icon-circle-arrow-right"></i> Introduction</a> </li>
+        <li><a href="#1"><i class="icon-circle-arrow-right"></i> Your privacy is not for sale</a> </li>
+        <li><a href="#2"><i class="icon-circle-arrow-right"></i> We limit the collection and use of personal information</a> </li>
+        <li><a href="#3"><i class="icon-circle-arrow-right"></i> Profitably does not request or store account credentials (e.g. logins, passwords, et al) from your financial institutions or third-party applications</a> </li>
+        <li><a href="#4"><i class="icon-circle-arrow-right"></i> Customer-administered user access to customer data</a> </li>
+        <li><a href="#5"><i class="icon-circle-arrow-right"></i> Changes to your Registration Information</a> </li>
+        <li><a href="#6"><i class="icon-circle-arrow-right"></i> Online session information and use is only used to improve your experience</a> </li>
+        <li><a href="#7"><i class="icon-circle-arrow-right"></i> Third parties offering other products or services will not be given your customer data without your permission</a> </li>
+        <li><a href="#8"><i class="icon-circle-arrow-right"></i> Blogs and other Forums on Profitably.com</a> </li>
+        <li><a href="#9"><i class="icon-circle-arrow-right"></i> Contests, Giveaways and Surveys</a> </li>
+        <li><a href="#10"><i class="icon-circle-arrow-right"></i> Customer Feedback and Customer Testimonials</a> </li>
+        <li><a href="#11"><i class="icon-circle-arrow-right"></i> Disclosure of your information to protect our rights or to comply with the law</a> </li>
+        <li><a href="#12"><i class="icon-circle-arrow-right"></i> Your data may be transferred upon change of control but only in accordance with this Policy</a> </li>
+        <li><a href="#13"><i class="icon-circle-arrow-right"></i> You can delete your data</a></li>
+        <li><a href="#14"><i class="icon-circle-arrow-right"></i> Email communications from us</a></li>
+        <li><a href="#15"><i class="icon-circle-arrow-right"></i> We strive to protect your data</a></li>
+        <li><a href="#16"><i class="icon-circle-arrow-right"></i> We post updates on our website whenever there is a change to our Privacy and Security Policy</a></li>
+        <li><a href="#17"><i class="icon-circle-arrow-right"></i> Contact us if you have any questions or concerns</a></li>
+      </ul>
     </div>
-    <div class="span9 article">
-      <div class="post"> <a name="intro"> </a>
+    <div class="col-xs-9">
+      <div class="h-entry">
+        <a name="intro"> </a>
         <h3>Introduction</h3>
         <p><span>Maintaining the confidentiality, integrity and security of information provided by our users is critical to us at Profitably, Inc. ("Profitably"). This Privacy &amp; Security Policy explains how we protect customer data provided through our web application at <a class="linkclass" href="http://www.activecell.com">www.activecell.com</a> ("the Site") and how we use that information in connection with our services offered through the Site (the "Service"). "Customer Data," for purposes of this Policy, means information that identifies you, such as your name, address, phone number, or email address; or business data such as employee headcount or historical revenue and expenditures.</span></p>
         <p>Profitably has developed its privacy and security standards to guard against identity theft and provide security for your Customer Data. We regularly re-evaluate our privacy and security policies and adapt them as necessary.</p>

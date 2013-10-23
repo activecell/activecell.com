@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "Historical employee type expense"
+tags: [historical]
 ---
 
 Before tackling the team forecast, it can be useful to group your employees into types for planning purposes.
@@ -15,7 +16,10 @@ Employee "types" is a vague term, but every company has unique needs, so perhaps
 
 ## The Employee Type List
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 Here you can see a list of your employee types with the list of employees underneath. You can add, rename, and delete employee types however you like until you get to a grouping that makes sense for your business.
 
@@ -27,7 +31,10 @@ Within the COGS, Customer Acquisition, and Overheads section, it is possible to 
 
 If you have tagged any vendors as contractors, their costs will appear with the other employees in this list.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 Naturally, from this view you can un-tag contractors from here, and their costs will roll back where they came from.
 
@@ -35,7 +42,10 @@ Naturally, from this view you can un-tag contractors from here, and their costs 
 
 It can be very useful to assign employee types to Cost of Goods Sold (COGS), Customer Acquisition, and Overheads. If you do so, your high-level reporting will include both people costs and non-people costs.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 ### No employee listed records
 
@@ -47,6 +57,9 @@ As a result, you can capture (for example) accounts for R&D contractors and map 
 
 In the employee type section, historical data is shown right in line with forecast data.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 Explanations of these views are included in the [team forecast section]().

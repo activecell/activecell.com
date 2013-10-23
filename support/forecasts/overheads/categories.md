@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "Overheads category forecast"
+tags: [forecasts]
 ---
 
 Before tackling the overheads forecast, be sure to check your historical overheads expenditures to make sure agree with how the history looks. Not only will you want to be comfortable with [expense by vendor](), but also with your [overhead category list]() and [historical spend by overhead category]().
@@ -13,7 +14,10 @@ Sometimes it can be useful to see the big picture by viewing all overhead catego
 
 The stacked column chart is great for visualizing how all of your overhead categories "stack up" to build a total view of overheads expense.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 This means that the top of the chart represents total overheads expense, and you can quickly visualize the breakdown among your various categories and how that breakdown changes over time.
 
@@ -21,11 +25,17 @@ This means that the top of the chart represents total overheads expense, and you
 
 By grouping the columns rather than stacking them, it is easier to compare overhead categories side by side over time.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 ### Lines perspective
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 A traditional line chart is an easy way to compare each category's forecast over time side by side.
 
@@ -33,7 +43,10 @@ A traditional line chart is an easy way to compare each category's forecast over
 
 The table below the charts shows the time series data for each overheads category along with a total row and total column to make digging through the data very easy.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 As you adjust the date range for the analysis, the table will adjust in real time, aggregating data dynamically as required. In short, if you select the time period you want to understand better, the table will adjust to show you that data in a way that is most useful.
 
@@ -49,11 +62,17 @@ If you want to tackle a larger period of time at once, you can always zoom out t
 
 To view a single overhead category, just click on the category's name.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 This view provides much greater visibility into plan vs actual by showing blue columns for actuals and either green or red columns for plan — green if actuals came in under plan and red if actuals came in over plan.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 This view also provides a very useful feature called "cost drivers." A cost driver is a useful benchmark such as revenue, customer count, or employee count, that puts the forecast in context and helps adjust the forecast automatically as the driver itself changes.
 
@@ -61,7 +80,10 @@ This view also provides a very useful feature called "cost drivers." A cost driv
 
 If you have a marginal category that doesn't warrant planning at all, you can always exclude it from the plan entirely.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 Any actuals that show up in this category will show as a variance, but if it's not a big deal, sometimes excluding an category can help simplify a plan.
 
@@ -69,7 +91,10 @@ Any actuals that show up in this category will show as a variance, but if it's n
 
 If there isn't a useful benchmark for planning this category's expense, you can always plan it manually.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 This means there will not be a cost driver line in the chart, but you can track plan vs actual.
 
@@ -77,7 +102,10 @@ This means there will not be a cost driver line in the chart, but you can track 
 
 Some categories lend themselves to planning as a percentage of revenue.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 For example, pegging legal expense to revenue provides useful context to your forecast and saves you from having to adjust legal expense forecasts as your revenue forecast shifts.
 
@@ -85,7 +113,10 @@ For example, pegging legal expense to revenue provides useful context to your fo
 
 Sometimes, a category may be pegged against product sales (e.g. for every _x_ thousand units, we should spend _y_). In such a case, you can model a category benchmarked against product sales volume.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 **Note:** For now, Activecell cannot reliably retrieve product volume from QuickBooks or Xero, so both the plan and actual values for product volume must be managed manually within the [product group forecast]().
 
@@ -93,7 +124,10 @@ Sometimes, a category may be pegged against product sales (e.g. for every _x_ th
 
 Sometimes, a category will involve planning based on the number of customers you have. As an example, this may apply to a customer entertainment budget if that isn't considered part of customer acquisition.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 In such a case, you can model a category benchmarked against customer count.
 
@@ -103,7 +137,10 @@ In such a case, you can model a category benchmarked against customer count.
 
 Sometimes a category will involve planning based on the number of employees you have.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 As an example, you may peg office expense and rent against employee count and use that as a rough proxy as employee levels grow.
 

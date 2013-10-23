@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "Employee type forecast"
+tags: [forecasts]
 ---
 
 Before tackling the team forecast, be sure to check your historical employee expenditures to make sure agree with how the history looks. Not only will you want to be comfortable with [expense by employee](), but also with your [employee type list]() and [historical spend by employee type]().
@@ -13,7 +14,10 @@ Sometimes it can be useful to see the big picture by viewing all employee types 
 
 The stacked column chart is great for visualizing how all of your employee types "stack up" to build a total view of your staffing expense.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 This means that the top of the chart represents total staffing expense, and you can quickly visualize the breakdown among your various employee types and how that breakdown changes over time.
 
@@ -21,11 +25,17 @@ This means that the top of the chart represents total staffing expense, and you 
 
 By grouping the columns rather than stacking them, it is easier to compare employee types side by side over time.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 ### Lines perspective
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 A traditional line chart is an easy way to compare each type's forecast over time side by side.
 
@@ -33,7 +43,10 @@ A traditional line chart is an easy way to compare each type's forecast over tim
 
 The table below the charts shows the time series data for each employee type along with a total row and total column to make digging through the data very easy.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 As you adjust the date range for the analysis, the table will adjust in real time, aggregating data dynamically as required. In short, if you select the time period you want to understand better, the table will adjust to show you that data in a way that is most useful.
 
@@ -49,11 +62,17 @@ If you want to tackle a larger period of time at once, you can always zoom out t
 
 To view a single employee type, just click on the employee type's name.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 This view provides much greater visibility into plan vs actual by showing blue columns for actuals and either green or red columns for plan — green if actuals came in under plan and red if actuals came in over plan.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 This view also provides a very useful feature called "cost drivers." A cost driver is a useful benchmark such as revenue, customer count, or employee count, that puts the forecast in context and helps adjust the forecast automatically as the driver itself changes.
 
@@ -61,7 +80,10 @@ This view also provides a very useful feature called "cost drivers." A cost driv
 
 If you have a marginal employee type that doesn't warrant planning at all, you can always exclude it from the plan entirely.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 Any actuals that show up in this employee type will show as a variance, but if it's not a big deal, sometimes excluding an employee type can help simplify a plan.
 
@@ -69,7 +91,10 @@ Any actuals that show up in this employee type will show as a variance, but if i
 
 If there isn't a useful benchmark for planning this employee type's expense, you can always plan it manually.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 This means there will not be a cost driver line in the chart, but you can track plan vs actual.
 
@@ -77,7 +102,10 @@ This means there will not be a cost driver line in the chart, but you can track 
 
 Some employee types lend themselves to planning as a percentage of revenue.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 For example, rather than planning for the number of salespeople you might need, you may choose to plan that a particular percentage of revenue will go to salesperson compensation.
 
@@ -85,7 +113,10 @@ For example, rather than planning for the number of salespeople you might need, 
 
 Sometimes, of a portion of the staffing plan will be pegged against product sales (e.g. for every _x_ thousand units, we need to spend _y_ on staff). In such a case, you can model an employee type benchmarked against product sales volume.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 **Note:** For now, Activecell cannot reliably retrieve product volume from QuickBooks or Xero, so both the plan and actual values for product volume must be managed manually within the [product group forecast]().
 
@@ -94,7 +125,10 @@ Sometimes, of a portion of the staffing plan will be pegged against product sale
 
 Sometimes, a portion of a staffing plan will involve planning based on the number of customers you have. As an example, this may apply to account management.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 In such a case, you can model staffing costs benchmarked against customer count.
 
@@ -104,7 +138,10 @@ In such a case, you can model staffing costs benchmarked against customer count.
 
 Most commonly, a staffing plan will involve planning for the number of employees you will require — by employee type — and what you will pay each employee monthly in total comp.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 This works both for internal employees and external contractors.
 

@@ -1,13 +1,17 @@
 ---
 layout: support
 title: "Activecell settings"
+tags: [settings]
 ---
 
 Our settings are intentionally designed to mimic our onboarding process.
 
 Here's what it looks like:
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 1. QuickBooks connection
 1. QuickBooks data sync
@@ -31,15 +35,24 @@ Once data is connected, this panel provides information on data sync status.
 
 If you use QuickBooks Desktop, it will display the status of your most recent sync from your local desktop software to Intuit's cloud services.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 Then, regardless of which accounting platform you use, you will see the status of your data sync to Activecell.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 We try to keep your data as up to date as possible, but if you just updated your source accounting data, you can always initiate a sync manually and track its progress.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 ## Categorizing your accounts
 
@@ -51,15 +64,24 @@ When your accounting data is in sync with Activecell, you can categorize your ac
 
 If you are in a free trial, this panel will let you know how many days remain in your trial.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 At any time in your trial, you can provide credit card details to upgrade to an Activecell plan.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 Once in a plan, you can always cancel your account at any time or switch between monthly and annual plans.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 ## Access control
 

@@ -1,11 +1,11 @@
 <pre>
-  	                        (                             (     (     
-     (        (     *   ) )\ )                (         )\ )  )\ )  
-     )\       )\  ` )  /((()/( (   (   (      )\   (   (()/( (()/(  
-  ((((_)(   (((_)  ( )(_))/(_)))\  )\  )\   (((_)  )\   /(_)) /(_)) 
-   )\ _ )\  )\___ (_(_())(_)) ((_)((_)((_)  )\___ ((_) (_))  (_))   
-   (_)_\(_)((/ __||_   _||_ _|\ \ / / | __|((/ __|| __|| |   | |    
-    / _ \   | (__   | |   | |  \ V /  | _|  | (__ | _| | |__ | |__  
+                            (                             (     (
+     (        (     *   ) )\ )                (         )\ )  )\ )
+     )\       )\  ` )  /((()/( (   (   (      )\   (   (()/( (()/(
+  ((((_)(   (((_)  ( )(_))/(_)))\  )\  )\   (((_)  )\   /(_)) /(_))
+   )\ _ )\  )\___ (_(_())(_)) ((_)((_)((_)  )\___ ((_) (_))  (_))
+   (_)_\(_)((/ __||_   _||_ _|\ \ / / | __|((/ __|| __|| |   | |
+    / _ \   | (__   | |   | |  \ V /  | _|  | (__ | _| | |__ | |__
    /_/ \_\   \___|  |_|  |___|  \_/   |___|  \___||___||____||____|
 
 </pre>
@@ -24,7 +24,7 @@ The site is delivered in static form using the following tools/services:
 
 More information can be found in [this post](http://www.maxmasnick.com/2012/01/21/jekyll_s3_cloudfront/) by Max Masnick.
 
-The reason for the move to these tools was simple. 
+The reason for the move to these tools was simple.
 
 Originally, we had an entirely static site, and it was a bear to maintain. When we want to change a footer element, it needed to be updated in 30 places. When we had a new post, it needed to be created based on an existing page. Woof.
 
@@ -37,15 +37,18 @@ Awesome.
 Contributing & Deploying
 ------------------------
 
-Contributing is easy:
+## Pro-tips
+### Foreman's dev mode
+We recommend using "Procfile" for foreman:
 
-1. Clone the repo to your local machine
-1. Make sensible changes
-1. Add any new images to /assets/img and reference like src="{{ 'assets/img/new_img.jpg' | cdn }}"
-1. Edit CSS/JS as required and ensure any new JS/CSS are listed in _assets.yml for packaging
-1. Run `jekyll --server --auto` to view the generated site locally at localhost [http://localhost:4000/](http://localhost:4000/) and to automatically re-generate pages based on your changes
-1. Run 'rake deploy' to deploy the generated site to production
-1. Commit changes push to origin
+    bundle exec foreman start
+
+This starts the following services:
+
+* `bundle exec jekyll serve --watch`
+* `bundle exec guard`
+
+Then view the site at [http://localhost:4000](http://localhost:4000/)
 
 Note: Hotfixes and minor changes can be pushed directly to master. Anything heavy, or if there's even a question, and please submit a pull request for the update.
 

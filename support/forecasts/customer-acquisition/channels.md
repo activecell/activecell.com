@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "Channel forecast"
+tags: [forecasts]
 ---
 
 Before tackling the Channel forecast, be sure to check your historical customer acquisition expense to make sure agree with how the history looks. Not only will you want to be comfortable with [customer acquisition expense](), but also with your [Channel list]() and [historical channel expense]().
@@ -13,7 +14,10 @@ Sometimes it can be useful to see the big picture by viewing all channels at onc
 
 The stacked column chart is great for visualizing how all of your channels "stack up" to build a total view of customer acquisition expense.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 This means that the top of the chart represents total customer acquisition expense, and you can quickly visualize the breakdown among your various channels and how that breakdown changes over time.
 
@@ -21,11 +25,17 @@ This means that the top of the chart represents total customer acquisition expen
 
 By grouping the columns rather than stacking them, it is easier to compare channels side by side over time.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 ### Lines perspective
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 A traditional line chart is an easy way to compare each channel's forecast over time side by side.
 
@@ -33,7 +43,10 @@ A traditional line chart is an easy way to compare each channel's forecast over 
 
 The table below the charts shows the time series data for each channel along with a total row and total column to make digging through the data very easy.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 As you adjust the date range for the analysis, the table will adjust in real time, aggregating data dynamically as required. In short, if you select the time period you want to understand better, the table will adjust to show you that data in a way that is most useful.
 
@@ -49,11 +62,17 @@ If you want to tackle a larger period of time at once, you can always zoom out t
 
 To view a single channel, just click on the channel's name.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 This view provides much greater visibility into plan vs actual by showing blue columns for actuals and either green or red columns for plan — green if actuals came in under plan and red if actuals came in over plan.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 This view also provides a very useful feature called "cost drivers." A cost driver is a useful benchmark such as revenue, customer count, or employee count, that puts the forecast in context and helps adjust the forecast automatically as the driver itself changes.
 
@@ -61,7 +80,10 @@ This view also provides a very useful feature called "cost drivers." A cost driv
 
 If you have a marginal channel that doesn't warrant planning at all, you can always exclude it from the plan entirely.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 Any actuals that show up in this channel will show as a variance, but if it's not a big deal, sometimes excluding an channel can help simplify a plan.
 
@@ -69,7 +91,10 @@ Any actuals that show up in this channel will show as a variance, but if it's no
 
 If there isn't a useful benchmark for planning this channel's expense, you can always plan it manually.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 This means there will not be a cost driver line in the chart, but you can track plan vs actual.
 
@@ -77,7 +102,10 @@ This means there will not be a cost driver line in the chart, but you can track 
 
 Some channels lend themselves to planning as a percentage of revenue.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 For example, pegging some advertising budgets against revenue provides useful context to your forecast and saves you from having to adjust the expense forecast as your revenue forecast shifts.
 
@@ -85,7 +113,10 @@ For example, pegging some advertising budgets against revenue provides useful co
 
 Sometimes, marketing plans may be pegged against product sales (e.g. for every _x_ thousand units, we should spend _y_). In such a case, you can model a channel benchmarked against product sales volume.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 **Note:** For now, Activecell cannot reliably retrieve product volume from QuickBooks or Xero, so both the plan and actual values for product volume must be managed manually within the [product group forecast]().
 
@@ -93,7 +124,10 @@ Sometimes, marketing plans may be pegged against product sales (e.g. for every _
 
 Sometimes, a channel will involve planning based on the number of customers you have. In such a case, you can model a channel benchmarked against customer count.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 **Note:** As a first comment, please note that for now "customer volume" refers to existing customer volume and not new customers. In the future, we will be introducing a way to track new customers, existing customers, and churned customers, which will give us much more flexibility in planning. If you need this urgently, let us know!
 
@@ -103,7 +137,10 @@ Sometimes, a channel will involve planning based on the number of customers you 
 
 Sometimes a channel will involve planning based on the number of employees you have.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 This is relatively rare for channels, but if you have customer acquisition expenses that are driven by employee count, the feature is available to you.
 

@@ -1,0 +1,18 @@
+package_assets:         on          # (on, off, always)
+compress_assets:        off          # (on, off)
+gzip_assets:            off          # (on, off)
+
+stylesheets:
+  activecell-com:
+    - stylesheets/profitably-branding.css
+    - stylesheets/layout.css
+    - stylesheets/backgrounds.css
+    - stylesheets/insights.css
+    - stylesheets/footer.css
+    - stylesheets/experts.css
+    - stylesheets/pricing.css
+    - stylesheets/features.css
+    - stylesheets/landing-banner.css
+    - stylesheets/advisors.css
+    - stylesheets/page-banner.css
+    - stylesheets/vcards.css

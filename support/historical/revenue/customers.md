@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "Historical customer revenue"
+tags: [historical]
 ---
 
 Activecell makes it easy to look at historical customer revenue. We provide 5 different perspectives so that it is easy to visualize your data however you find most useful.
@@ -9,13 +10,19 @@ Activecell makes it easy to look at historical customer revenue. We provide 5 di
 
 The leaderboard is a great way to look at total revenue by customer for a range of time.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 The chart shows customers ranked vertically by total revenue, and you can see the percentage of revenue in the line below the customer's name. As you adjust the date range for the analysis, you will see the values change in real time.
 
 ### Lines perspective
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 A traditional line chart is an easy way to compare customer revenue over time side by side.
 
@@ -23,13 +30,19 @@ A traditional line chart is an easy way to compare customer revenue over time si
 
 The stacked column chart is great for visualizing how all of your customers "stack up" to build a total view of revenue.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 This means that the top of the chart represents total revenue, and you can quickly visualize the breakdown among your various customers and how that breakdown changes over time.
 
 ### Grouped columns perspective
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 While the stacked chart lets you see cumulative revenue across all customers, the traditional time series makes it easier to compare customers side by side over time.
 
@@ -37,7 +50,10 @@ While the stacked chart lets you see cumulative revenue across all customers, th
 
 The pareto chart is a perennial favorite for management consultants (we couldn't help ourselves!). The chart is similar to the leaderboard, showing columns for your top customers in descending order. The line that passes over the top of the columns is the cumulative percent of total revenue.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 This cumulative percent line makes it easy to identify which customers make up 80% of revenue, for example.
 
@@ -45,7 +61,10 @@ This cumulative percent line makes it easy to identify which customers make up 8
 
 The table below the charts shows the time series data for each customer along with a total row and total column to make digging through the data very easy.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 As you adjust the date range for the analysis, the table will adjust in real time, aggregating data dynamically as required. In short, if you select the time period you want to understand better, the table will adjust to show you that data in a way that is most useful.
 
@@ -57,7 +76,10 @@ Of course, the charts and table are only as good as the data coming in. We try t
 
 Depending on your business, revenue data may come through without specific customers associated with them. This is less common with customer invoices (which of course include customers!) but can include instances where high-level journals entries are included form payment processors.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 To help this, we list revenue with no customer by account. That way, wherever you may be missing customer-specific data, you at least can see what accounts are registering various amount of revenue over time.
 
@@ -75,6 +97,9 @@ Or, this might mean asking your bookkeeper — if you have one — to manually
 
 To view a single customer's revenue over time, just click on the customer's name.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 This view is much simpler to view if you just want to see that line item.

@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "Connect to QuickBooks Desktop"
+tags: [settings]
 ---
 
 Intuit offers a single-sign-on (SSO) experience so that being logged into their platform means being logged into Activecell. It's a great convenience, particularly if you use multiple applications that integrate with QuickBooks.
@@ -13,13 +14,19 @@ If, however, you have already created an account or been invited to a new accoun
 
 If you haven't connected your data, Activecell will automatically direct you to do so.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 Simply click "Connect to QB" to begin.
 
 If you are not already signed into your Intuit account, you will be asked to sign in:
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 _Note: If you do not yet have an Intuit account, you can create one in minutes by clicking "Create an account."_
 
@@ -27,7 +34,10 @@ _Note: If you do not yet have an Intuit account, you can create one in minutes b
 
 Once signed in, if you do not yet have an Activecell account, you will be asked to connect to your QuickBooks data. It is during this step that you select which company's data to use. This is particularly important if you have multiple QuickBooks companies associated with your account.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 ## Desktop to Intuit sync
 
@@ -41,7 +51,10 @@ To help avoid breakdowns in the process, Activecell provides helpful information
 
 If we see that you have never synced data between your local desktop file and Intuit's cloud service, we will provide the following alert:
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 In this case, you should check to make sure your data is synced properly, and we are happy to help through our support process if you run into trouble.
 
@@ -53,6 +66,9 @@ If you have synced your data in the past, we provide information on your last sy
 
 Once you have a live sync occurring between your desktop and Intuit, you can ensure that Activecell is up to date, as well.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 From here, you can view the most recent sync, initiate a new sync, and even view the history of recent syncs.

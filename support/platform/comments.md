@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "Comments"
+tags: [platform]
 ---
 
 Activecell is a great platform for collaborating with all your stakeholders, including employees, investors, advisors, and close partners.

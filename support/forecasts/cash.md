@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "Cash analysis"
+tags: [forecasts]
 ---
 
 The cash analysis gives you a very important view into historical and future cash availability.
@@ -11,7 +12,10 @@ To ensure the accuracy of your data, be sure to [categorize your asset accounts]
 
 For months leading up to the current month, this analysis displays your company's total cash balance.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 In the chart, historical cash balances are reflected by a darker shade of blue. In the table, historical cash balances are greyed out.
 

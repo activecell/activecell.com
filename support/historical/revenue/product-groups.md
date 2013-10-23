@@ -1,6 +1,7 @@
 ---
 layout: support
 title: "Historical product group revenue"
+tags: [historical]
 ---
 
 Before tackling the revenue forecast, it can be useful to group your product into product groups for planning purposes.
@@ -13,7 +14,10 @@ By grouping individual products into groups, it becomes easier to plan future re
 
 ## The Product Group List
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 Here you can see a list of your product groups with the list of their products underneath. You can add, rename, and delete product groups however you like until you get to a grouping that makes sense for your business.
 
@@ -29,6 +33,9 @@ As a result, you can capture (for example) accounts for cash sales and map them 
 
 In the product group section, historical data is shown right in line with forecast data.
 
-<!-- screenshot -->
+<figure>
+  <figcaption>Fig-caption with brief description for the awesome images.</figcaption>
+  <img src=" http://placehold.it/800x600" alt="Placehold.it" class="img-responsive">
+</figure>
 
 Explanations of these views are included in the [product group section]().
