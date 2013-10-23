@@ -4,7 +4,7 @@ gzip_assets:            off          # (on, off)
 
 stylesheets:
   activecell-com:
-    - stylesheets/activecell-branding.css
+    - stylesheets/profitably-branding.css
     - stylesheets/layout.css
     - stylesheets/backgrounds.css
     - stylesheets/insights.css

@@ -4,7 +4,7 @@ gzip_assets:            off          # (on, off)
 
 javascripts:
   activecell-com:
-    - javascripts/activecell-branding.js
+    - javascripts/profitably-branding.js
     - javascripts/insights.jquery.js
     - javascripts/mailchimp.js
     - javascripts/waypoints.js

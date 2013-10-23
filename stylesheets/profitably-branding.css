@@ -2903,11 +2903,11 @@ a.list-group-item.active > .badge,
   font-size: 30px;
   font-weight: 200;
   line-height: 2.14286;
-  color: inherit;
+  color: #555555;
   background-color: #eeeeee; }
   .jumbotron h1 {
     line-height: 1;
-    color: inherit; }
+    color: #222222; }
   .jumbotron p {
     line-height: 1.4; }
   .container .jumbotron {
@@ -6063,7 +6063,7 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   content: "\f18b"; }
 
 /*!
- * Activecell Branding
+ * Profitably Branding
  */
 .lead, .p-summary, .footer, footer, blockquote small {
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
@@ -6259,6 +6259,9 @@ select[size] {
 
 .panel-body {
   color: #333333; }
+
+.list-group {
+  color: #555555; }
 
 .h-entry {
   font-size: 24px;

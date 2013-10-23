@@ -5,7 +5,23 @@
 <title>{{ page.title }}</title>
 <meta name="description" content="Activecell: The small business management platform. Dynamic business planning and historical analysis of your data, all in one easy to use dashboard and reporting platform">
 <meta name="author" content="Adam Neary">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- Le styles -->
+<link href="{{ 'stylesheets/activecell-com.css' | timestamped | cdn }}" rel="stylesheet">
+
+<script type="text/javascript" src="//use.typekit.net/xff3ece.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+<!-- Le fav and touch icons -->
+<link rel="shortcut icon" href="{{ 'favicon.ico' | cdn }}">
+<!-- <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png"> -->
 
 <!-- Le analytics -->
 <script type="text/javascript">
@@ -22,23 +38,6 @@
   _kms('//i.kissmetrics.com/i.js');
   _kms('//doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
 </script>
-
-<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-<!--[if lt IE 9]>
-         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-       <![endif]-->
-
-<!-- Le styles -->
-<link href="{{ 'stylesheets/activecell-com.css' | timestamped | cdn }}" rel="stylesheet">
-
-<script type="text/javascript" src="//use.typekit.net/xff3ece.js"></script>
-<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
-<!-- Le fav and touch icons -->
-<link rel="shortcut icon" href="{{ 'favicon.ico' | cdn }}">
-<!-- <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png"> -->
 </head>
 
 <body data-rendering="true"
